@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6da7075-d465-40f7-9de6-f6fb22b9c018">
+  <name>УсловияВыполненияИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия выполнения измерения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЖурналРегистрацииУсловийИспытанийХимическогоАнализаВоды</content>
+  <content>Document.ЛистКонтроляНапряженияИПеременногоТока</content>
+  <content>Document.ЖурналРегистрацииПараметровМикроклимата</content>
+  <parentSubsystem>Subsystem.лис_РаботаЛаборатории</parentSubsystem>
+</mdclass:Subsystem>

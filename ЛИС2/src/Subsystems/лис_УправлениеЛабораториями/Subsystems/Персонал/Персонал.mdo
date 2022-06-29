@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8d30dec-4b32-43ef-b024-18b9dd6dfb5e">
+  <name>Персонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персонал</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.ПодразделенияОрганизаций</content>
+  <content>Catalog.ДолжностиОрганизаций</content>
+  <content>Catalog.ВидыДокументовОбОбразовании</content>
+  <content>Catalog.УчебныеЗаведения</content>
+  <content>Catalog.КлассификаторСпециальностейПоОбразованию</content>
+  <content>Catalog.ОбразованиеФизическихЛиц</content>
+  <parentSubsystem>Subsystem.лис_УправлениеЛабораториями</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8b59c51-2eca-4d81-9d08-281043175da9">
+  <producedTypes>
+    <objectType typeId="31a2f1e3-61b2-44f1-a61c-8e17448e30d8" valueTypeId="f1a9a88e-1372-44e4-89e2-981471f11eb6"/>
+    <refType typeId="dce64496-daaf-4d6a-a9ed-3e9be9b4e520" valueTypeId="a40df45f-7fc1-477b-b9ea-5699c20ecf14"/>
+    <selectionType typeId="706003ad-f1bd-483b-b8fb-7ef3edcb02a8" valueTypeId="0651197f-30f1-4868-8dc6-dc55c17bb502"/>
+    <listType typeId="b8e2b002-410a-4eac-8787-4a2b06ce2f7b" valueTypeId="9b7a3878-3725-4c7b-a83f-ecbd015df2e8"/>
+    <managerType typeId="e710f3bc-5cf4-4054-8356-c17124d404d5" valueTypeId="fe41adbd-dd23-44da-b33a-7ac70cb4ee52"/>
+  </producedTypes>
+  <name>лис_Лаборатории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лаборатории</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.лис_Лаборатории.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.лис_Лаборатории.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.лис_Лаборатории.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="c143cb3f-90fc-4e79-8b57-2789d45da61b">
+    <producedTypes>
+      <objectType typeId="49b89979-244f-4145-9742-08a23b2ec0f3" valueTypeId="5c9cf3a9-0c4c-4d73-b92d-70fa81ed16ae"/>
+      <rowType typeId="2ef08680-273a-4350-9bdc-a2d83c3cbcaa" valueTypeId="c8893551-7f8b-4e14-90b4-580a5b0d95dc"/>
+    </producedTypes>
+    <name>ПереченьМетодикИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечень методик измерения</value>
+    </synonym>
+    <attributes uuid="8ad9f805-1726-471b-8f27-f4bc9468743c">
+      <name>РегистрационныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регистрационный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6bfe8a41-feed-4ec3-924b-196ec9887a86">
+      <name>МетодикаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Методика измерения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.МетодикиОпределенияИзмеренияАнализа</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="227ed960-4fac-40b8-bcd2-ca3ce22a08d8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="de3377d5-cb13-4a56-b086-4a43bc6e8f76">
+    <name>ПереченьНД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечень нормативных документов</value>
+    </synonym>
+  </templates>
+  <templates uuid="c69cbf79-4387-40e3-9a60-ee7fb55f675d">
+    <name>СведенияОбОснащенностиСредствамиИзмерений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения об оснащенности средствами измерений</value>
+    </synonym>
+  </templates>
+  <commands uuid="8c93752c-559f-47de-96ad-e7ad57443ff2">
+    <name>ПечатьПереченьНД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечень нормативных документов</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>CatalogRef.лис_Лаборатории</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="46d2ce38-8aeb-40bf-9993-493068173d66">
+    <name>ПечатьСведенийОбОснащенностиСИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения об оснащенности СИ</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>CatalogRef.лис_Лаборатории</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

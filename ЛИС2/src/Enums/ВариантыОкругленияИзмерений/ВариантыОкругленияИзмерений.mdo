@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3c484b4-8ca7-4b73-ac49-cd6bc759e31e">
+  <producedTypes>
+    <refType typeId="cfe00147-aa63-4741-bdf7-0c8cb98a4674" valueTypeId="917f19b7-a9d9-4450-bbfb-c897971baf8f"/>
+    <listType typeId="6fb6dff7-f10a-450d-9d53-353722252559" valueTypeId="d9bd7884-d446-403a-b2af-3696ce380ccf"/>
+    <managerType typeId="e60c1288-d1f9-45c1-aa41-1d2a8603faee" valueTypeId="4d9b6f75-e4d9-4c76-996a-5d66e4420822"/>
+  </producedTypes>
+  <name>ВариантыОкругленияИзмерений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты округления измерений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c8632521-fcc4-452a-84a7-fbd81c4674d8">
+    <name>ЗначащиеЦифры</name>
+    <synonym>
+      <key>ru</key>
+      <value>значащих цифр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6ec4f19-a4ad-4aad-944d-1e16199e0316">
+    <name>ЗнакиПослеЗапятой</name>
+    <synonym>
+      <key>ru</key>
+      <value>знаков после запятой</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

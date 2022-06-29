@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4115c635-5279-40f4-aebb-601d67b2fce0">
+  <producedTypes>
+    <refType typeId="73ec7942-68f4-48aa-a00f-e34b475f74c2" valueTypeId="adf03248-00f2-470f-9f71-42e37100e33f"/>
+    <listType typeId="8736e487-f986-49de-b1e0-483947f4d36f" valueTypeId="ddaa9435-41e2-47e9-811c-4e258028b26d"/>
+    <managerType typeId="9fadf8a4-5da9-4ecd-a52b-7b83f89b1aa5" valueTypeId="acc18f8c-50b6-4057-8449-64dd05fbbe77"/>
+  </producedTypes>
+  <name>УдалитьВидыОбменаСКонтролирующимиОрганами</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Виды обмена с контролирующими органами</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8d9ad695-e9b3-4d41-a90f-cc0f6e851cf8">
+    <name>ОбменОтключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен отключен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7c2a37ec-e799-4100-996e-edcc9fc2cef8">
+    <name>ОбменВУниверсальномФормате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен в универсальном формате</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8557e8ac-ac2a-41b7-82e1-d253596a8e9a">
+    <name>ОбменЧерезСпринтер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен посредством ПК &quot;Спринтер&quot;</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

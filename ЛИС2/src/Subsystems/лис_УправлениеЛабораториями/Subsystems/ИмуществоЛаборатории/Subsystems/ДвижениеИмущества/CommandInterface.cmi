@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.лис_ПриходЛабораторногоИмущества.StandardCommand.OpenList</commands>
+      <commands>Document.лис_РасходЛабораторногоИмущества.StandardCommand.OpenList</commands>
+      <commands>Document.лис_ИнвентаризацияЛабораторногоИмущества.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.лис_ИмуществоЛабораторий.StandardCommand.OpenList</commands>
+      <commands>Document.лис_ОтметкаМестонахожденияЛабораторногоОборудования.StandardCommand.OpenList</commands>
+      <commands>Document.лис_ОтметкаСостоянияЛабораторногоОборудования.StandardCommand.OpenList</commands>
+      <commands>Document.лис_ОтправкаВРемонтЛабораторногоОборудования.StandardCommand.OpenList</commands>
+      <commands>Document.лис_ПериодическаяАттестацияЛабораторногоОборудования.StandardCommand.OpenList</commands>
+      <commands>Document.ПриходПрекурсоров.StandardCommand.OpenList</commands>
+      <commands>Document.РасходПрекурсоров.StandardCommand.OpenList</commands>
+      <commands>Document.ПриходЭтиловогоСпирта.StandardCommand.OpenList</commands>
+      <commands>Document.РасходЭтиловогоСпирта.StandardCommand.OpenList</commands>
+      <commands>Document.лис_СвидетельствоОНепригодности.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.лис_СостоянияЛабораторногоОборудования.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

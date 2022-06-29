@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fc0b677-61da-405c-819d-20f161e2fa23">
+  <producedTypes>
+    <objectType typeId="66b7bea2-5856-4042-929c-86d6b1b96b63" valueTypeId="20eda656-7490-4214-baeb-c393caf63f93"/>
+    <refType typeId="a2ebdf28-5396-483b-8a08-104c63433458" valueTypeId="503acd03-788b-4b4a-abd3-d4a49c94b712"/>
+    <selectionType typeId="29107623-5564-4e93-a9f1-b9710f4d5b34" valueTypeId="347d2368-da9a-42aa-aaa1-3f0f8b3b628a"/>
+    <listType typeId="8e2e29e8-6630-4cb4-89ae-580b55607096" valueTypeId="e8175bdd-f20e-484f-b42e-19da82104ce7"/>
+    <managerType typeId="1ad00b7a-2863-4f4d-9910-6eb260c4655e" valueTypeId="8bf8402d-fabf-4100-b48e-e7f34ce1de9c"/>
+  </producedTypes>
+  <name>МетрологическиеХарактеристики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метрологические характеристики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МетрологическиеХарактеристики.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МетрологическиеХарактеристики.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

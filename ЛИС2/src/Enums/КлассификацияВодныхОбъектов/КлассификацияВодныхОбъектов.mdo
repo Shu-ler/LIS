@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58a2908b-7b2b-4c60-86fd-5506a74cf93e">
+  <producedTypes>
+    <refType typeId="54bf3b9b-a845-4126-b939-f27780490b9e" valueTypeId="6ac02714-701e-4f00-a815-f24701fc84f2"/>
+    <listType typeId="ef75ba5c-2af1-4168-a023-b881652afc37" valueTypeId="0cdc7c90-acb5-463b-a25c-26e0bb2d53d1"/>
+    <managerType typeId="7a972b10-e51c-479e-9f90-01703bec1679" valueTypeId="de141ffc-0bec-4c4e-b311-79fea73f1a55"/>
+  </producedTypes>
+  <name>КлассификацияВодныхОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификация водных объектов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dbb7cf14-af5f-4317-b517-ceca0e9136a9">
+    <name>Водоем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водоем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3033e46e-9606-4efb-95cd-dbf4bae84fdb">
+    <name>Водоток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водоток</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

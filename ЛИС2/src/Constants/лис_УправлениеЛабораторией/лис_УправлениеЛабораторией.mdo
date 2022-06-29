@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="deee87f7-9f3a-49ba-bd17-c132c2a327e9">
+  <producedTypes>
+    <managerType typeId="f83c96b5-ad29-4e35-ac02-1ca1f136fc46" valueTypeId="98ee000f-8820-4fbe-8f12-b2475f8136f2"/>
+    <valueManagerType typeId="d0fc4a7e-a893-45ec-886d-0b285ddbf5ef" valueTypeId="0dfcfd1a-8367-40cf-ba62-4d1ca7202cda"/>
+    <valueKeyType typeId="43f494d7-79a5-4b70-b50b-79dfec54a97c" valueTypeId="70495c29-6948-437b-ad6f-cb2fa61e6109"/>
+  </producedTypes>
+  <name>лис_УправлениеЛабораторией</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление лабораторией</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

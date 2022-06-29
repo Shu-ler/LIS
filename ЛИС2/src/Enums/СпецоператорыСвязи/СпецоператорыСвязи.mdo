@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="965ad323-b171-49ed-ac2f-766145850ed6">
+  <producedTypes>
+    <refType typeId="730667ba-e5fc-4e0c-841d-a64852dc0bad" valueTypeId="1be554b1-5db6-4faf-b1db-d2174f943370"/>
+    <listType typeId="321a6d45-a0c2-4232-9a32-5d011c7d9a52" valueTypeId="065e402f-e7e5-495a-aba2-0879b19be2db"/>
+    <managerType typeId="1ae5c951-34d6-46aa-86ef-01002aba506a" valueTypeId="9a2d71d1-ee76-44a7-a20c-813da51f9e75"/>
+  </producedTypes>
+  <name>СпецоператорыСвязи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операторы электронного документооборота</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e3caed55-5d1d-4db5-add3-7637af617b00">
+    <name>КалугаАстрал</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЗАО &quot;Калуга Астрал&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="211d5b63-95c1-47ec-9004-8efb26251cb4">
+    <name>Такском</name>
+    <synonym>
+      <key>ru</key>
+      <value>ООО &quot;Такском&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98d2f2a3-41f0-4d4c-ad0e-6a61400a547f">
+    <name>Прочие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочий оператор электронного документооборота</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8d87c20-e78e-4fb6-b33d-8a2c8d5f7168">
+    <name>Форус</name>
+    <synonym>
+      <key>ru</key>
+      <value>ООО НПФ &quot;Форус&quot;</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

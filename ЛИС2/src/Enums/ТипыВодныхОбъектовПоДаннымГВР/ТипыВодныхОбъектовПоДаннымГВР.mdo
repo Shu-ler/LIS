@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af63bd07-d0c6-488a-9874-cfd2c8d42256">
+  <producedTypes>
+    <refType typeId="49534031-5a64-49b7-8904-4b1e901d0c9b" valueTypeId="6edbf3b7-fdda-4723-9516-1df27bec8fe0"/>
+    <listType typeId="201af4c2-7ea3-426d-a9e9-289acd8817e2" valueTypeId="1dcb72c2-ac05-4ddd-9e81-de4f8902ab17"/>
+    <managerType typeId="da9ae36f-c486-46dd-b6e3-7cbc5ada23eb" valueTypeId="c169dcd2-cde4-46ab-af7b-ab79bba890d1"/>
+  </producedTypes>
+  <name>ТипыВодныхОбъектовПоДаннымГВР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы водных объектов по данным ГВР</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Типы водных объектов по данным государственного водного реестра</value>
+  </explanation>
+  <enumValues uuid="074f656c-eeec-48d9-8caf-631fd6be7687">
+    <name>Озеро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Озеро</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="52e792f6-9f6c-428d-932e-99033ba3d1ee">
+    <name>Река</name>
+    <synonym>
+      <key>ru</key>
+      <value>Река</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e797d9bb-b2ae-4a66-a41d-1e1e83a2aef5">
+    <name>ПодземныйВодныйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подземный водный объект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3626d504-da45-4d8d-b184-407a7ee5d4f8">
+    <name>Водоток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водоток</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83838771-c27f-45b1-99e6-88d7e9cc0665">
+    <name>Ручьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручьи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfeef527-2314-47bc-b24b-ba74265db7da">
+    <name>Пруд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пруд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b770a376-d75f-464a-b7f8-3011f60932f3">
+    <name>Водохранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водохранилище</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a40b65b4-25e3-4ff1-bf53-a3f6e337cd81">
+    <name>Канал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6f39ac5-3ed6-4fb9-a881-d9d60a2344a9">
+    <name>Залив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Залив (часть моря)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27035677-605d-4b22-9dad-a8b01369acf9">
+    <name>Разлив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разлив (часть моря)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a6b0b53-a548-48d1-8ca4-8f4a624d9a94">
+    <name>Пролив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пролив (часть моря)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6218e25e-506f-47fc-9f02-7d502ab3fa54">
+    <name>Лиман</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лиман (часть моря)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8689958a-8a27-4e7e-9041-0351d2c76fc0">
+    <name>Родники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родники</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a2573492-5d92-41a2-990e-af3a9633c533">
+    <name>Сор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сор (часть моря)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3207359-78a0-4967-9a35-8414bb1c54f2">
+    <name>Лагуна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лагуна (часть моря)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

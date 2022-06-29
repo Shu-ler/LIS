@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d8c5f21-c643-4b49-9248-2a45ca099cc8">
+  <producedTypes>
+    <refType typeId="87c3ff4b-6b82-44f4-8545-330771869961" valueTypeId="d53ffda4-fd52-44fc-bb30-c307708d54cf"/>
+    <listType typeId="d74723a0-bab5-41a4-9c94-39f559f02183" valueTypeId="9cdf30e8-3900-4b67-ab8c-0086d6477b20"/>
+    <managerType typeId="e3bec0da-9993-45c7-8a83-1afc3b14c74c" valueTypeId="ff07adbe-de6a-4474-8893-8d5be663e9a5"/>
+  </producedTypes>
+  <name>РазмерИЧисленностьОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер и численность организации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="96acf84e-eda9-4d6a-bad0-0d9f75db0ac6">
+    <name>НеЗадано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не задано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eaec9084-49a2-4565-ab14-d0bfd149b9d1">
+    <name>МКП</name>
+    <synonym>
+      <key>ru</key>
+      <value>МКП (Микро предприятие)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84397ea2-bd01-4751-9582-b74500f4560f">
+    <name>МП</name>
+    <synonym>
+      <key>ru</key>
+      <value>МП (малое предприятие)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c78205d9-24f5-4f15-af04-ebf4c913d260">
+    <name>СП</name>
+    <synonym>
+      <key>ru</key>
+      <value>СП (среднее предприятие)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c95d993a-86f1-4e7b-b7b0-bb232ee2e623">
+    <name>КП</name>
+    <synonym>
+      <key>ru</key>
+      <value>КП (крупное предприятие)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

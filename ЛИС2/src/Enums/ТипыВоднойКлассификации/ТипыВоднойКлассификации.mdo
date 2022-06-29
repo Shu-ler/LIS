@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d8990e7-3aa9-46ab-9853-6ca0f4300702">
+  <producedTypes>
+    <refType typeId="2b801094-4747-40ab-ac7e-ca6b2eac1c5c" valueTypeId="66582d34-97f7-4598-962c-2e69831899e6"/>
+    <listType typeId="3dc140e8-65fb-4236-a54f-0596af3f6d80" valueTypeId="da9bb4f3-7760-4edb-8e9c-24c475f44243"/>
+    <managerType typeId="882b85da-5431-45f7-9c6b-53aecff55ea9" valueTypeId="790792b3-020c-4d61-8ea8-5010d0ed7e46"/>
+  </producedTypes>
+  <name>ТипыВоднойКлассификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы водной классификации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9f494ca5-3459-4d21-afdf-711dff727ba7">
+    <name>БассейновыйОкруг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бассейновый округ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a0142d0-9a02-40d3-855b-c2f9e6bc508a">
+    <name>РечнойБассейн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Речной бассейн</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="200d7122-d5c9-462e-bbe7-32daf1be2857">
+    <name>РечнойПодбассейн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Речной подбассейн</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d112e5e-555c-4147-9606-1c23f8e4d160">
+    <name>ВХУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВХУ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

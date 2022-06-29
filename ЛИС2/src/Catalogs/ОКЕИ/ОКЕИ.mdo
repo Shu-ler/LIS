@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e3816b3-cf89-4dac-946f-03ad271b8f28">
+  <producedTypes>
+    <objectType typeId="209ee411-fc53-409f-9d89-8106028f4b22" valueTypeId="fcdabf90-9b08-4738-b6b6-2aab78d2839d"/>
+    <refType typeId="ce4cb683-c019-455a-bb9f-931e32c7dc48" valueTypeId="5a1757f5-237c-4e35-8005-0f7b6c474cdf"/>
+    <selectionType typeId="7bf1e6b5-7d03-44b0-b9f5-7e3609955d48" valueTypeId="c78a2d3b-90d9-4b79-bf66-3a8a14c28bee"/>
+    <listType typeId="d27c6b71-59ea-451e-935c-aad061ac293a" valueTypeId="bb78b860-7a64-4489-9ffa-12117b9aa8df"/>
+    <managerType typeId="e95474b0-6be4-4b55-986e-40802f397a9d" valueTypeId="10a6a46f-d627-432a-ac72-a29e0d41bb94"/>
+  </producedTypes>
+  <name>ОКЕИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОКЕИ</value>
+  </synonym>
+  <comment>Классификатор содержит Общероссийский классификатор единиц измерения (ОКЕИ)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОКЕИ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОКЕИ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условное обозначение</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3f1f8cca-8706-41a4-9001-f57f3ece50d1">
+      <name>Процент</name>
+      <description>%</description>
+      <code xsi:type="core:StringValue">
+        <value>744</value>
+      </code>
+    </items>
+    <items id="e4c3074c-2b89-40e1-9bcd-fe70d9173bf2">
+      <name>ГрадусЖесткости</name>
+      <description>°Ж</description>
+      <code xsi:type="core:StringValue">
+        <value>Д13      </value>
+      </code>
+    </items>
+    <items id="75a5a4db-4658-49f9-8257-6743a14e088e">
+      <name>МиллионТонн</name>
+      <description>10^6 т</description>
+      <code xsi:type="core:StringValue">
+        <value>172</value>
+      </code>
+    </items>
+    <items id="8efd02b4-9010-4860-a717-a1672458c90c">
+      <name>ТысячаКиловаттЧасов</name>
+      <description>1000 кВт.ч</description>
+      <code xsi:type="core:StringValue">
+        <value>246</value>
+      </code>
+    </items>
+    <items id="fd5e8dda-2639-40fc-ace3-ff4212cfb7d8">
+      <name>ГраммНаКилограмм</name>
+      <description>г/кг</description>
+      <code xsi:type="core:StringValue">
+        <value>Д09      </value>
+      </code>
+    </items>
+    <items id="3a5f5a6a-5005-4b0f-992b-469741144472">
+      <name>ГраммНаЛитр</name>
+      <description>г/л</description>
+      <code xsi:type="core:StringValue">
+        <value>Д04      </value>
+      </code>
+    </items>
+    <items id="ed461b01-056a-4c4b-8f79-8e77c405a5e7">
+      <name>ГраммВСекунду</name>
+      <description>г/с</description>
+      <code xsi:type="core:StringValue">
+        <value>Д02</value>
+      </code>
+    </items>
+    <items id="2a823caf-55ea-4776-af79-1df9d041224d">
+      <name>ГраммВСекундуНаКиловатт</name>
+      <description>г/с кВт</description>
+      <code xsi:type="core:StringValue">
+        <value>Д14      </value>
+      </code>
+    </items>
+    <items id="10371382-aff5-4b81-b25e-ca0415e7d582">
+      <name>ГраммВСекундуНаКвадратныйМетр</name>
+      <description>г/с м2</description>
+      <code xsi:type="core:StringValue">
+        <value>Д10      </value>
+      </code>
+    </items>
+    <items id="9459efba-46e5-47b2-ab8a-4de504c0c6ca">
+      <name>ГраммВЧас</name>
+      <description>г/ч</description>
+      <code xsi:type="core:StringValue">
+        <value>Д17      </value>
+      </code>
+    </items>
+    <items id="f08e29f3-07f3-423b-a83d-3e7aafb42414">
+      <name>Гектар</name>
+      <description>га</description>
+      <code xsi:type="core:StringValue">
+        <value>059</value>
+      </code>
+    </items>
+    <items id="f5548617-1e71-4055-a321-319b7b5af059">
+      <name>Гигакалория</name>
+      <description>Гкал</description>
+      <code xsi:type="core:StringValue">
+        <value>233</value>
+      </code>
+    </items>
+    <items id="9381cc5d-7160-4112-8aa6-b6225fd54e1b">
+      <name>ДецибелАмпер</name>
+      <description>дБА</description>
+      <code xsi:type="core:StringValue">
+        <value>Д12      </value>
+      </code>
+    </items>
+    <items id="d0478873-55ea-4937-801f-a3234f09f314">
+      <name>КилограммНаТысячуПассажирокилометров</name>
+      <description>кг/1 тыс. пасс. км</description>
+      <code xsi:type="core:StringValue">
+        <value>Д06      </value>
+      </code>
+    </items>
+    <items id="db416d5b-575d-4639-810f-f4fa9ddf6c21">
+      <name>КилограммНаТысячуТоннокилометровБрутто</name>
+      <description>кг/1 тыс. ткм брутто</description>
+      <code xsi:type="core:StringValue">
+        <value>Д05      </value>
+      </code>
+    </items>
+    <items id="31e8feb6-2673-4cd0-a23d-1274afb5f80c">
+      <name>КилограммВЧас</name>
+      <description>кг/ч</description>
+      <code xsi:type="core:StringValue">
+        <value>Д07      </value>
+      </code>
+    </items>
+    <items id="1cc95754-c2dd-4f8e-800e-37847b0e05a2">
+      <name>Километр</name>
+      <description>км</description>
+      <code xsi:type="core:StringValue">
+        <value>008</value>
+      </code>
+    </items>
+    <items id="de7c7740-1aab-4d96-b153-6995415bfddf">
+      <name>КвадратныйКилометр</name>
+      <description>км2</description>
+      <code xsi:type="core:StringValue">
+        <value>061</value>
+      </code>
+    </items>
+    <items id="6af332e2-1dd8-4c70-8a2d-880b4779e80c">
+      <name>МетрКубический</name>
+      <description>м[3*]</description>
+      <code xsi:type="core:StringValue">
+        <value>113</value>
+      </code>
+    </items>
+    <items id="c7f2d34c-72e1-4dc5-9326-37cc96cba371">
+      <name>МетрВГод</name>
+      <description>м/год</description>
+      <code xsi:type="core:StringValue">
+        <value>Д16      </value>
+      </code>
+    </items>
+    <items id="1b07a8b4-c92b-47d4-89b9-472f46803dd2">
+      <name>МиллиграммНаКубическийДециметр</name>
+      <description>мг/дм3</description>
+      <code xsi:type="core:StringValue">
+        <value>Д03</value>
+      </code>
+    </items>
+    <items id="e138d74b-2cf3-4f3e-85ec-2663840feb88">
+      <name>МиллиграммНаКилограмм</name>
+      <description>мг/кг</description>
+      <code xsi:type="core:StringValue">
+        <value>Д08      </value>
+      </code>
+    </items>
+    <items id="99dbe351-ae48-4bbd-b68a-c1d0fdbc513a">
+      <name>МиллиграммНаКубическийМетр</name>
+      <description>мг/м3</description>
+      <code xsi:type="core:StringValue">
+        <value>Д01</value>
+      </code>
+    </items>
+    <items id="58578daf-e1b4-4bcf-b73d-662cc09fc21f">
+      <name>МиллиграммНаКвадратныйСантиметр</name>
+      <description>мг/см2</description>
+      <code xsi:type="core:StringValue">
+        <value>Д18      </value>
+      </code>
+    </items>
+    <items id="29e0e23b-a053-467b-9402-fab6d0657999">
+      <name>Месяц</name>
+      <description>мес</description>
+      <code xsi:type="core:StringValue">
+        <value>362</value>
+      </code>
+    </items>
+    <items id="f8040223-7154-4484-a2a6-62036c205262">
+      <name>СантиметрВГод</name>
+      <description>см/год</description>
+      <code xsi:type="core:StringValue">
+        <value>Д15      </value>
+      </code>
+    </items>
+    <items id="c7584691-d1fc-4309-8eb7-fa14d1806f10">
+      <name>Сутки</name>
+      <description>сут (дн)</description>
+      <code xsi:type="core:StringValue">
+        <value>359</value>
+      </code>
+    </items>
+    <items id="67bf526d-4e98-44d5-8ac5-8a9e0328fe6e">
+      <name>Тонна</name>
+      <description>т</description>
+      <code xsi:type="core:StringValue">
+        <value>168</value>
+      </code>
+    </items>
+    <items id="7e2c8e4f-1655-440d-ac2b-a59c8abd28f3">
+      <name>ТоннНаСкважину</name>
+      <description>тонн/скв</description>
+      <code xsi:type="core:StringValue">
+        <value>Д11      </value>
+      </code>
+    </items>
+    <items id="69b46f4e-c709-4c3f-a94f-9b93d396172c">
+      <name>Час</name>
+      <description>ч</description>
+      <code xsi:type="core:StringValue">
+        <value>356</value>
+      </code>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ОКЕИ.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ОКЕИ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ОКЕИ.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="afaf1981-ddae-431b-ba33-fa0ff953ac06">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5043ac82-98d2-425f-b5bf-95e404d4b014">
+    <name>МеждународноеСокращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Международное сокращение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7121d821-78b7-4345-9da6-45f7e7bc6064">
+    <name>Использование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование в Экологии</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="74a4119d-0531-4210-843c-bb52a4a23835">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6591d3f5-9ab3-4468-83a1-356373a5715c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9c7f2813-f596-4346-beaf-e3d3db876f79">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3a19dcb-cab8-4369-8797-930cdd3f7d29">
+  <producedTypes>
+    <refType typeId="4d4a1055-49e6-4b8a-8667-b9c75c68577f" valueTypeId="52e97f37-b612-49a6-ad7a-2ca9e2437061"/>
+    <listType typeId="aab7046e-898e-4323-971f-977b0e3c0024" valueTypeId="ef5ad1ef-33d1-4713-9487-28bc61594f96"/>
+    <managerType typeId="d849b11e-9956-4f3c-99a1-566726ddb686" valueTypeId="d340e63d-3ff2-4c3b-8c7d-8304ee98fff6"/>
+  </producedTypes>
+  <name>ВидыОбменаСКонтролирующимиОрганами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды обмена с контролирующими органами</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="97929c30-3d9d-4e23-845b-430719888fd4">
+    <name>ОбменОтключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен отключен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a3914944-68db-48d5-a451-259a8e05ff9a">
+    <name>ОбменВУниверсальномФормате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен в универсальном формате</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b19424cc-4b3a-4d4e-b80c-b570ad93726e">
+    <name>ОбменЧерезСпринтер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен посредством ПК &quot;Спринтер&quot;</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

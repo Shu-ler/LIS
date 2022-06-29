@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.лис_ПротоколыРезультатовАнализов.StandardCommand.OpenList</commands>
+      <commands>Document.ПротоколКонтроляКачестваАтмосферногоВоздуха.StandardCommand.OpenList</commands>
+      <commands>Document.ПротоколАнализаВыбросов.StandardCommand.OpenList</commands>
+      <commands>0:734068e0-ea17-4241-87d2-fe9ff00726a5</commands>
+      <commands>Document.ПротоколАнализаСточныхВод.StandardCommand.OpenList</commands>
+      <commands>Document.ПротоколАнализаПочвДонныхОтложений.StandardCommand.OpenList</commands>
+      <commands>Document.ПротоколИзмеренияФизическихФакторов.StandardCommand.OpenList</commands>
+      <commands>Document.МорфометрическоеНаблюдениеЗаВоднымОбъектом.StandardCommand.OpenList</commands>
+      <commands>0:775ffdc8-d7de-499b-b397-845d5eb47d01</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

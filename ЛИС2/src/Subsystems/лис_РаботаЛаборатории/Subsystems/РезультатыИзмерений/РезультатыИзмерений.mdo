@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8794ef14-f092-40e5-b340-ef5f0018daf8">
+  <name>РезультатыИзмерений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты измерений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПротоколКонтроляКачестваАтмосферногоВоздуха</content>
+  <content>Document.ПротоколАнализаВыбросов</content>
+  <content>Document.ПротоколАнализаСточныхВод</content>
+  <content>Document.ПротоколАнализаПочвДонныхОтложений</content>
+  <content>Document.ПротоколИзмеренияФизическихФакторов</content>
+  <content>Document.МорфометрическоеНаблюдениеЗаВоднымОбъектом</content>
+  <content>Document.ПротоколГаза</content>
+  <parentSubsystem>Subsystem.лис_РаботаЛаборатории</parentSubsystem>
+</mdclass:Subsystem>

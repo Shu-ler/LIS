@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>0:a881d8e9-f5ae-492f-a611-9a3c2b943e95</commands>
+      <commands>Document.ПланГрафикЭкоаналитическогоКонтроля.StandardCommand.OpenList</commands>
+      <commands>0:90f614c4-8334-49ab-8146-bf306f2a745a</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.лис_УправлениеЛабораториями.Subsystem.Предприятие</subsystems>
+    <subsystems>Subsystem.лис_УправлениеЛабораториями.Subsystem.Персонал</subsystems>
+    <subsystems>Subsystem.лис_УправлениеЛабораториями.Subsystem.ИмуществоЛаборатории</subsystems>
+    <subsystems>Subsystem.лис_УправлениеЛабораториями.Subsystem.АккредитацияЛаборатории</subsystems>
+    <subsystems>Subsystem.лис_УправлениеЛабораториями.Subsystem.ПланированиеМероприятий</subsystems>
+    <subsystems>Subsystem.лис_УправлениеЛабораториями.Subsystem.СистемаМенеджментаКачества</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

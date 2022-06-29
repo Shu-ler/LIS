@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9cf87cf-99ec-4ba6-b1d0-e058c6b2855c">
+  <name>ГосударственнаяОтчетность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Государственная отчетность</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.лис_ЛабораторнаяОтчетность</parentSubsystem>
+</mdclass:Subsystem>

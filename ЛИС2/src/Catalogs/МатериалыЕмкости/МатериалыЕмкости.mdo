@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8628d8b1-cb02-482a-bb7c-32ac80c1ae2e">
+  <producedTypes>
+    <objectType typeId="586f7aa4-049f-4805-a361-6db03398f1c3" valueTypeId="1079cff9-f982-427e-934b-f46edabd7fd4"/>
+    <refType typeId="219f4f9e-dbe2-404f-91f6-933054cd4d09" valueTypeId="7037a8a5-8256-4193-9b7a-09e68a289a78"/>
+    <selectionType typeId="c7e08e4c-b21a-4c5a-84d0-26ca25ed4a1c" valueTypeId="0ee00500-8e2a-4db3-a44e-301a8e8f0e65"/>
+    <listType typeId="2b59845c-59ce-4a8d-ad75-93514eed5823" valueTypeId="60e76833-f4d8-4dfe-9a22-a66934d959da"/>
+    <managerType typeId="a28f74cb-ffdb-4929-815e-fb2977676c59" valueTypeId="2e8c58dc-0ddc-4d52-94ca-9472339f9c8b"/>
+  </producedTypes>
+  <name>МатериалыЕмкости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материалы емкости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МатериалыЕмкости.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МатериалыЕмкости.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

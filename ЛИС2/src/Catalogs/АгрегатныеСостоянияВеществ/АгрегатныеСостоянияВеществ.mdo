@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0649536b-264e-405a-85ce-595c1aa0564b">
+  <producedTypes>
+    <objectType typeId="327ae01c-26e7-41d0-9af8-0e9e2d674030" valueTypeId="1c4c0572-25d0-4d5c-9b12-f22eb7aada43"/>
+    <refType typeId="bcff8f1c-a56a-412f-bfc7-4f8240bf2dba" valueTypeId="bdcddcdd-1ff0-4ba0-9738-e29788582a21"/>
+    <selectionType typeId="fc3dc403-b72c-466d-9c65-8ef9055c8208" valueTypeId="bb0118b9-327f-4e7f-8290-dcbbd10b4937"/>
+    <listType typeId="9d9d4f79-c969-4115-9ae7-04871b887d7e" valueTypeId="ff112a8d-dadf-4dd0-bca3-5246edac7f60"/>
+    <managerType typeId="5f56f7dc-8908-43df-9d6c-b101392f7ae5" valueTypeId="2cc85aa1-f9f2-41e5-9346-bc3051f83a0d"/>
+  </producedTypes>
+  <name>АгрегатныеСостоянияВеществ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Агрегатные состояния веществ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АгрегатныеСостоянияВеществ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.АгрегатныеСостоянияВеществ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Агрегатное состояние вещества</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Агрегатные состояния веществ</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Справочник предназначен для ведения данных об агрегатном состоянии веществ</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c8bf636a-67a2-41ef-8b23-75179411f321">
+      <name>ДисперсныеСистемы</name>
+      <description>Дисперсные системы</description>
+      <code xsi:type="core:StringValue">
+        <value>30</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="983a56d3-13fd-4aa2-846f-9debe54f870d">
+        <name>ЖидкоеВЖидком_Эмульсия</name>
+        <description>Жидкое в жидком (Эмульсия)</description>
+        <code xsi:type="core:StringValue">
+          <value>31</value>
+        </code>
+      </content>
+      <content id="6b8c0903-a09e-417c-ad88-96021dd6c002">
+        <name>ТвердоеВЖидком_Паста</name>
+        <description>Твердое в жидком (Паста)</description>
+        <code xsi:type="core:StringValue">
+          <value>33</value>
+        </code>
+      </content>
+      <content id="cce95630-50e3-4aae-ac86-36f78ae6dcea">
+        <name>ПрочиеДиспСистемы</name>
+        <description>Прочие дисперсные системы</description>
+        <code xsi:type="core:StringValue">
+          <value>39</value>
+        </code>
+      </content>
+      <content id="224542a3-7a5f-4fd0-a6b1-a792a47295cd">
+        <name>ТвердоеВЖидком_Суспензия</name>
+        <description>Твердое в жидком (Суспензия)</description>
+        <code xsi:type="core:StringValue">
+          <value>32</value>
+        </code>
+      </content>
+    </items>
+    <items id="792cfd65-03a9-4e4b-8678-e71a543883fb">
+      <name>Жидкое</name>
+      <description>Жидкое</description>
+      <code xsi:type="core:StringValue">
+        <value>10</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="2a98b587-b334-4bfa-a27f-53e97ed86ff1">
+      <name>ИзделияИзВолокон</name>
+      <description>Изделия из волокон</description>
+      <code xsi:type="core:StringValue">
+        <value>60</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="1c3d642b-8fc3-4242-a73a-e18e429ff5d8">
+        <name>ИздИзОднВолокна</name>
+        <description>Изделие из одного волокна</description>
+        <code xsi:type="core:StringValue">
+          <value>61</value>
+        </code>
+      </content>
+      <content id="84bd8f47-f8f8-4a68-90b5-48b6f5ccdbaa">
+        <name>ИздИзНескВолокон</name>
+        <description>Изделия из нескольких волокон</description>
+        <code xsi:type="core:StringValue">
+          <value>62</value>
+        </code>
+      </content>
+    </items>
+    <items id="3a89b52e-0a82-4431-b7c3-5e68ef8a5369">
+      <name>ИздИзТвердМатер</name>
+      <description>Изделия из твердых волокон, за исключением волокон</description>
+      <code xsi:type="core:StringValue">
+        <value>50</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="161f01e6-de77-4505-8cb0-c0ec931be69f">
+        <name>ИздИзОдногоМатер</name>
+        <description>Изделие из одного материала</description>
+        <code xsi:type="core:StringValue">
+          <value>51</value>
+        </code>
+      </content>
+      <content id="bc38e863-fb35-4f92-b5c8-2e2ed630d7e7">
+        <name>ИздИзНескМатер</name>
+        <description>Изделия из нескольких материалов</description>
+        <code xsi:type="core:StringValue">
+          <value>52</value>
+        </code>
+      </content>
+      <content id="da2512c6-049e-4a16-be97-412990e5d7b9">
+        <name>ИздСодержГаз</name>
+        <description>Изделия, содержащие газ</description>
+        <code xsi:type="core:StringValue">
+          <value>54</value>
+        </code>
+      </content>
+      <content id="68023dba-a25a-4b11-b48e-06f06c5a7cd5">
+        <name>ИздСодержЖидкость</name>
+        <description>Изделия, содержащие жидкость</description>
+        <code xsi:type="core:StringValue">
+          <value>53</value>
+        </code>
+      </content>
+    </items>
+    <items id="b45675e4-e025-49fc-8b3a-dbd267782367">
+      <name>СмТвердМатерИИзд</name>
+      <description>Смеси твердых материалов и изделий</description>
+      <code xsi:type="core:StringValue">
+        <value>70</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="ff82c450-7566-4cb0-8bdc-dab192aa8717">
+        <name>СмТвердМатерВклВолокна</name>
+        <description>Смеси твердых материалов (включая волокна)</description>
+        <code xsi:type="core:StringValue">
+          <value>71</value>
+        </code>
+      </content>
+      <content id="3745e13c-0625-4275-b158-6654b0163fdf">
+        <name>СмТвердМатерВклВолокнаИИзд</name>
+        <description>Смеси твердых материалов (включая волокна) и изделий</description>
+        <code xsi:type="core:StringValue">
+          <value>72</value>
+        </code>
+      </content>
+    </items>
+    <items id="c743a332-20cd-497e-bd05-2257da80921e">
+      <name>Твердое</name>
+      <description>Твердое</description>
+      <code xsi:type="core:StringValue">
+        <value>20</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="7f04874c-5391-44ea-8791-56804579e50e">
+        <name>Волокно</name>
+        <description>Волокно</description>
+        <code xsi:type="core:StringValue">
+          <value>23</value>
+        </code>
+      </content>
+      <content id="3a25fc10-cdb2-49fe-9c6c-ea14fa5bb54f">
+        <name>КусковаяФорма</name>
+        <description>Кусковая форма</description>
+        <code xsi:type="core:StringValue">
+          <value>21</value>
+        </code>
+      </content>
+      <content id="1afc74d2-be1b-43cb-bd26-d5f12b6a9231">
+        <name>ПрочиеФормыТвердВещ</name>
+        <description>Прочие формы твердых веществ</description>
+        <code xsi:type="core:StringValue">
+          <value>29</value>
+        </code>
+      </content>
+      <content id="8c4ea46b-9870-423f-85d7-911fcd7089eb">
+        <name>Стружка</name>
+        <description>Стружка</description>
+        <code xsi:type="core:StringValue">
+          <value>22</value>
+        </code>
+      </content>
+    </items>
+    <items id="d25e8c43-9d4d-470f-9f8e-ee0071584bee">
+      <name>ТвердыеСыпучиеМатериалы</name>
+      <description>Твердые сыпучие материалы</description>
+      <code xsi:type="core:StringValue">
+        <value>40</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="8641da4b-7dfa-4df3-bd89-85a6d551c258">
+        <name>Опилки</name>
+        <description>Опилки</description>
+        <code xsi:type="core:StringValue">
+          <value>43</value>
+        </code>
+      </content>
+      <content id="853d7944-627f-4129-b749-3560e234c790">
+        <name>Пыль</name>
+        <description>Пыль</description>
+        <code xsi:type="core:StringValue">
+          <value>42</value>
+        </code>
+      </content>
+      <content id="d7498049-5e0a-44eb-92c7-750f1f4dfee2">
+        <name>ПрочиеСыпМатер</name>
+        <description>Прочие сыпучие материалы</description>
+        <code xsi:type="core:StringValue">
+          <value>49</value>
+        </code>
+      </content>
+      <content id="ab2bbc00-3146-40e8-93b1-248d1f4bbcba">
+        <name>Порошок</name>
+        <description>Порошок</description>
+        <code xsi:type="core:StringValue">
+          <value>41</value>
+        </code>
+      </content>
+    </items>
+    <items id="91882548-129b-4cbf-9216-1ec93a51b899">
+      <name>НеУстановлены</name>
+      <description>Данные не установлены</description>
+      <code xsi:type="core:StringValue">
+        <value>00</value>
+      </code>
+    </items>
+    <items id="6510d94e-dedb-425b-bdfb-333203a56f27">
+      <name>Иное</name>
+      <description>Иное</description>
+      <code xsi:type="core:StringValue">
+        <value>99</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.АгрегатныеСостоянияВеществ.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.АгрегатныеСостоянияВеществ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.АгрегатныеСостоянияВеществ.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="798f4c05-73c0-4e33-aa6e-9fd8e1772278">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aead61ea-03a6-4957-8722-9d215058354d">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2be1fef8-31bc-46f0-b6d4-79f27fbb0787">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

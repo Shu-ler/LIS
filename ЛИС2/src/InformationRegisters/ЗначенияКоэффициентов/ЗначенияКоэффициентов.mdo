@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2c4e323-bfe2-4935-aad2-a4a1c9e9abea">
+  <producedTypes>
+    <selectionType typeId="496c4622-a944-4eea-b18a-8c37b390bdce" valueTypeId="dc924765-4c56-4150-9f0b-4732e87aa1e3"/>
+    <listType typeId="93fc5cf6-2d03-4a81-8f07-f8994cabbb22" valueTypeId="997b4c98-5e18-4575-bc9c-8154ed52ffeb"/>
+    <managerType typeId="6691229e-ce38-42e3-918b-de39bae67a3d" valueTypeId="5c881214-520f-4b5e-ac2c-035765222fac"/>
+    <recordSetType typeId="77484f7c-bc0b-4de2-aedf-1ba4669d660d" valueTypeId="395cec0e-e81a-497d-aa73-d7f48b0ce181"/>
+    <recordKeyType typeId="16e4bbcf-6447-4935-821d-9005c480bd12" valueTypeId="6c080928-173c-4a01-a9ac-a02167fb5e3d"/>
+    <recordType typeId="1d580959-061a-4308-9d9f-5679fb82e623" valueTypeId="95d2f573-7588-4261-8966-a744f97fffaa"/>
+    <recordManagerType typeId="26222c1a-69a5-4841-96cd-44293ab8764c" valueTypeId="a88b3dd9-69b5-4abc-93f5-3522b8a17c59"/>
+  </producedTypes>
+  <name>ЗначенияКоэффициентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения коэффициентов</value>
+  </synonym>
+  <defaultRecordForm>InformationRegister.ЗначенияКоэффициентов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЗначенияКоэффициентов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала действия значения коэффициента</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="4e32a130-887e-413e-89e7-b417f9848e82">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение коэффициента или постоянной величины</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ed677f0a-fb9d-4969-b5c0-9936778e00f1">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Коэффициент или постоянная величина</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1451d4d8-e647-46b1-b076-c440911ffcf6">
+    <name>ОКТМО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОКТМО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОКТМО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="760b14d3-dbde-4560-9b35-deb77c774a86">
+    <name>БассейновыйОкруг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бассейновый округ/Водный объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВодныеОбъекты</types>
+      <types>CatalogRef.ВодохозяйственныеУчастки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <choiceParameters>
+      <name>Отбор.ТипВоднойКлассификации</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыВоднойКлассификации.EnumValue.БассейновыйОкруг</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="cd570428-5b3c-4079-b7e7-35b2e180f604">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f440c8c1-ba8e-4254-960b-83a8e4c4ae93">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

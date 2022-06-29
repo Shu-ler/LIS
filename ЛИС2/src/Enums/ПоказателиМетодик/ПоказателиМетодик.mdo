@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94cd9963-565b-4fdc-b961-68650046262f">
+  <producedTypes>
+    <refType typeId="ef4cb79a-f7ec-4d21-ae29-9114156471d1" valueTypeId="317bb765-f5b6-44d4-9f45-5915e52e7c68"/>
+    <listType typeId="2709a617-3a32-4d60-af0f-ed3a35b303d1" valueTypeId="631c9d80-f6a4-4cc8-a845-8abbd43fe4dd"/>
+    <managerType typeId="84f4acfc-0f2a-4bc1-9d5b-8d62c65657df" valueTypeId="d38c99d6-f57b-4823-a9ba-3f7938df9445"/>
+  </producedTypes>
+  <name>ПоказателиМетодик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели методик</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7213941a-970e-4652-82f8-14e465ed66b5">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0176f530-f359-4a67-8abe-fc37f66f08ff">
+    <name>Качественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Качественный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dca9935-bcc5-4ccb-abfd-943387cf997e">
+  <producedTypes>
+    <objectType typeId="658dc9e5-9cf1-4f2c-ae08-e551922ca645" valueTypeId="33f1d147-084a-4049-a72a-10035f9a6810"/>
+    <refType typeId="aa8eadd9-090a-4529-bf4c-0f200aa062a7" valueTypeId="ce4a53b5-941f-44b7-85e8-c8e09f384d83"/>
+    <selectionType typeId="523ef321-4056-4182-a02b-04db76eb9ed8" valueTypeId="8438c960-f967-4468-bc05-68c116b72e08"/>
+    <listType typeId="60fde99c-4d1f-45f4-a426-751496e287d8" valueTypeId="6099b3ae-10a8-4588-b37a-a6f5cdbd6032"/>
+    <managerType typeId="e358c56b-2d8b-4eb6-9af6-892e2b460035" valueTypeId="5aa1f6d7-d1fb-47b2-8a99-576422375c82"/>
+  </producedTypes>
+  <name>СрокиХраненияПробы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сроки хранения пробы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СрокиХраненияПробы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СрокиХраненияПробы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d990b4cd-7037-47d7-ae5e-7fcf25b1ce0b">
+    <name>КоличествоДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="806dba51-5785-4c57-961b-10a5914098d2">
+  <producedTypes>
+    <objectType typeId="da551c06-6d09-4653-8d10-00ce6c5498c3" valueTypeId="6aedd631-fb2d-417f-a29a-e0c78de83009"/>
+    <refType typeId="b01f1a89-c07a-404d-b51f-68d6b9671599" valueTypeId="43d74eb7-c8f0-4c9f-b976-9895b97e7a08"/>
+    <selectionType typeId="94fa120d-ead9-4620-8616-56fc8bdcd535" valueTypeId="672f7b30-939e-4191-89c6-433980c40093"/>
+    <listType typeId="048f5a52-40c9-472d-9787-bd844e5932ea" valueTypeId="92b0277e-879b-4415-b248-bee9c851e4fd"/>
+    <managerType typeId="f9fd2e51-9a52-414d-b353-f419888ba187" valueTypeId="96cd7f30-069e-4a82-9a46-f19fb8f2f515"/>
+  </producedTypes>
+  <name>КодыТипыИсточниковПриемников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды и типы источников/приемников</value>
+  </synonym>
+  <comment>В справочнике содержится перечень кодов и типов источников/приемников воды согласно Приложению №1 приказа Росстата от 19.10.2009 N 230 (ред. от 28.11.2011, с изм. от 05.05.2016)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КодыТипыИсточниковПриемников.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КодыТипыИсточниковПриемников.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Код и тип источников/приемников</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Коды и типы источников/приемников</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="bf71ee4e-a0dc-48dc-9c8a-561787f43e30">
+      <name>Болото</name>
+      <description>Болото</description>
+      <code xsi:type="core:StringValue">
+        <value>31</value>
+      </code>
+    </items>
+    <items id="66e4c28c-ccaa-4050-9849-33125c7f325d">
+      <name>ВодохранилищеНаливноеПрудНаливной</name>
+      <description>Водохранилище наливное, пруд наливной</description>
+      <code xsi:type="core:StringValue">
+        <value>41</value>
+      </code>
+    </items>
+    <items id="e3765fd6-593a-4b1b-a841-6c565d97f3a0">
+      <name>ВодохранилищеРусловоеПрудРусловой</name>
+      <description>Водохранилище русловое, пруд русловой</description>
+      <code xsi:type="core:StringValue">
+        <value>40</value>
+      </code>
+    </items>
+    <items id="a6b17ad8-51bd-4150-acd4-152d2a5f6c23">
+      <name>ЗемледельческиеПоляОрошения</name>
+      <description>Земледельческие поля орошения</description>
+      <code xsi:type="core:StringValue">
+        <value>80</value>
+      </code>
+    </items>
+    <items id="64579260-cd02-4f75-a349-c0753cc9425d">
+      <name>КаналКомплексногоНазначения</name>
+      <description>Канал комплексного назначения</description>
+      <code xsi:type="core:StringValue">
+        <value>50</value>
+      </code>
+    </items>
+    <items id="db5d6273-a20d-41b0-9527-2b6f56f1bdc8">
+      <name>КоллекторОросительнойСистемы</name>
+      <description>Коллектор оросительной системы</description>
+      <code xsi:type="core:StringValue">
+        <value>71</value>
+      </code>
+    </items>
+    <items id="6395fc06-54de-4e7b-a1b7-d0c163fff271">
+      <name>ЛивневойКоллектор</name>
+      <description>Ливневой коллектор</description>
+      <code xsi:type="core:StringValue">
+        <value>99</value>
+      </code>
+    </items>
+    <items id="bda441e8-be8d-4489-9730-d2f9b44d3540">
+      <name>Море</name>
+      <description>Море</description>
+      <code xsi:type="core:StringValue">
+        <value>10</value>
+      </code>
+    </items>
+    <items id="f2dd0fbc-6f1c-4834-8cea-da8b62451d88">
+      <name>Накопитель</name>
+      <description>Накопитель</description>
+      <code xsi:type="core:StringValue">
+        <value>81</value>
+      </code>
+    </items>
+    <items id="1af6a87c-b0aa-450d-9aff-2b6e631c8db6">
+      <name>Озеро</name>
+      <description>Озеро</description>
+      <code xsi:type="core:StringValue">
+        <value>30</value>
+      </code>
+    </items>
+    <items id="9dd00f78-4131-4bbf-a3c7-137ff3e1702d">
+      <name>ПодземныйВодныйОбъект</name>
+      <description>Подземный водный объект</description>
+      <code xsi:type="core:StringValue">
+        <value>60</value>
+      </code>
+    </items>
+    <items id="5f5174ce-020d-4406-b6e4-f6ef7a9b56ce">
+      <name>ПоляФильтрации</name>
+      <description>Поля фильтрации</description>
+      <code xsi:type="core:StringValue">
+        <value>83</value>
+      </code>
+    </items>
+    <items id="cd3cbdaf-2634-4084-9fef-5dea0e018e98">
+      <name>Река</name>
+      <description>Река</description>
+      <code xsi:type="core:StringValue">
+        <value>20</value>
+      </code>
+    </items>
+    <items id="89175008-a263-41a9-90a7-3414a5197bcf">
+      <name>РекаПересыхающая</name>
+      <description>Река пересыхающая</description>
+      <code xsi:type="core:StringValue">
+        <value>21</value>
+      </code>
+    </items>
+    <items id="271e6bcd-ba0f-4b05-889c-cc27a902a65e">
+      <name>РельефМестности</name>
+      <description>Рельеф местности</description>
+      <code xsi:type="core:StringValue">
+        <value>82</value>
+      </code>
+    </items>
+    <items id="6c646594-3762-46d3-9853-5e12e98f2fe9">
+      <name>СетьКанализации</name>
+      <description>Сеть канализации</description>
+      <code xsi:type="core:StringValue">
+        <value>91</value>
+      </code>
+    </items>
+    <items id="ef034a10-521f-44ab-a3ca-ddd6cbab9d0c">
+      <name>СкважинаВертикальнаяУровняГрунтовыхВод</name>
+      <description>Скважина вертикального дренажа для понижения уровня грунтовых вод</description>
+      <code xsi:type="core:StringValue">
+        <value>62</value>
+      </code>
+    </items>
+    <items id="8aef9beb-983d-4943-9b09-cf75c4ea41e6">
+      <name>ШахтаРудникНефтепромыселКарьер</name>
+      <description>Шахта, рудник, нефтепромысел, карьер</description>
+      <code xsi:type="core:StringValue">
+        <value>61</value>
+      </code>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

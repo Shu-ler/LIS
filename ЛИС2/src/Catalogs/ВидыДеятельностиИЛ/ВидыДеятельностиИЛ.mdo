@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4697479-d284-4862-a567-37968a5d538b">
+  <producedTypes>
+    <objectType typeId="2d1dad59-a6dc-494f-9114-5fcc4724d3e3" valueTypeId="01bd51c0-86f5-49b3-b027-de7d87f7453d"/>
+    <refType typeId="525e1e0a-7773-4976-8e91-9e4a7bad73f6" valueTypeId="d037dc22-c003-4b9b-be04-0f14da710e29"/>
+    <selectionType typeId="857505e7-2fbc-4d01-8e0d-19582eac3ada" valueTypeId="a636cbb3-6cb8-4e7e-9814-c53c94136529"/>
+    <listType typeId="ccb62358-3f59-4bd3-9190-31fbaf3da874" valueTypeId="23513d65-0cf3-4021-b408-426695e98b81"/>
+    <managerType typeId="74022e93-07c8-429d-8dd8-ecb5a52f9727" valueTypeId="7aa3f2d1-02dd-4b30-a565-b319016fbae5"/>
+  </producedTypes>
+  <name>ВидыДеятельностиИЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды деятельности исследовательской лаборатории</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыДеятельностиИЛ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыДеятельностиИЛ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

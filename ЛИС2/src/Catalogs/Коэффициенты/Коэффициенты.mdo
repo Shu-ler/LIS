@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eeab03f0-eb49-4690-a8fd-5422f7edc7a2">
+  <producedTypes>
+    <objectType typeId="94b4f436-5842-463b-9c70-014d51a3ece7" valueTypeId="8ea170fc-4c22-4cac-a625-62d77ff5f434"/>
+    <refType typeId="db5d840a-07d5-435e-a736-8d2bf1547a25" valueTypeId="e2228c8f-7e46-4d77-a8a3-321012c6e72e"/>
+    <selectionType typeId="42c4b18c-d5f3-4598-84a1-f2740c1f5df6" valueTypeId="f0b9b046-03f0-4ac1-bc39-2508c78727a4"/>
+    <listType typeId="3b28555b-b79a-4724-b5b3-f9a45fd75bb5" valueTypeId="2b81ff6a-641e-4ac0-8b66-9d9cd5678ad8"/>
+    <managerType typeId="03089cba-62d4-4d05-9977-d486f1d8df62" valueTypeId="363dd046-de4e-498b-83dd-fac50cd8e2ef"/>
+  </producedTypes>
+  <name>Коэффициенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коэффициенты и постоянные величины</value>
+  </synonym>
+  <comment>В справочнике содержится информация, которая совсем не изменяется или изменяется достаточно редко.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Коэффициенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Коэффициенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа коэффициентов</value>
+    </synonym>
+    <comment>Группа коэффициентов</comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа сортировки коэффициента/постоянной величины</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>7d0fd1b8-f343-4c64-8ee4-ff5353cfe054.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Название коэффициента/постоянной величины</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Системный код коэффициента/постоянной величины</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>         </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Коэффициент</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Коэффициенты и постоянные величины</value>
+  </listPresentation>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="28d834f0-eeba-473d-a489-6da5f7c36383">
+      <name>удалитьДополнительныйКоэффициент12</name>
+      <description>Дополнительный коэффициент 1,2</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="e11b4ceb-4abb-4e42-be71-60d23f92dfe8">
+      <name>удалитьДополнительныйКоэффициент2</name>
+      <description>Дополнительный коэффициент 2</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="07b97468-9eb1-48bd-9728-6145f2e80bdc">
+      <name>ДополнительныйКоэффициентК</name>
+      <description>Дополнительный коэффициент К</description>
+      <code xsi:type="core:StringValue">
+        <value>000000059</value>
+      </code>
+    </items>
+    <items id="e77bc8f6-1ba9-4a09-bf6a-27624ff11629">
+      <name>КоэффициентНормативаЛимит</name>
+      <description>Коэфициент к нормативу платы в пределах установленного лимита</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="75bc7640-403d-4560-8208-c7902240d8ab">
+      <name>КоэффициентНормативаЛимитВода</name>
+      <description>Коэфициент к нормативу платы в пределах установленного лимита (Вода)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000057</value>
+      </code>
+    </items>
+    <items id="9ba01245-7799-4a7c-b9a4-9769c2b8e5c5">
+      <name>КоэффициентНормативаЛимитВоздух</name>
+      <description>Коэфициент к нормативу платы в пределах установленного лимита (Воздух)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000058</value>
+      </code>
+    </items>
+    <items id="9e7ce61b-0205-45bb-8819-cb8033c23ec4">
+      <name>КоэффициентВзвешенныхВеществ</name>
+      <description>Коэффициент для взвешенных веществ (вода)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000047</value>
+      </code>
+    </items>
+    <items id="ee092a81-0ab9-4ea1-90ff-74b96b8ac865">
+      <name>КоэффициентЗахороненияОтходов</name>
+      <description>Коэффициент захоронения отходов на собственных площадках</description>
+      <code xsi:type="core:StringValue">
+        <value>000000055</value>
+      </code>
+    </items>
+    <items id="cd6e0666-68b3-489a-acb7-032ee1430d54">
+      <name>КоэффициентНормативаРазмещенияЛимит</name>
+      <description>Коэффициент к нормативу платы за размещение отходов в пределах установленного лимита (отходы)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="f6e9147f-ab3e-4b5a-8969-078270165e75">
+      <name>КоэффициентКСтавкеПлатыЗаВыбросВСВ</name>
+      <description>Коэффициент к ставке платы за выброс в пределах ВСВ, (Квр)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000060</value>
+      </code>
+    </items>
+    <items id="bbd15036-e429-451b-845d-7a26d7681c07">
+      <name>КоэффициентКСтавкеПлатыЗаВыбросСверхлимит</name>
+      <description>Коэффициент к ставке платы за выброс сверхлимит, (Кср)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000061</value>
+      </code>
+    </items>
+    <items id="fd94cd82-0d83-45e6-afa6-108cd431f64b">
+      <name>КоэффициентКСтавкеПлатыЗаОтходыСверхлимит</name>
+      <description>Коэффициент к ставке платы за отходы, размещенные сверх лимита, (Ксл)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000064</value>
+      </code>
+    </items>
+    <items id="1517b843-4380-4bf4-8558-2aee74267f74">
+      <name>КоэффициентКСтавкеПлатыЗаСбросВСС</name>
+      <description>Коэффициент к ставке платы за сброс в пределах ВСС, (Квр)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000062</value>
+      </code>
+    </items>
+    <items id="39c49087-b264-4d25-8d47-627477500466">
+      <name>КоэффициентКСтавкеПлатыЗаСбросСверхлимит</name>
+      <description>Коэффициент к ставке платы за сброс сверхлимит, (Кср)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000063</value>
+      </code>
+    </items>
+    <items id="761f461b-d2d0-457c-b0e1-e4dae4c2e811">
+      <name>КоэффициентМестаРазмещения</name>
+      <description>Коэффициент места расположения объекта размещения отходов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="66d231f7-197c-44a5-9f30-7ac96835fdd6">
+      <name>КоэффициентЭкологическойЗначимостиВода</name>
+      <description>Коэффициент экологической значимости (вода)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000053</value>
+      </code>
+    </items>
+    <items id="c4cd3fbf-6cbd-40c4-9239-f8891ca7f45c">
+      <name>КоэффициентЭкологическойЗначимостиВоздух</name>
+      <description>Коэффициент экологической значимости (воздух)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="a4be6be5-0049-4a16-8830-841488e5c056">
+      <name>КоэффициентЭкологическойЗначимостиОтходы</name>
+      <description>Коэффициент экологической значимости (почва)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000056</value>
+      </code>
+    </items>
+    <items id="8f2a189b-a675-437d-af68-2bc02a88287a">
+      <name>удалитьКоэффициентУчитывающийИнфляцию</name>
+      <description>Коэффициент, учитывающий инфляцию</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Коэффициенты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Коэффициенты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="511f0625-dfca-44c4-be6e-ddc97f080bb2">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение коэффициента или постоянной величины</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b9863328-40af-4bf3-a9ca-adefadf4707e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="53f45ddc-443d-4825-8560-221f2738469a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

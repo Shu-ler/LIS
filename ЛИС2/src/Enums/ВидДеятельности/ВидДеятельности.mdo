@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="682e1040-6344-4cb6-a4f2-200c33c5dc16">
+  <producedTypes>
+    <refType typeId="a1523d5c-7d42-48c8-8a64-8f4f94a32069" valueTypeId="79b6e038-b9ea-411d-8d64-90550c047871"/>
+    <listType typeId="1f3911fd-da1c-4f5c-8f24-f1a64bc9c2d2" valueTypeId="af990357-f282-4c1d-b60a-310241874b28"/>
+    <managerType typeId="2c3f1ac5-e483-46df-ac12-333347511a05" valueTypeId="72f7dedb-702c-4ea9-a697-93807042cc8a"/>
+  </producedTypes>
+  <name>ВидДеятельности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид деятельности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="03c72f87-f9fa-4a49-ae6e-1b1afa66d3dd">
+    <name>ПХГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПХГ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94b569a9-f755-4d08-a880-fd5b5b21db34">
+    <name>ДобычаГаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добыча газа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4326e107-7ef7-46e6-b308-56fc00b83009">
+    <name>ТранспортировкаГаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортировка газа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47c427f0-6dbf-463d-be7b-8a62fa488051">
+    <name>ПереработкаГаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переработка газа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

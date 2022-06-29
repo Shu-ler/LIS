@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b87648f5-2d96-4529-98bd-d986c7e03631">
+  <name>ПланированиеМероприятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование мероприятий</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПланГрафикЭкоаналитическогоКонтроля</content>
+  <content>Document.лис_ПланОтбораПроб</content>
+  <content>a881d8e9-f5ae-492f-a611-9a3c2b943e95</content>
+  <parentSubsystem>Subsystem.лис_УправлениеЛабораториями</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0d3ba1f-7433-46fa-a0e9-a102c4c83213">
+  <name>лис_УправлениеЛабораториями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление лабораториями</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УправлениеЛабораториями</picture>
+  </picture>
+  <content>FunctionalOption.лис_УправлениеЛабораторией</content>
+  <content>CommonModule.лис_ОбщегоНазначенияСервер</content>
+  <subsystems>Предприятие</subsystems>
+  <subsystems>Персонал</subsystems>
+  <subsystems>ИмуществоЛаборатории</subsystems>
+  <subsystems>АккредитацияЛаборатории</subsystems>
+  <subsystems>ПланированиеМероприятий</subsystems>
+  <subsystems>СистемаМенеджментаКачества</subsystems>
+</mdclass:Subsystem>

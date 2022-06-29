@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e54b1a43-683a-4e05-a220-d74ff97068d5">
+  <producedTypes>
+    <objectType typeId="aa76cc0b-cd75-4141-a4e4-7056966922e8" valueTypeId="9cf26960-8d49-4a7a-8301-1a525f3dd7df"/>
+    <refType typeId="d4cedd2b-91f4-4a1f-8381-6e681021c022" valueTypeId="bdf3c666-89b2-48ee-a1f6-98e96be352a8"/>
+    <selectionType typeId="f2e5b23d-d93f-40f7-b178-bc5752342b61" valueTypeId="0b24f69f-4376-4446-a4b8-996f128737eb"/>
+    <listType typeId="b3333a90-b6dd-41d9-a556-7ba50dc02c90" valueTypeId="61feb973-6893-44f6-b4f2-ae466d9c9f58"/>
+    <managerType typeId="7aa5830a-1ef4-435d-b9e1-6f4279874f0e" valueTypeId="9eb2e24f-0f4c-49ac-9344-9e5f3c77c26b"/>
+  </producedTypes>
+  <name>СпособыКонсервации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы консервации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СпособыКонсервации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СпособыКонсервации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

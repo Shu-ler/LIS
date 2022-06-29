@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.лис_ОбъектыИспытаний.StandardCommand.OpenList</commands>
+      <commands>Catalog.ТочкиКонтроля.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПроизводственныеПлощадки.StandardCommand.OpenList</commands>
+      <commands>Catalog.ИсточникиЗагрязнения.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВодныеОбъекты.StandardCommand.OpenList</commands>
+      <commands>Catalog.лис_ПрочийИсточникПриемникВод.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВыпускиВВоду.StandardCommand.OpenList</commands>
+      <commands>Catalog.Водозаборы.StandardCommand.OpenList</commands>
+      <commands>Catalog.СанитарноЗащитныеЗоны.StandardCommand.OpenList</commands>
+      <commands>Catalog.СелитебныеЗоны.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>
