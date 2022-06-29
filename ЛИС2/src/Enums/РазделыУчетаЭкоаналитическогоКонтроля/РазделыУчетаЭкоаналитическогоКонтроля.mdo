@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d9ad0f3-91bd-4757-bad6-aaf5947b824e">
+  <producedTypes>
+    <refType typeId="789ff424-15b6-410b-b8ab-b4573020ec85" valueTypeId="97529976-7e17-43a8-81cc-a8af78def5a5"/>
+    <listType typeId="720af50f-ad90-427a-8681-23c24345e769" valueTypeId="44a1677b-8143-48f8-99bc-d8ca991dd469"/>
+    <managerType typeId="9889a3aa-5714-4866-b515-88904f97e4f4" valueTypeId="62319170-139b-4ab6-986e-2ce8285d7057"/>
+  </producedTypes>
+  <name>РазделыУчетаЭкоаналитическогоКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделы учета экоаналитического контроля</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2444b424-9231-41fa-9836-3278675804d6">
+    <name>ПромышленныеВыбросы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промышленные выбросы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="658eff34-80ef-43e9-9270-aa7bd9842f47">
+    <name>АтмосферныйВоздух</name>
+    <synonym>
+      <key>ru</key>
+      <value>Атмосферный воздух</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a8c3a70-06c9-4f42-b583-6592ae630f66">
+    <name>СточныеВоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сточные воды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9758862-c550-491d-9694-86787534d14d">
+    <name>ПриродныеВоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Природные воды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4bd1ac2a-2739-4f24-a6ce-15d38c4ad68a">
+    <name>Почвы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почвы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="51607979-8d6e-46d3-87f7-0d3c8716b1f5">
+    <name>ДонныеОтложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Донные отложения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56907326-afcf-40d0-acd0-528f51b31e82">
+    <name>ФизическиеФакторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физические факторы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a92a7913-be32-4251-8f91-4475262833fa">
+    <name>АтмосферныеОсадки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Атмосферные осадки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -48,9 +48,6 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.АдминистрированиеСервиса</subsystems>
   <subsystems>Subsystem.ТехнологияСервиса</subsystems>
-  <subsystems>Subsystem.лис_УправлениеЛабораториями</subsystems>
-  <subsystems>Subsystem.лис_РаботаЛаборатории</subsystems>
-  <subsystems>Subsystem.лис_ЛабораторнаяОтчетность</subsystems>
   <styleItems>StyleItem.АктуальнаяПодпискаЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряНеУказанЦвет</styleItems>
@@ -2361,6 +2358,20 @@
   <catalogs>Catalog.ВидыДоговоров</catalogs>
   <catalogs>Catalog.СтатусыДоговоров</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Прекурсоры</catalogs>
+  <catalogs>Catalog.лис_КомпетентностьЛаборатории</catalogs>
+  <catalogs>Catalog.лис_ПодразделенияЛабораторий</catalogs>
+  <catalogs>Catalog.ПодразделенияОрганизаций1</catalogs>
+  <catalogs>Catalog.лис_ОбъектыИспытаний</catalogs>
+  <catalogs>Catalog.лис_АлгоритмыВнутрилабораторногоКонтроля</catalogs>
+  <catalogs>Catalog.лис_АнализируемыеПоказатели</catalogs>
+  <catalogs>Catalog.лис_ПрочийИсточникПриемникВод</catalogs>
+  <catalogs>Catalog.ПериодичностиПоверок</catalogs>
+  <catalogs>Catalog.лис_ЛабораторноеОборудование</catalogs>
+  <catalogs>Catalog.лис_КомпонентыЗамеровЛаборатории</catalogs>
+  <catalogs>Catalog.лис_ЛабораторныеПринадлежности</catalogs>
+  <catalogs>Catalog.ВидыРеактивов</catalogs>
+  <catalogs>Catalog.лис_ЛабораторныеРеактивы</catalogs>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
@@ -2378,20 +2389,26 @@
   <enums>Enum.ВариантыВажностиЗадачи</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
   <enums>Enum.ВариантыИспользованияВнешнихКомпонент</enums>
+  <enums>Enum.ВариантыОкругленияИзмерений</enums>
+  <enums>Enum.УдалитьВидыОбменаСКонтролирующимиОрганами</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыПериода</enums>
   <enums>Enum.ВариантыПредставленияПериода</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
+  <enums>Enum.ВидДеятельности</enums>
+  <enums>Enum.ВидПроверяющейОрганизации</enums>
   <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыНазначенияДатЗапрета</enums>
+  <enums>Enum.ВидыОбменаСКонтролирующимиОрганами</enums>
   <enums>Enum.ВидыПереключателяВАнкетах</enums>
   <enums>Enum.ВидыПравилДляОбменаДанными</enums>
-  <enums>Enum.ВидыФлажкаВАнкетах</enums>
   <enums>Enum.ВидыТранспортаСообщенийОбмена</enums>
-  <enums>Enum.ДействияСФайламиПоДвойномуЩелчку</enums>
+  <enums>Enum.ВидыТрудоустройства</enums>
+  <enums>Enum.ВидыФлажкаВАнкетах</enums>
   <enums>Enum.ДействияПриОбмене</enums>
+  <enums>Enum.ДействияСФайламиПоДвойномуЩелчку</enums>
   <enums>Enum.ДополнительныеЗначенияДоступа</enums>
   <enums>Enum.ДоступныеПериодыОтчета</enums>
   <enums>Enum.ИсточникиПравилДляОбменаДанными</enums>
@@ -2400,14 +2417,18 @@
   <enums>Enum.ПериодичностиРасписанийРассылокОтчетов</enums>
   <enums>Enum.ПериодичностьПериодовДействия</enums>
   <enums>Enum.ПериодОчисткиФайлов</enums>
+  <enums>Enum.ПоказателиМетодик</enums>
+  <enums>Enum.ПолФизическогоЛица</enums>
   <enums>Enum.ПорядокОтветовНаЗапросыУведомленийОПрочтении</enums>
   <enums>Enum.ПраваПользователяПриложения</enums>
   <enums>Enum.ПриоритетыОбъектовОбмена</enums>
   <enums>Enum.ПричиныОтключенияДополнительныхОтчетовИОбработокВМоделиСервиса</enums>
   <enums>Enum.ПричиныОтключенияРасширенийВМоделиСервиса</enums>
   <enums>Enum.ПровайдерыSMS</enums>
+  <enums>Enum.РазмерИЧисленностьОрганизации</enums>
   <enums>Enum.РазмерыБумаги</enums>
   <enums>Enum.РазрешенияСканированногоИзображения</enums>
+  <enums>Enum.РежимыАвтонастройкиУчетнойЗаписиНалогоплательщика</enums>
   <enums>Enum.РежимыАнкетирования</enums>
   <enums>Enum.РежимыВыгрузкиОбъектовОбмена</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
@@ -2432,6 +2453,7 @@
   <enums>Enum.СостоянияРасширений</enums>
   <enums>Enum.СостоянияСообщенияSMS</enums>
   <enums>Enum.СостоянияСубъектовДляСкрытия</enums>
+  <enums>Enum.СпецоператорыСвязи</enums>
   <enums>Enum.СпособыАвторизацииDSS</enums>
   <enums>Enum.СпособыАутентификации</enums>
   <enums>Enum.СпособыВызоваДополнительныхОбработок</enums>
@@ -2446,6 +2468,7 @@
   <enums>Enum.СпособыУстановкиВремениНапоминания</enums>
   <enums>Enum.СпособыУстановкиКурсаВалюты</enums>
   <enums>Enum.СрокиХраненияВерсий</enums>
+  <enums>Enum.СтатусКонтрагента</enums>
   <enums>Enum.СтатусыИзвлеченияТекстаФайлов</enums>
   <enums>Enum.СтатусыИсходящегоЭлектронногоПисьма</enums>
   <enums>Enum.СтатусыОбластейДанных</enums>
@@ -2457,6 +2480,7 @@
   <enums>Enum.ТипыВопросовШаблонаАнкеты</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
   <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <enums>Enum.ТипыКонтрагента</enums>
   <enums>Enum.ТипыОтветовНаВопрос</enums>
   <enums>Enum.ТипыОтчетов</enums>
   <enums>Enum.ТипыПодписиКриптографии</enums>
@@ -2476,21 +2500,13 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветностиИзображения</enums>
-  <enums>Enum.ПолФизическогоЛица</enums>
-  <enums>Enum.ВидыТрудоустройства</enums>
   <enums>Enum.ЮридическоеФизическоеЛицо</enums>
-  <enums>Enum.ВидДеятельности</enums>
-  <enums>Enum.УдалитьВидыОбменаСКонтролирующимиОрганами</enums>
-  <enums>Enum.РежимыАвтонастройкиУчетнойЗаписиНалогоплательщика</enums>
-  <enums>Enum.СпецоператорыСвязи</enums>
-  <enums>Enum.ВидыОбменаСКонтролирующимиОрганами</enums>
-  <enums>Enum.РазмерИЧисленностьОрганизации</enums>
-  <enums>Enum.ПоказателиМетодик</enums>
-  <enums>Enum.ВариантыОкругленияИзмерений</enums>
-  <enums>Enum.ТипыКонтрагента</enums>
   <enums>Enum.ЮрФизЛицо</enums>
-  <enums>Enum.ВидПроверяющейОрганизации</enums>
-  <enums>Enum.СтатусКонтрагента</enums>
+  <enums>Enum.РазделыУчетаЭкоаналитическогоКонтроля</enums>
+  <enums>Enum.лис_СостоянияЛабораторногоОборудования</enums>
+  <enums>Enum.лис_ТипыЛабораторногоОборудования</enums>
+  <enums>Enum.лис_ВидыОперацийПриходаИмущества</enums>
+  <enums>Enum.лис_ВидыОперацийРасходаИмущества</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>

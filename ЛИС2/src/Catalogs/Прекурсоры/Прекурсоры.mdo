@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4249f7c2-41a8-4060-957f-052460f1ab5a">
+  <producedTypes>
+    <objectType typeId="a432f1fe-ff22-4cb5-a550-03b6f1aabffd" valueTypeId="9a661f21-e8ad-485c-8c85-a2e49dc7a4e1"/>
+    <refType typeId="c1078249-4c8d-4edd-89b0-1622ef3bf94e" valueTypeId="4a5234e6-50c9-40d4-bae1-db8eea1021ec"/>
+    <selectionType typeId="4461e1d6-546e-4116-83fb-88e0465d5ffd" valueTypeId="5d028af8-76c6-448a-94f1-39685513d435"/>
+    <listType typeId="42bdd43b-6392-4316-beac-a6eb609794a6" valueTypeId="e32c86bc-f659-4941-b1b2-d0c020e2d094"/>
+    <managerType typeId="044a8753-265b-41c6-a204-183dbcbc8283" valueTypeId="cc2cd12b-2cbf-4e67-9b27-85296c8570fc"/>
+  </producedTypes>
+  <name>Прекурсоры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прекурсоры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Прекурсоры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Прекурсоры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="258d3080-330b-4edc-b9c1-22ecb8ce2b5f">
+    <name>СрокХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок хранения (мес.)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="78c12d24-51d9-4d94-894b-360419dda68a">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОКЕИ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

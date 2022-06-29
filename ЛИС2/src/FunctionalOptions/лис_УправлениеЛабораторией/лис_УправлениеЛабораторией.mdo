@@ -47,16 +47,6 @@
   <content>InformationRegister.лис_ПриложениеКАттестатуАккредитации</content>
   <content>AccumulationRegister.лис_ОтобранныеПробы</content>
   <content>AccumulationRegister.лис_ИмуществоЛабораторий</content>
-  <content>Subsystem.лис_УправлениеЛабораториями</content>
-  <content>Subsystem.лис_РаботаЛаборатории</content>
-  <content>Subsystem.лис_ЛабораторнаяОтчетность</content>
-  <content>Subsystem.лис_ЛабораторнаяОтчетность.Subsystem.ГосударственнаяОтчетность</content>
-  <content>Subsystem.лис_РаботаЛаборатории.Subsystem.РезультатыИзмерений</content>
-  <content>Subsystem.лис_РаботаЛаборатории.Subsystem.ЖурналыЛабораторногоКонтроля</content>
-  <content>Subsystem.лис_РаботаЛаборатории.Subsystem.МетодикиАнализа</content>
-  <content>Subsystem.лис_РаботаЛаборатории.Subsystem.ОбъектыКонтроля</content>
-  <content>Subsystem.лис_УправлениеЛабораториями.Subsystem.Персонал</content>
-  <content>Subsystem.лис_УправлениеЛабораториями.Subsystem.Предприятие</content>
   <content>Document.лис_ЖурналОпределенияКомпонентовВАтмосферномВоздухе</content>
   <content>InformationRegister.лис_ЖурналОпределенияКомпонентовВАтмосферномВоздухе</content>
   <content>InformationRegister.лис_ЖурналОпределенияКомпонентовВПромышленныхВыбросах</content>

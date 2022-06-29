@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55f76b77-81b3-4e0c-b5ea-c162d20b744e">
+  <producedTypes>
+    <objectType typeId="877c7ac3-584b-428f-85b7-e009ad08c09a" valueTypeId="98ea71ee-a687-4429-8a10-7c38c7078194"/>
+    <refType typeId="51cf6391-e8a4-4db4-9a46-9950d44690c0" valueTypeId="372dd012-a601-4c10-a0f9-170b0b62005c"/>
+    <selectionType typeId="a54ccec0-f054-4d8d-8008-599f151c2c01" valueTypeId="add78f96-6e98-498c-b2f6-46a93fca6537"/>
+    <listType typeId="2db3e3ba-d9bc-4394-a6a1-5ce22e297fa9" valueTypeId="7b597365-4792-46fb-9d06-fce44c61a7e8"/>
+    <managerType typeId="0f0fc32e-b1b6-4f38-9d1f-47d6821684d5" valueTypeId="7adc9ec1-4bf9-4075-991c-53799c0977c1"/>
+  </producedTypes>
+  <name>ВидыРеактивов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды реактивов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыРеактивов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыРеактивов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="dc5a8248-0df2-4f67-bbff-744e9aee4f61">
+      <name>ЭтиловыйСпирт</name>
+      <description>Этиловый спирт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

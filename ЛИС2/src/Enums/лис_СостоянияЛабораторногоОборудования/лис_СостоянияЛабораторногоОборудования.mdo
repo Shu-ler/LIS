@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11c3d0c4-493e-48c6-b09f-b3d616f8120d">
+  <producedTypes>
+    <refType typeId="61e78e0b-b7e8-47e3-8260-f5c6921970b1" valueTypeId="d8bd4069-3142-4548-af71-7b537917583c"/>
+    <listType typeId="1093b610-5f5f-467b-8379-1d1d9584fd33" valueTypeId="30636536-9ac1-4664-80c9-119370cb3f3c"/>
+    <managerType typeId="37e02fea-df18-4c7a-8ff4-f39508545a04" valueTypeId="a245f66e-27ca-40a2-90cb-7199ba6f14c8"/>
+  </producedTypes>
+  <name>лис_СостоянияЛабораторногоОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния лабораторного оборудования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c4395464-baaf-45ac-9f2d-3d0abc9fa115">
+    <name>Исправен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6cd463c-4e17-420e-abf9-eb7a209ce33b">
+    <name>ТребуетсяРемонт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется ремонт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="454bbccf-ee14-4d2b-a72f-3efc8a451809">
+    <name>ВРемонте</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ремонте</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce064186-88a3-4f99-8b0d-b4dfd33408bb">
+    <name>Списан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4503359b-f32c-4151-88f3-cc1abcf46988">
+    <name>ПланируетсяКСписанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планируется к списанию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0fe4d650-6779-4ca3-b1c8-562ca4e5e71f">
+    <name>ВПоверке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В поверке</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
