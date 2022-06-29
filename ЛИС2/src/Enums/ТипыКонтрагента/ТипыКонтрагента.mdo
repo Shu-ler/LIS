@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0371bc07-a0e8-495b-acef-fe2cdc17d4cf">
+  <producedTypes>
+    <refType typeId="684ad663-32f7-43d7-8323-9dd6a6220303" valueTypeId="36ff0c77-5c23-4e3a-a4b1-16b57f191ac0"/>
+    <listType typeId="c728b97b-7ff7-4374-b502-5cb79fe5244e" valueTypeId="c0b2d1a6-66fe-4693-993b-0a428461d022"/>
+    <managerType typeId="aa48fdd0-d531-483b-8513-b36e2152784d" valueTypeId="ae419317-c0a7-44bf-a387-6a0db4b41442"/>
+  </producedTypes>
+  <name>ТипыКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы контрагента</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="00c1583e-69df-461f-a3a9-76bc68027004">
+    <name>ФедеральныйОрганИсполнительнойВласти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Федеральный орган исполнительной власти</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58928d64-e356-4999-b655-43d14ee3244a">
+    <name>УчебныйЦентрЛаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебный центр/лаборатория</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="293f575a-a2ce-4cde-83d9-a86ca97c813c">
+    <name>СобственникОРО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собственник ОРО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ca76885-2e8e-4614-ac6d-d356818dd0b1">
+    <name>Прочие</name>
+    <synonym>
+      <key>ru</key>
+      <value> </value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

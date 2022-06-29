@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5a4a282-7559-444e-8e67-978d7a17f589">
+  <producedTypes>
+    <refType typeId="71d2f10e-23dc-4af0-ac24-60b63be25e33" valueTypeId="6a35da54-367b-49e7-8d5b-0f06d26f9476"/>
+    <listType typeId="96df10b3-2632-4217-ab08-929281f98d3e" valueTypeId="5933b4a5-4a36-4e7d-8695-c518451d076c"/>
+    <managerType typeId="84ab0051-0979-4531-a438-726b65e84f5a" valueTypeId="7892648b-5bb3-4a4b-b1a7-8e4e4fa6630d"/>
+  </producedTypes>
+  <name>ВидПроверяющейОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид проверяющей организации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dc840d4c-699a-4cd3-8357-d1b3f816a341">
+    <name>Росприроднадзор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Росприроднадзор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03dbed26-5b85-429d-ac8b-7dac8b9fcf1b">
+    <name>Роспотребнадзор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роспотребнадзор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d86cb31-8cf8-45ad-9fbb-6d735b0d494e">
+    <name>ПриродоохраннаяПрокуратура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Природоохранная прокуратура</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78eb9957-de14-4085-b8e1-69200ab65add">
+    <name>ПрочиеНадзорныеОрганыФОИВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие надзорные органы ФОИВ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58981673-c0a7-4c2f-8330-9a9110a4512d">
+    <name>НадзорныеОрганыСубъектаРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надзорные органы субъекта РФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="177c8bb1-f067-42d0-b51b-59925093c90b">
+    <name>ПроверяющийОрганРБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверяющий орган РБ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b882ba5-3974-4380-9f66-536ea030c245">
+    <name>ПроверяющийОрганРA</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверяющий орган РA</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f8a8eff-bb75-4c7d-932e-c553300e249a">
+    <name>Ростехнадзор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ростехнадзор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -2357,6 +2357,10 @@
   <catalogs>Catalog.ОКЕИ</catalogs>
   <catalogs>Catalog.МетодикиОпределенияИзмеренияАнализа</catalogs>
   <catalogs>Catalog.лис_Лаборатории</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ВидыДоговоров</catalogs>
+  <catalogs>Catalog.СтатусыДоговоров</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
@@ -2483,6 +2487,10 @@
   <enums>Enum.РазмерИЧисленностьОрганизации</enums>
   <enums>Enum.ПоказателиМетодик</enums>
   <enums>Enum.ВариантыОкругленияИзмерений</enums>
+  <enums>Enum.ТипыКонтрагента</enums>
+  <enums>Enum.ЮрФизЛицо</enums>
+  <enums>Enum.ВидПроверяющейОрганизации</enums>
+  <enums>Enum.СтатусКонтрагента</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>
