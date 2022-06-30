@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="941fe986-4b45-45f2-a1a8-2b2812c522b8">
+  <producedTypes>
+    <selectionType typeId="2540931a-173e-46a8-966d-5280f02bbb08" valueTypeId="05f973e1-d702-4f92-949f-aac430d50b5b"/>
+    <listType typeId="a80452c1-a260-4ec4-b883-980e3f8cd000" valueTypeId="6dd9964c-f163-438c-b322-1560b029557f"/>
+    <managerType typeId="5ba9ddc9-3dc5-474a-a901-178fa459ae51" valueTypeId="946ec407-8ef4-4193-86a0-051812269799"/>
+    <recordSetType typeId="b17d5d16-d278-4c98-b032-d156d1d94680" valueTypeId="8232dec2-4cdf-4ab0-9086-4b1ecaffdac5"/>
+    <recordKeyType typeId="9530b5dd-2ffb-4de5-bb82-5e85f4fcf112" valueTypeId="76ca74e2-f8c2-47a1-822e-be768b6c419d"/>
+    <recordType typeId="ae44905c-1cf6-47c9-be36-4dfe22b1fa92" valueTypeId="fe01f5da-1059-41ef-b150-0d354caa84aa"/>
+    <recordManagerType typeId="fcce4175-3e5f-4807-9d84-b353963d857e" valueTypeId="b3a3f0d1-39b8-46eb-a4e7-3578ac09c4b4"/>
+  </producedTypes>
+  <name>ЛабораторноеОборудованиеВЭксплуатации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование в эксплуатации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЛабораторноеОборудованиеВЭксплуатации.Form.ФормаСписка</defaultListForm>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0bbfc236-acc6-4b8c-a02c-9f702cd919d7">
+    <name>ДатаВводаВЭксплуатацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ввода в эксплуатацию</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6aa79b2c-f7bb-4051-8aa2-04c3fc012d46">
+    <name>СрокДопустимойЭксплуатации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок допустимой эксплуатации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="eb895a25-d3c8-4eda-996a-df4b3a74467c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d5b5a9e2-2926-4576-a728-b2ed0e43e58b">
+    <name>Лаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лаборатория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.лис_Лаборатории</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a48fe810-6704-4018-857e-36abdfdb907d">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.лис_ЛабораторноеОборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="65574c5b-7925-44c6-a868-d36867b5acf2">
+    <name>РегистрационныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="85c5024d-f02c-49db-800e-fad6227292fb">
+    <name>ИнвентарныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентарный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f8c12454-faaa-4a15-a876-78f3376f546a">
+    <name>ЗаводскойНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заводской номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fdc08908-0f59-426e-9ecc-483a451396c4">
+    <name>ЗаводскоеОбозначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заводское обозначение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b195aeeb-994d-4cd6-87d3-1c8e47be5612">
+    <name>НомерПаспортаНаОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер паспорта на оборудование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7ab1cb4b-51cf-423f-aacf-5088e7f2244d">
+    <name>ДатаИзготовления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изготовления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="99529a8a-182a-426f-b4d1-d9f51004de84">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1022d657-eb94-4685-af76-d0a2f5ba92af">
+    <name>СведенияОбОборудовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения об оборудовании</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fbe892a0-efbd-4650-a673-503e2bd543ef">
+    <name>ФормаВыбораОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора оборудования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="eb54951f-eee2-45ac-a803-f8b5b34affa3">
+    <name>НаклейкиНаОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наклейки на оборудование</value>
+    </synonym>
+  </templates>
+  <commands uuid="cad41a71-e8de-46f3-8e89-6905aa871745">
+    <name>ПечатьНаклеекНаОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наклейки на оборудование</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

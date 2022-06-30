@@ -114,7 +114,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <createOnInput>Use</createOnInput>
-  <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
       <lang>ru</lang>
@@ -125,6 +124,10 @@
     <key>ru</key>
     <value>Банк</value>
   </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Банки</value>
+  </listPresentation>
   <hierarchical>true</hierarchical>
   <limitLevelCount>true</limitLevelCount>
   <levelCount>2</levelCount>

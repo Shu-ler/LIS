@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f495e96-4733-46ad-9913-59d7167057d7">
+  <producedTypes>
+    <selectionType typeId="872c4eaa-f307-401a-8ef0-0af36101792d" valueTypeId="bc0dc4a5-f66b-4d52-b087-2d3bd6f39d9d"/>
+    <listType typeId="c153a073-aaf2-4523-950d-2b44d6f1f558" valueTypeId="f0af326e-312e-48da-996e-eb4d98784735"/>
+    <managerType typeId="4a56375d-90ab-4bf0-98eb-7b99f5754d0c" valueTypeId="b7f48386-7dd7-41b3-9d5c-a9046259a864"/>
+    <recordSetType typeId="055c9b99-1525-4c29-944e-99d79af20d8a" valueTypeId="231ae626-366a-41c4-aa71-a4d91b06eca1"/>
+    <recordKeyType typeId="3632c155-4b89-4f23-922c-1ba6d1f492b1" valueTypeId="87b4f84e-9ad3-4373-bf95-358bc201b5d0"/>
+    <recordType typeId="c0378d5c-00ad-40c7-8dc4-84e3c250340d" valueTypeId="a53b4db4-f2b9-4bbf-94eb-ff2759e8e322"/>
+    <recordManagerType typeId="a12321e2-74cc-4002-a5a9-e79bc8e07ca0" valueTypeId="d3e29ded-9324-449b-9f2c-cb2e4349d090"/>
+  </producedTypes>
+  <name>лис_МестонахождениеЛабораторногоОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Местонахождение лабораторного оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="63426cb6-7768-4f97-b620-61d7fb596521">
+    <name>Местонахождение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Местонахождение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.лис_Лаборатории</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="714a994b-9da6-4286-80ce-3ffd33a18fec">
+    <name>ЛабораторноеОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лабораторное оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.лис_ЛабораторноеОборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f52c984c-8134-4ebc-85f9-88288652e30a">
+    <name>Лаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лаборатория</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

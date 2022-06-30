@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="473fe761-1809-4919-94d6-cb2399fb0d54">
+  <producedTypes>
+    <refType typeId="58274d33-7605-43e0-b8db-f864283e8945" valueTypeId="56928546-1139-4d96-b541-a5f46e0da0e0"/>
+    <listType typeId="e109fc20-989f-4d11-93fc-2cc2657e020e" valueTypeId="3b743db4-6eb9-4cb4-a357-ff67ebbc86ea"/>
+    <managerType typeId="41321129-62bc-485c-8b90-2123c2d5d705" valueTypeId="a64703c2-dd7d-4377-8612-3d9c88fe411d"/>
+  </producedTypes>
+  <name>ВидыПраваПотребленияОтведенияИспользованияВоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды права водопотребления/водоотоведения/использования акватории водного объекта</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды права водопотребления/водоотоведения/использования акватории водного объекта</value>
+  </listPresentation>
+  <enumValues uuid="018f0a44-828c-44eb-88ae-e5b831c72f49">
+    <name>Решение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Решение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90adf8f9-9e7a-48f7-a8ba-a34f45731283">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0dfa04e-76cb-4f80-b50c-42939f1c8a1a">
+    <name>Лицензия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицензия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c88910e9-dcd0-4e9c-b4b6-3e5b0e4d153b">
+    <name>ПроектНаСтроительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект на строительство</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

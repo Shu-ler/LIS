@@ -1,0 +1,4621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bdc3635-afb4-412b-bdea-a4b6d1b7e9ca">
+  <producedTypes>
+    <objectType typeId="4ce224ee-65f5-449f-bfd4-bc76d0d6e990" valueTypeId="7521c76c-cd5e-4968-a4bb-d919e858b29a"/>
+    <refType typeId="c9784563-5f83-450c-8d21-8d1fa88ceea1" valueTypeId="26485628-fb2e-4398-b2c6-6e15f9876939"/>
+    <selectionType typeId="1cad7fc9-6c1a-4e81-a166-a3d32d25fbfb" valueTypeId="dfff3a44-6299-4d42-9aa4-37fb84c26fc7"/>
+    <listType typeId="e0731c5f-b695-4258-b605-e59514c1c70e" valueTypeId="98cead29-082d-417e-a9ca-d02793519486"/>
+    <managerType typeId="a7a164d2-c37e-423f-83be-a3c2da4d376a" valueTypeId="885457f0-15ca-4083-a4b5-b4e6e9a61896"/>
+  </producedTypes>
+  <name>РазрешениеНаВыбросВАтмосферу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешение на выброс в атмосферу (по площадкам)</value>
+  </synonym>
+  <comment>Документ предназначен для регистрации выданного надзорным органом разрешения на выбросы загрязняющих веществ в атмосферу в Системе.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РазрешениеНаВыбросВАтмосферу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Разрешения на выброс ЗВ в атмосферу (по площадкам)</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>15</numberLength>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РазрешениеНаВыбросВАтмосферу.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.РазрешениеНаВыбросВАтмосферу.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.РазрешениеНаВыбросВАтмосферу.Form.ФормаВыбора</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>InformationRegister.ДопустимыеОбъемыВыбросовЗагрязняющихВеществВАтмосферу</registerRecords>
+  <attributes uuid="1bf13196-e5f6-4469-854d-8775b0d2106d">
+    <name>НачалоДействияРазрешения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало действия разрешения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала действия разрешения на выброс в атмосферу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3d5344dc-2a34-476d-b334-69259f4c2496">
+    <name>КонецДействияРазрешения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание действия разрешения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания действия разрешения на выброс в атмосферу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="22c8ec5a-221d-4025-9a1d-8fb463d0d6ae">
+    <name>ПроизводственнаяПлощадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственная площадка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПроизводственныеПлощадки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Производственная площадка, по которой выдано разрешение на выброс в атмосферу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3b7bb3a1-97fa-4a54-b9c2-fa8dcfc5621d">
+    <name>ПериодичностьРазрешения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность разрешения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериодичностьРазрешительнойДокументации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выдано ли разрешение на выброс по годам или поквартально</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ced6599-946c-4f40-9b63-643df1e4e1b8">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, которой было выдано разрешение на выброс в атмосферу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d2b86c13-44b3-4195-8197-52e8eb7632c1">
+    <name>РегистрационныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Регистрационный номер документа разрешения на выброс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0d2b69e2-0b28-4ba9-bdfd-048735309751">
+    <name>ДатаВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выдачи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фактическая дата выдачи документа разрешения на выброс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39b0762a-b353-4eac-8aac-ae00b141e6b8">
+    <name>НадзорныйОрган</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надзорный орган, выдавший документ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Надзорный орган, выдавший организации документ разрешения на выброс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="036ee7e5-fc40-42f8-9a61-e65a55669a96">
+    <name>ОтображатьВСВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать ВСВ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Нужно ли отображать в таблице значения временно-согласованного выброса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cfdb217a-fca5-4d8d-9c76-7a155acd0aff">
+    <name>ОписаниеРазрешительногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание разрешительного документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="12046140-b743-497e-a2f4-34c4bc386839">
+    <name>КоличествоЗнаковПослеЗапятойДляПросмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество знаков после запятой для просмотра</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>14</value>
+    </maxValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>10</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec1efa29-ca1c-48f7-8422-e21ba2ac843c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий по текущему выбросу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="efd8b7ed-d902-4bb1-9a6f-63da23ca6de7">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="888bc0cc-837d-4aff-a92c-941fe2bf4d82">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9582fd85-f155-460a-81d9-d18b9e51d07d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="29c7f740-65d1-4af8-a5dc-b495ffebcf5a">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="5d496230-73c0-4e46-b0c9-5e2914cd61a2">
+    <producedTypes>
+      <objectType typeId="8a4c24b9-579a-4688-8089-6c65cb016d86" valueTypeId="f35cdc32-f6f2-4796-ba9a-61e9e6060a3d"/>
+      <rowType typeId="cdcb957a-34cb-4c79-82df-e96eeb66769c" valueTypeId="94c6c82a-dfbc-4aba-b940-6d45f7a44df2"/>
+    </producedTypes>
+    <name>ТаблицаЗВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица загрязняющих веществ</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="028d2d03-b2e5-470d-a7fd-af29e45575bd">
+      <name>ЗагрязняющееВещество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Загрязняющее вещество</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЗВАтмосфера</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Загрязняющее вещество, на которое действует разрешение на выброс</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cb8b33f9-d206-44a7-8d19-8a40352182bc">
+      <name>РазрешенныйВыбросГод1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e5a6436f-1664-4eec-b554-fc7781cc8257">
+      <name>РазрешенныйВыбросГод2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e088d725-b0c8-420e-976e-4a09d223fa8e">
+      <name>РазрешенныйВыбросГод3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b1d125f9-bb8d-4217-95f4-b3f5067a0e10">
+      <name>РазрешенныйВыбросГод4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3e9c7d33-2810-44d8-bcd6-5b4e6300b64b">
+      <name>РазрешенныйВыбросГод5</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год5</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d42659b9-3a43-4670-871c-bfc80c36c326">
+      <name>РазрешенныйВыбросГод6</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год6</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="032dd52d-50df-43de-9de3-52f52e2befe3">
+      <name>РазрешенныйВыбросГод1Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 1 год 1 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3a7a042c-6375-48d1-b7b3-55f791178ac2">
+      <name>РазрешенныйВыбросГод1Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 1 год 2 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="499edeb4-964c-47df-a623-e020f738e3a6">
+      <name>РазрешенныйВыбросГод1Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 1 год 3 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="510aaac9-64f1-4eec-bc89-39edfa0d3c02">
+      <name>РазрешенныйВыбросГод1Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 1 год 4 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f9c9f11b-5a0c-49da-8e35-42774303b938">
+      <name>РазрешенныйВыбросГод2Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 2 год 1 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="095f221f-7fab-4946-814f-e7ec88500e14">
+      <name>РазрешенныйВыбросГод2Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 2 год 2 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6bcfa6f3-3885-4052-a347-043d08643abf">
+      <name>РазрешенныйВыбросГод2Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 2 год 3 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e6cd7491-b506-4e98-a279-f08479914d42">
+      <name>РазрешенныйВыбросГод2Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 2 год 4 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="82e77ce8-5904-4a4b-b345-73d2c706b9c9">
+      <name>РазрешенныйВыбросГод3Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 3 год 1 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c721f0cb-b07a-4ddf-bd52-afa7df170f6a">
+      <name>РазрешенныйВыбросГод3Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 3 год 2 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eeaf93ce-85f3-4a96-a284-628b83800f90">
+      <name>РазрешенныйВыбросГод3Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 3 год 3 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7f6455f8-4449-4f6f-9469-a90d306c67d5">
+      <name>РазрешенныйВыбросГод3Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 3 год 4 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="64bc6672-1313-4fea-a1da-4fed350d35a8">
+      <name>РазрешенныйВыбросГод4Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 4 год 1 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8cbdc87d-a988-4c45-9aa4-880714f74326">
+      <name>РазрешенныйВыбросГод4Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 4 год 2 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b0e86911-d512-4a5c-8dc3-b6368382d3ea">
+      <name>РазрешенныйВыбросГод4Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 4 год 3 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5a3bc93d-1afb-448c-af39-a5c0f6963d29">
+      <name>РазрешенныйВыбросГод4Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 4 год 4 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fe670de9-950a-4e2e-b3ea-e119144fa034">
+      <name>РазрешенныйВыбросГод5Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 5 год 1 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6e5e4c1d-76db-4c71-84ac-e3ebd341f50b">
+      <name>РазрешенныйВыбросГод5Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 5 год 2 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bcf756eb-5bcb-4fd3-b3ea-7aa5356950e0">
+      <name>РазрешенныйВыбросГод5Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 5 год 3 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9f88694c-6fdc-4e97-a956-98222621a242">
+      <name>РазрешенныйВыбросГод5Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 5 год 4 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d24c5819-4f15-4b30-8e5d-b03b2dc04084">
+      <name>РазрешенныйВыбросГод6Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 6 год 1 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b26dabde-6ba1-474c-a376-1a9728c1d931">
+      <name>РазрешенныйВыбросГод6Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 6 год 2 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="11a7f87a-8dab-49fa-a564-12df423dd51e">
+      <name>РазрешенныйВыбросГод6Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 6 год 3 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9eaf2438-64f3-4d24-8f71-408f792a56a3">
+      <name>РазрешенныйВыбросГод6Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 6 год 4 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8206df56-1921-4057-868e-f9d5648d4d02">
+      <name>ВСВГод1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="05c8d221-db56-455d-b426-a43da80907cc">
+      <name>ВСВГод2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="32b91bcd-e990-45bd-900c-8ad50af7f77f">
+      <name>ВСВГод3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="27fd5fc6-fe8b-4982-8d99-de263fe11649">
+      <name>ВСВГод4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1370cea3-e35e-4046-b32e-20ef9a29fc82">
+      <name>ВСВГод5</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод5</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="842e180b-083c-409d-b31b-1b3ef5ac18fd">
+      <name>ВСВГод6</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод6</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b723c8d0-85ab-4967-8d09-1dc76af11eb7">
+      <name>ВСВГод1Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод1 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="133cd1a5-88b2-4369-9aab-77f2cbc868a8">
+      <name>ВСВГод1Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод1 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4c71c6ef-492a-4694-82d4-413dbd50f897">
+      <name>ВСВГод1Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод1 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0b6b902e-ac83-4865-a72d-91b263b5f668">
+      <name>ВСВГод1Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод1 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="91d6278e-e10a-4535-8c17-cf3de3c10d91">
+      <name>ВСВГод2Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод2 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a6221b60-b8f8-4453-8110-06e1b99d67f7">
+      <name>ВСВГод2Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод2 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fe49deb6-8201-43c4-bc2d-8afc2e7013df">
+      <name>ВСВГод2Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод2 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cf554b63-1284-4328-93ef-e43db09b3022">
+      <name>ВСВГод2Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод2 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4adc8f61-d019-413a-9bbb-aea3f1049392">
+      <name>ВСВГод3Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод3 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="25fd84fb-8284-4443-b6ec-694772bf5aab">
+      <name>ВСВГод3Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод3 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1b64a6e1-9de2-451c-b571-eea88d2461ec">
+      <name>ВСВГод3Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод3 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cbc805f6-fa1c-48a1-99c8-f459571acb75">
+      <name>ВСВГод3Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод3 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="663cf27e-af19-4ed3-9393-dc770e44e9a6">
+      <name>ВСВГод4Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод4 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5fef2669-9802-4736-9eb1-15e71a7ac325">
+      <name>ВСВГод4Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод4 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b122ac7d-76cb-42d9-b0a6-a25782b5faee">
+      <name>ВСВГод4Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод4 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="752b999c-e08d-4fba-8779-4b47110a87e2">
+      <name>ВСВГод4Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод4 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fce324e4-8a97-4749-aa39-0732fc8aafb9">
+      <name>ВСВГод5Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод5 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="097bd28d-0cfd-45c9-a74a-f480a63c2bbb">
+      <name>ВСВГод5Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод5 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="19a54f20-7b6f-4f2c-9097-1fc0b9864188">
+      <name>ВСВГод5Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод5 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="de4a4c26-0d6f-461a-ae5e-0d501d16d2d3">
+      <name>ВСВГод5Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод5 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0732481c-8835-4fe1-8b9c-1d2cdd286d24">
+      <name>ВСВГод6Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод6 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="596b3f5d-570e-4660-b129-55d299d5eaf1">
+      <name>ВСВГод6Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод6 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a7eaf56f-fb1c-4595-8d23-afadde50196f">
+      <name>ВСВГод6Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод6 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0bcbbb10-a51f-4a14-a926-06f11d762312">
+      <name>ВСВГод6Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод6 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a2dce9f1-f490-40f7-8804-d71358c54170">
+      <name>МощностьВыбросаГод1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год1</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4e69f0e8-e138-4714-bd30-3a91446efab1">
+      <name>МощностьВыбросаГод2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год2</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f35f7bb8-80e6-4d61-894e-f8fa67b680af">
+      <name>МощностьВыбросаГод3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год3</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6cd12647-9f5b-4129-8830-1ca0f49b8e89">
+      <name>МощностьВыбросаГод4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год4</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="20bec31a-6418-4531-97b1-23e21a418309">
+      <name>МощностьВыбросаГод5</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год5</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="baffc065-b631-4fa8-8320-cd2766167a97">
+      <name>МощностьВыбросаГод6</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год6</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="40019490-9b80-4584-8e8c-df5edebf182b">
+      <name>МощностьВыбросаВСВГод1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод1</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c7a8bf70-e24d-4cce-bb6a-55fd910baa3f">
+      <name>МощностьВыбросаВСВГод2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод2</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="aa953155-aac6-4e81-8174-5b68e2357cb5">
+      <name>МощностьВыбросаВСВГод3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод3</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b525f722-f4ef-4c58-a184-8be6ce73ab91">
+      <name>МощностьВыбросаВСВГод4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод4</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6e13db09-a6a2-47ea-89a1-8dd3d65c3484">
+      <name>МощностьВыбросаВСВГод5</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод5</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e3724b95-0dca-409d-a8a4-9738039cbcfe">
+      <name>МощностьВыбросаВСВГод6</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод6</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="391c1ddc-d7d9-42a4-a974-5d63675b57b6">
+      <name>РазрешенныйВыбросГод7</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год7</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7c9f6ba2-d5b0-4e16-8ce7-f05eed8f3f23">
+      <name>РазрешенныйВыбросГод8</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год8</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="839721f6-31d6-4d67-bb26-c242e0b6cc8a">
+      <name>РазрешенныйВыбросГод7Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год7 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8e39c1c4-27a3-4172-b2ce-d7691a4efefd">
+      <name>РазрешенныйВыбросГод7Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год7 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6ec974cb-63e3-4f65-826c-85c3dd576035">
+      <name>РазрешенныйВыбросГод7Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год7 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b0e642bf-1c88-4df7-9f1d-ce2dde7d2184">
+      <name>РазрешенныйВыбросГод7Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год7 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="133030a7-28fd-4057-866d-af0447af139a">
+      <name>РазрешенныйВыбросГод8Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год8 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="32cffee8-38aa-42c8-9a91-41ddbe28ed3c">
+      <name>РазрешенныйВыбросГод8Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год8 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="00dfbebc-1a1a-41bb-ad78-d88457b20841">
+      <name>РазрешенныйВыбросГод8Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год8 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a668d185-b4f2-454e-87ae-d61f13e3a754">
+      <name>РазрешенныйВыбросГод8Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год8 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c92cf9ea-1027-4761-a632-ec1cd1584bb5">
+      <name>ВСВГод7</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод7</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="11dfebfc-e347-4f4c-bada-027d4376e9ad">
+      <name>ВСВГод8</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод8</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6f0aa2a5-7157-4143-91bd-61fe211231cd">
+      <name>ВСВГод7Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод7 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b7df8c33-9a5b-4469-ad36-456592b70693">
+      <name>ВСВГод7Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод7 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="26eee612-fd9d-4f0d-9f4a-55f6280afa02">
+      <name>ВСВГод7Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод7 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e51c366c-e453-4afc-8908-dad3f8a185ff">
+      <name>ВСВГод7Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод7 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="79b0f531-71e1-4846-aedb-bd37b7809334">
+      <name>ВСВГод8Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод8 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="93f4607f-3fdb-4f5e-840a-f1e999d1274d">
+      <name>ВСВГод8Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод8 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f8b7f45e-18d5-4af4-abbd-4e18808ec6a6">
+      <name>ВСВГод8Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод8 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ac4c6cf5-14aa-4f01-b2c8-02b4c9bf8e61">
+      <name>ВСВГод8Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод8 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="601d7bb3-9ae8-4da1-8ef6-b3bfcdf5e2c0">
+      <name>МощностьВыбросаГод7</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год7</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cc270df7-ba80-4562-80af-80a1d6ba3857">
+      <name>МощностьВыбросаГод8</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год8</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="487f4ca3-3e29-4a4e-aa53-bcc2212afb6b">
+      <name>МощностьВыбросаВСВГод7</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод7</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bf9e7fde-ee97-4a85-9a95-9bd2a8185f52">
+      <name>МощностьВыбросаВСВГод8</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод8</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="58895b4a-522f-4749-b4ba-4b58bdcebdb7">
+    <producedTypes>
+      <objectType typeId="df515e95-d160-43ff-90e5-2d039024a97c" valueTypeId="0db4a789-dbd6-40e6-8fc6-592a75e25dde"/>
+      <rowType typeId="b4d56148-f35b-4633-a9b0-648afb7a5e54" valueTypeId="9a7831ae-768a-47fd-82bc-411ae878bea5"/>
+    </producedTypes>
+    <name>ИсточникиЗагрязнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источники загрязнения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a7f0f232-7a78-4b12-ab8f-9d6ee6de654b">
+      <name>ИсточникЗагрязнения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Источник загрязнения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ИсточникиЗагрязнения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="33b7dc76-30a5-4943-9456-655968b8dc99">
+      <name>ИдентификаторСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор строки</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Уникальный идентификатор для связи выпуска и загрязняющих веществ</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="264db3d7-5ccf-4157-aea2-9b84b1f1f5bd">
+    <producedTypes>
+      <objectType typeId="be78cf96-14b0-41c2-874e-c48eca2aed00" valueTypeId="abdb8cb3-1e44-442f-9d56-b36bbbdceed7"/>
+      <rowType typeId="03921f43-2c35-4320-867a-fff621d151f1" valueTypeId="79cf0963-971e-4da0-b6d2-080e6931f99b"/>
+    </producedTypes>
+    <name>ПереченьКоличествоЗВРазрешенныхКВыбросуИЗА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечень и количество ЗВ, разрешенных к выбросу по ИЗА</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2f3f82c4-4e07-4d1c-9a0e-22b5aa3a2e38">
+      <name>ЗагрязняющееВещество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Загрязняющее вещество</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЗВАтмосфера</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="35c630dd-6889-4ca5-bee2-21136fc0083a">
+      <name>РазрешенныйВыбросГод1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b223bdc7-6003-490d-ae04-da05f2adaef3">
+      <name>РазрешенныйВыбросГод2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="07c71418-bac5-4011-b421-f00301aa48a0">
+      <name>РазрешенныйВыбросГод3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="510e2330-76ba-43f8-9b68-0e51b5285602">
+      <name>РазрешенныйВыбросГод4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="60bd5779-3e9f-45d1-81b5-2f8387e275cb">
+      <name>РазрешенныйВыбросГод5</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год5</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bfaeeed0-155d-44e4-8cf0-04c854f06a71">
+      <name>РазрешенныйВыбросГод6</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год6</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="15ecf8c3-7340-480d-a778-f8ae70bbe002">
+      <name>РазрешенныйВыбросГод1Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 1 год 1 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="59816c5e-658e-4e5b-9af1-ecccf79fd58c">
+      <name>РазрешенныйВыбросГод1Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 1 год 2 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c4626f9d-6232-4376-aee5-6317b7406cde">
+      <name>РазрешенныйВыбросГод1Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 1 год 3 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="036d1239-e307-4fef-a91c-abe88b780ec0">
+      <name>РазрешенныйВыбросГод1Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 1 год 4 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="76502e2b-002e-4692-90af-f961daa50892">
+      <name>РазрешенныйВыбросГод2Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 2 год 1 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8b83f421-c034-482e-baa2-d5ccfce996c0">
+      <name>РазрешенныйВыбросГод2Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 2 год 2 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0eadd460-056f-421e-bdb5-db571c2ab3e1">
+      <name>РазрешенныйВыбросГод2Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 2 год 4 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="677371e3-b58c-43b9-86fc-941ea4c72b11">
+      <name>РазрешенныйВыбросГод3Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 3 год 1 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0b78cace-e45b-445b-9850-cae43e037154">
+      <name>РазрешенныйВыбросГод3Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 3 год 2 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1ac25909-88f9-4e1d-969b-a5e4a4881233">
+      <name>РазрешенныйВыбросГод3Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 3 год 3 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="43f5a8aa-bebd-4649-b72d-d04e80bfd7c4">
+      <name>РазрешенныйВыбросГод2Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 2 год 3 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="71cd02f0-af54-44df-8e22-2f009b54a260">
+      <name>РазрешенныйВыбросГод3Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 3 год 4 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="13665eac-be5e-4b8a-b7bb-fdf4d1f4555a">
+      <name>РазрешенныйВыбросГод4Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 4 год 1 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b1939605-0dcb-46ed-b796-013ad58fee4f">
+      <name>РазрешенныйВыбросГод4Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 4 год 2 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8c9a6875-cc42-4abf-b5a1-3b42bbaf8dad">
+      <name>РазрешенныйВыбросГод4Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 4 год 3 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b661f769-93d5-442e-97ed-a85a5c1f5c75">
+      <name>РазрешенныйВыбросГод4Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 4 год 4 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8c9869b2-6602-4af6-b0c6-1b53cbb3849a">
+      <name>РазрешенныйВыбросГод5Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 5 год 1 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="962b787d-27f3-41ab-965f-a1a7b54bd578">
+      <name>РазрешенныйВыбросГод5Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 5 год 2 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8b98c4e2-2770-4ad0-9448-0037c82c13c2">
+      <name>РазрешенныйВыбросГод5Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 5 год 3 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5e5bae13-fa5e-4356-b5a8-c348e3a654bd">
+      <name>РазрешенныйВыбросГод5Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 5 год 4 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1320d961-0606-48a5-abac-9ae692634911">
+      <name>РазрешенныйВыбросГод6Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 6 год 1 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ebd732db-123d-4154-9a40-7ddf2033f122">
+      <name>РазрешенныйВыбросГод6Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 6 год 2 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e2b31768-0d04-4fad-8d71-972c0f05ddfb">
+      <name>РазрешенныйВыбросГод6Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 6 год 3 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cd34f57c-81b4-4d02-8eb5-b157bcda4a6e">
+      <name>РазрешенныйВыбросГод6Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс ЗВ, 6 год 4 квартал</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f44deb77-0296-4fe7-82a4-d2f2c3c9cdce">
+      <name>ВСВГод1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="11f0a187-cb33-4444-8754-143accab32fc">
+      <name>ВСВГод2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d59ac2c3-b533-4885-97a9-d525001d6892">
+      <name>ВСВГод3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9275acd8-2fe7-4193-ad3e-e72c84a196c3">
+      <name>ВСВГод4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0f3e0876-7aca-4348-b321-87163f594da4">
+      <name>ВСВГод5</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод5</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="51d71809-971f-4273-bd5d-20d53edae671">
+      <name>ВСВГод6</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод6</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="072cbbab-88df-4140-acce-cdf15d659e9b">
+      <name>ВСВГод1Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод1 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="561f7724-a005-49d7-b099-b3e78f121d9b">
+      <name>ВСВГод1Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод1 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e1fc48b7-157e-40e9-8118-eaa16307fc29">
+      <name>ВСВГод1Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод1 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="083cab4e-7ca2-441b-9396-5d125f82e890">
+      <name>ВСВГод1Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод1 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a68ed19c-ba21-4ac8-b476-e5be9e71dc15">
+      <name>ВСВГод2Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод2 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="824c375b-6773-43a0-9044-3d5934af9671">
+      <name>ВСВГод2Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод2 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c0fc8935-592e-4c07-b8b1-6ffbb91894fc">
+      <name>ВСВГод2Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод2 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b493110c-573d-42f8-8015-d44fbdedb2ba">
+      <name>ВСВГод2Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод2 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0c3e1a27-b0fd-4eed-bc1b-b06382b49f48">
+      <name>ВСВГод3Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод3 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cf6f2673-4e98-40b1-8ff1-d0248d6d8dec">
+      <name>ВСВГод3Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод3 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2f254726-87a8-45fe-9e4e-ec53e9337124">
+      <name>ВСВГод3Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод3 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a8050124-2083-4e9a-825c-a66e5d8df199">
+      <name>ВСВГод3Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод3 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="25ed92f2-c03d-4716-9292-d1260ce92cf9">
+      <name>ВСВГод4Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод4 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="be8e5ad2-8bfe-4ff8-9f5c-d11b27604aa5">
+      <name>ВСВГод4Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод4 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="17406c28-52e6-4ec5-958a-81284438eaaf">
+      <name>ВСВГод4Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод4 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2f015f5c-9ae1-4ab3-bed5-314379330db2">
+      <name>ВСВГод4Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод4 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="86c299bf-7355-49f0-8070-9480b325ecc2">
+      <name>ВСВГод5Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод5 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e041ad36-2e24-45fa-a56c-d1f988338825">
+      <name>ВСВГод5Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод5 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5ba358b5-380c-4430-a67b-19aa094413f3">
+      <name>ВСВГод5Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод5 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0170f8dc-84a3-4150-93eb-4f3bb4fa8fd0">
+      <name>ВСВГод5Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод5 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a40df780-0ed3-4dbe-83fe-b800e42bdd1d">
+      <name>ВСВГод6Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод6 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="624d9135-eb32-4d31-ba13-f257ed55c5ac">
+      <name>ВСВГод6Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод6 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="645b0334-9f1b-4d4c-81bf-ccc34f35e212">
+      <name>ВСВГод6Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод6 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4c4874fd-0554-40e4-a3f0-c8a5203feeec">
+      <name>ВСВГод6Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод6 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0a71449a-9f99-4f8e-848b-5b2332f3cdd6">
+      <name>ИдентификаторИЗА</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор ИЗА</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Уникальный идентификатор строки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="8f8df217-2b07-4539-8a7b-b089009ea04a">
+      <name>МощностьВыбросаГод1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год1</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="63605aec-3a4a-4a6b-8efd-c74de3ae684d">
+      <name>МощностьВыбросаГод2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год2</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a2b8992b-602e-4a53-8a36-572a77b9b3ef">
+      <name>МощностьВыбросаГод3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год3</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1f5c5154-7e67-4f5a-9cea-f5e75b7cb2bd">
+      <name>МощностьВыбросаГод4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год4</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="17a96094-f894-4429-8f79-44edd0f0b744">
+      <name>МощностьВыбросаГод5</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год5</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2c06b5fd-d5ac-4afa-a05d-45694dc79cae">
+      <name>МощностьВыбросаГод6</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год6</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e38269c0-9c12-4436-bef2-18fd0645c78c">
+      <name>МощностьВыбросаВСВГод1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод1</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bfb87bc6-c5da-4a1d-a629-ce50b375f5a5">
+      <name>МощностьВыбросаВСВГод2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод2</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3463be94-75a5-48f9-a852-f910dc0e0660">
+      <name>МощностьВыбросаВСВГод3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод3</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c7e9def1-8c43-4329-a1f4-30feb4766a37">
+      <name>МощностьВыбросаВСВГод4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод4</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="10188d35-6d0e-43b6-b91f-5a95bb348587">
+      <name>МощностьВыбросаВСВГод5</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод5</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="55ccab03-0a03-44f0-9e19-aa29b9832062">
+      <name>МощностьВыбросаВСВГод6</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод6</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2cbf7bb4-f59d-4fb4-b827-8d105d015923">
+      <name>РазрешенныйВыбросГод7</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год7</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="61f96045-886b-4ad2-86ec-682d2ff55e60">
+      <name>РазрешенныйВыбросГод8</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год8</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f82537bb-70b6-4c62-be80-6c9cb725e3e4">
+      <name>РазрешенныйВыбросГод7Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год7 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fe9acdec-bafd-4eb7-a1f9-fd246e34422e">
+      <name>РазрешенныйВыбросГод7Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год7 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="da9ea9a4-98c7-467b-978b-6c83ff5b9ce6">
+      <name>РазрешенныйВыбросГод7Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год7 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fbfc7935-10d0-493b-a7b2-d8f6cf130530">
+      <name>РазрешенныйВыбросГод7Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год7 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8730bdef-dbcc-413f-811f-4587565f172e">
+      <name>РазрешенныйВыбросГод8Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год8 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3236f582-5ebe-46c2-898b-aca4cb898b57">
+      <name>РазрешенныйВыбросГод8Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год8 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b22d7c92-c5a5-45aa-873a-b3dd9eb50f80">
+      <name>РазрешенныйВыбросГод8Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год8 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="30a3380c-c993-4e23-80b4-0de9c39e3439">
+      <name>РазрешенныйВыбросГод8Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный выброс год8 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="25d0143f-3efa-4ed7-9914-b56baa3520ba">
+      <name>ВСВГод7</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод7</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="635f59f6-e23e-4fbc-93c5-1b3a5258abee">
+      <name>ВСВГод8</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод8</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3f84ce47-b552-404c-bea9-58755a8dc946">
+      <name>ВСВГод7Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод7 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bf855ffc-1315-40a8-a3ee-5cc4b3d647dc">
+      <name>ВСВГод7Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод7 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1aa08d51-30a3-4d08-99f6-03609ebcc813">
+      <name>ВСВГод7Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод7 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c05017a1-c9d9-447e-8462-7255b44c2975">
+      <name>ВСВГод7Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод7 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f6731a7a-cebe-4000-86a7-41c3e11bef27">
+      <name>ВСВГод8Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод8 квартал1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0d08efe3-543a-4e06-bd95-d953d32fc613">
+      <name>ВСВГод8Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод8 квартал2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="79786914-40c3-4e0c-a2c3-a71b826bbe92">
+      <name>ВСВГод8Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод8 квартал3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b8fc5ce2-377b-4b79-951c-7c8a0b41647e">
+      <name>ВСВГод8Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВСВГод8 квартал4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>21</precision>
+          <scale>14</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dfd65c28-c0ff-4457-baca-4aef2c1b9c13">
+      <name>МощностьВыбросаГод7</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год7</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="104b995c-aaa0-483a-a150-d90a48570954">
+      <name>МощностьВыбросаГод8</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса год8</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3fd42ab2-2184-47d7-8064-27ba1e14ce86">
+      <name>МощностьВыбросаВСВГод7</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод7</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2b5c840d-bb60-4a4e-b301-8123ed780190">
+      <name>МощностьВыбросаВСВГод8</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность выброса ВСВГод8</value>
+      </synonym>
+      <type>
+        <types>DefinedType.МощностьВыброса</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Допустимая мощность выброса по загрязняющему веществу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

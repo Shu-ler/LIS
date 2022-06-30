@@ -1478,6 +1478,7 @@
   <commonModules>CommonModule.ЭлектроннаяПодписьВМоделиСервисаПереопределяемый</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьВМоделиСервисаСлужебный</commonModules>
   <commonModules>CommonModule.лис_ОбщегоНазначенияСервер</commonModules>
+  <commonModules>CommonModule.ЗаполнениеДокументовСправочников</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -1862,6 +1863,7 @@
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
   <definedTypes>DefinedType.УчетныеСистемыИнтеграцииОбластейДанных</definedTypes>
   <definedTypes>DefinedType.ИсточникиПриемникиВод</definedTypes>
+  <definedTypes>DefinedType.МощностьВыброса</definedTypes>
   <commonCommands>CommonCommand.ИнформацияИПоддержка</commonCommands>
   <commonCommands>CommonCommand.АвтономнаяРаботаВМоделиСервиса</commonCommands>
   <commonCommands>CommonCommand.ВремяТекущегоСеанса</commonCommands>
@@ -2340,7 +2342,6 @@
   <catalogs>Catalog.ПапкиЭлектронныхПисем</catalogs>
   <catalogs>Catalog.ПериодичностиПоверок</catalogs>
   <catalogs>Catalog.ПодразделенияОрганизаций</catalogs>
-  <catalogs>Catalog.ПодразделенияОрганизаций1</catalogs>
   <catalogs>Catalog.ПолныеПутиКФормам</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПользовательскиеНастройкиОтчетов</catalogs>
@@ -2364,7 +2365,6 @@
   <catalogs>Catalog.РегионыРоссийскойФедерации</catalogs>
   <catalogs>Catalog.РолиИсполнителей</catalogs>
   <catalogs>Catalog.СанитарноЗащитныеЗоны</catalogs>
-  <catalogs>Catalog.СанитарноЗащитныеЗоны1</catalogs>
   <catalogs>Catalog.СелитебныеЗоны</catalogs>
   <catalogs>Catalog.СерверыДокументооборота</catalogs>
   <catalogs>Catalog.СертификатыКлючейЭлектроннойПодписиИШифрования</catalogs>
@@ -2410,17 +2410,28 @@
   <catalogs>Catalog.ЗаконодательныеИНормативныеТребования</catalogs>
   <catalogs>Catalog.ЗаконодательныеИНормативныеТребования1</catalogs>
   <documents>Document.Анкета</documents>
+  <documents>Document.АттестатАккредитации</documents>
+  <documents>Document.ВводОборудованияВЭксплуатацию</documents>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
+  <documents>Document.лис_АктОтбораПроб</documents>
+  <documents>Document.лис_ЖурналОпределенияКомпонентовВАтмосферномВоздухе</documents>
+  <documents>Document.лис_ЖурналОпределенияКомпонентовВВоде</documents>
+  <documents>Document.лис_ЖурналОпределенияКомпонентовВПочве</documents>
+  <documents>Document.лис_ЖурналОпределенияКомпонентовВПромышленныхВыбросах</documents>
+  <documents>Document.лис_ЖурналОпределенияУровняШума</documents>
+  <documents>Document.лис_ОтметкаМестонахожденияЛабораторногоОборудования</documents>
+  <documents>Document.лис_ПланОтбораПроб</documents>
   <documents>Document.НазначениеОпросов</documents>
   <documents>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</documents>
+  <documents>Document.ПравоВодоотведения</documents>
+  <documents>Document.РазрешениеНаВыбросВАтмосферу</documents>
+  <documents>Document.РазрешениеНаСбросВВоду</documents>
   <documents>Document.СогласиеНаОбработкуПерсональныхДанных</documents>
   <documents>Document.СообщениеSMS</documents>
   <documents>Document.ТелефонныйЗвонок</documents>
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
-  <documents>Document.лис_АктОтбораПроб</documents>
-  <documents>Document.лис_ПланОтбораПроб</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <enums>Enum.ВажностьПроблемыУчета</enums>
@@ -2573,6 +2584,9 @@
   <enums>Enum.ЮрФизЛицо</enums>
   <enums>Enum.ВидыПротоколаПромышленныхВыбросов</enums>
   <enums>Enum.ОбластиДействияТребований</enums>
+  <enums>Enum.ПериодичностьРазрешительнойДокументации</enums>
+  <enums>Enum.ВидыПраваПотребленияОтведенияИспользованияВоды</enums>
+  <enums>Enum.ПериодыПроверкиЭкоаналитическогоКонтроля</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>
@@ -2901,7 +2915,22 @@
   <informationRegisters>InformationRegister.ХранилищеСертификатов</informationRegisters>
   <informationRegisters>InformationRegister.ЭлектронныеПодписи</informationRegisters>
   <informationRegisters>InformationRegister.лис_ОтборПроб</informationRegisters>
+  <informationRegisters>InformationRegister.лис_ЖурналОпределенияКомпонентовВВоде</informationRegisters>
+  <informationRegisters>InformationRegister.лис_ПриложениеКАттестатуАккредитации</informationRegisters>
+  <informationRegisters>InformationRegister.лис_ЖурналОпределенияКомпонентовВАтмосферномВоздухе</informationRegisters>
+  <informationRegisters>InformationRegister.лис_ЖурналОпределенияКомпонентовВПочве</informationRegisters>
+  <informationRegisters>InformationRegister.лис_ЖурналОпределенияКомпонентовВПромышленныхВыбросах</informationRegisters>
+  <informationRegisters>InformationRegister.лис_ЖурналОпределенияУровняШума</informationRegisters>
+  <informationRegisters>InformationRegister.лис_МестонахождениеЛабораторногоОборудования</informationRegisters>
+  <informationRegisters>InformationRegister.НормативныеОбъемыСбросовВВодныеОбъекты</informationRegisters>
+  <informationRegisters>InformationRegister.КонцентрацииЗВВМестахСбросаСточныхВод</informationRegisters>
+  <informationRegisters>InformationRegister.НормативнаяКонцентрацияЗагрязняющихВеществПоВыпускамВВоду</informationRegisters>
+  <informationRegisters>InformationRegister.РазрешенныеКСбросуВВодныеОбъектыЗагрязняющиеВещества</informationRegisters>
+  <informationRegisters>InformationRegister.ДопустимыеОбъемыВыбросовЗагрязняющихВеществВАтмосферу</informationRegisters>
+  <informationRegisters>InformationRegister.ЛабораторноеОборудованиеВЭксплуатации</informationRegisters>
+  <informationRegisters>InformationRegister.ЭффективностьПГОУ</informationRegisters>
   <accumulationRegisters>AccumulationRegister.лис_ОтобранныеПробы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.лис_ИмуществоЛабораторий</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>

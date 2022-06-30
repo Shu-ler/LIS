@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97cb38fc-45f2-465f-b878-137e156fd514">
+  <producedTypes>
+    <selectionType typeId="6b19def0-8fa2-46c8-a453-5dc5624590c7" valueTypeId="928052ee-8d0c-4d8c-8027-b7e3a0ddf302"/>
+    <listType typeId="b418f3f5-e392-4117-b993-fb63c83e85fd" valueTypeId="70e43816-ef75-4cf5-9adf-2c4885b5538f"/>
+    <managerType typeId="7a1d00d7-9e69-44c1-8e45-88d2e4436c93" valueTypeId="860f552a-a2e2-4218-9069-c1632bb7a2d2"/>
+    <recordSetType typeId="11b93510-47fc-4b86-b58c-b24b04c58990" valueTypeId="ff1ecccf-22b5-4bb6-8d96-cb62dcfb00f5"/>
+    <recordKeyType typeId="1286ad3e-f43a-410c-8ee1-b05598d98479" valueTypeId="ef5eae09-c98d-4a30-a27a-64acdceab9c3"/>
+    <recordType typeId="b8bfbbac-9900-42f0-a56a-920246763a88" valueTypeId="75a8b694-2fa0-4280-b790-dbed23ddee1c"/>
+    <recordManagerType typeId="56687f55-33f7-4bdf-a67f-3faaccbb5180" valueTypeId="e60c4407-23be-4ba1-b1de-8b634a607b66"/>
+  </producedTypes>
+  <name>НормативныеОбъемыСбросовВВодныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативные объемы сбросов в водные объекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b756db38-973c-4538-841e-9326f7e7c11e">
+    <name>Объем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем (тыс. куб. метров)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Допустимый объем сброса воды</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5a8c612c-f238-40a5-804d-512f274936c7">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, для которой регистрируется допустимый объем сброса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3a8bd912-5fe3-45a2-8c33-d39da2de9209">
+    <name>ФункциональнаяЗона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функциональная зона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Функциональная зона</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bde97b86-3ca3-41df-9193-9ec04a174371">
+    <name>ПроизводственнаяПлощадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственная площадка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПроизводственныеПлощадки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Производственная площадка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="577a9954-7ba9-4c3b-951e-2b90b99c6e62">
+    <name>ВодныйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемник вод</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ИсточникиПриемникиВод</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Водный объект, для которой регистрируется допустимый объем сброса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e6c21194-fdb3-4425-95f2-62fa936b3a6f">
+    <name>ВыпускВВоду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выпуск в воду</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВыпускиВВоду</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выпуск в воду для которого регистрируется допустимый объем сброса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a6cda384-566f-406a-8ab6-9739943b6b3a">
+    <name>КатегорияКачестваВоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория качества воды</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииКачестваВоды</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Категория качества выпускаемой воды</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="859f658f-d5d0-4225-b34e-fefc08e60091">
+    <name>ДатаОкончанияДействияНорматива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания действия норматива</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания действия норматива</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

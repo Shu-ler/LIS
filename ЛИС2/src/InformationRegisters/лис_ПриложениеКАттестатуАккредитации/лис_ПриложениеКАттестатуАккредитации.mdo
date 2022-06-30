@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89ae85fa-3e84-4fbf-9c05-b64e1c94c641">
+  <producedTypes>
+    <selectionType typeId="ad4c35f9-1d44-4dee-beb1-63a2794bd679" valueTypeId="3f91f408-0394-4bd1-9c0b-a02600d6168b"/>
+    <listType typeId="37a716d4-edc2-4f28-b26a-cb2c8943f87b" valueTypeId="9fda434c-dad3-4023-9d95-32494562ccc3"/>
+    <managerType typeId="acf6e5be-d02f-439b-a918-5027536dab21" valueTypeId="87db0b1c-7a99-4739-86c3-a75797042c59"/>
+    <recordSetType typeId="a220b43f-38b4-4146-96d6-dc290330283f" valueTypeId="900249da-d5a1-4add-a412-4792241ff9be"/>
+    <recordKeyType typeId="63e5a9f2-6cec-4ab7-b53b-91e670b82f29" valueTypeId="0bce03fd-3ee2-46bc-9cc5-2186d131d70c"/>
+    <recordType typeId="790806a3-af4d-4a8d-8399-77aa18522661" valueTypeId="f0d7029a-c243-44bf-84f7-af620d8ed14b"/>
+    <recordManagerType typeId="184dee16-f8ad-4229-a6c8-d31005425138" valueTypeId="b24d0e64-2977-469c-8cd4-2d2a6760ae02"/>
+  </producedTypes>
+  <name>лис_ПриложениеКАттестатуАккредитации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приложение к аттестату аккредитации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="eb978599-8949-41d1-b2d1-9a4da5e47aac">
+    <name>ДиапазонОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон от</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4404799d-58f2-42d9-89f1-f044d50c8c7f">
+    <name>ДиапазонДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон до</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="46e14769-d6c9-4e3b-9870-65f7043b2df2">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОКЕИ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a96d15b8-7441-44eb-8e44-0b4474790951">
+    <name>РазделУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел учета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РазделыУчетаЭкоаналитическогоКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="96a358d1-1030-4ffc-a00e-cd6aa32ac24e">
+    <name>Лаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лаборатория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.лис_Лаборатории</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="85c604fa-7e95-4285-823b-d86dd3493bc2">
+    <name>ЗагрязняющееВещество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрязняющее вещество</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВеществаИПараметрыВАтмосферныхОсадках</types>
+      <types>CatalogRef.КонтролируемыеПараметрыВПочвеДонныхОтложениях</types>
+      <types>CatalogRef.ЗВВода</types>
+      <types>CatalogRef.КонтролируемыеПоказателиВВоде</types>
+      <types>CatalogRef.ФакторыФизическогоВоздействия</types>
+      <types>CatalogRef.ЗВАтмосфера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="770f02f2-a521-4e85-8702-f0c8faed0b1d">
+    <name>Методика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Методика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МетодикиОпределенияИзмеренияАнализа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

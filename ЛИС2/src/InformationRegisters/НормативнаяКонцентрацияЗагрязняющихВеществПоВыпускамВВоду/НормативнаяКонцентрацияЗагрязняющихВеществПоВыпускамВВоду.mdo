@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0eeb767-56c7-432e-addc-8e9017487142">
+  <producedTypes>
+    <selectionType typeId="dbb0e798-e85f-48d8-9313-abdb14de21ca" valueTypeId="0b59ac38-6eda-4ec9-833a-48d3b27f118c"/>
+    <listType typeId="424b13a5-a331-4cc4-856d-d01ce91801c8" valueTypeId="bc937445-640e-4e66-b053-4de990e63ecb"/>
+    <managerType typeId="6fca8b10-9add-4f0a-9723-d62220e8df2b" valueTypeId="ebd3dfe7-f1f9-4f56-8216-831ea4985b64"/>
+    <recordSetType typeId="e004a511-42c6-432b-93df-7df1d4f2ae04" valueTypeId="6855ba08-7fd5-450e-9a82-9355bf5cd144"/>
+    <recordKeyType typeId="3ff3e63b-dba1-4434-bed0-f8d3c8d75209" valueTypeId="e72aa527-1bc8-4d9e-96ce-1d931eefc5e4"/>
+    <recordType typeId="0c7fe12b-055b-4c78-92aa-33c3b9ea307e" valueTypeId="a588bd43-52cc-46f5-8263-621252e0cc15"/>
+    <recordManagerType typeId="04c2a209-81e6-4029-ae84-9e9afe9d855c" valueTypeId="4656fae3-df1e-4ecf-9d91-b0761f216150"/>
+  </producedTypes>
+  <name>НормативнаяКонцентрацияЗагрязняющихВеществПоВыпускамВВоду</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативная концентрация загрязняющих веществ по выпускам в воду</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c4826da5-f022-417f-8493-4261c25aff63">
+    <name>КонцентрацияНорматив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нормативно-допустимая концентрация, мг/дм.куб</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>23</precision>
+        <scale>11</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Концентрация загрязняющего вещества</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fbeaf015-b392-466e-a76b-f78c6eee7fd1">
+    <name>КонцентрацияЛимит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Концентрация в пределах лимита, мг/дм.куб</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>23</precision>
+        <scale>11</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d5eacf01-bdf3-4d12-872a-7461f6c30de8">
+    <name>ДатаОкончанияДействияНорматива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания действия норматива</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания действия норматива</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bf7370ad-4b4e-4598-b8a7-9e82593044b5">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, для которой регистрируется допустимый объем сброса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a48b2ebb-8a3a-4fe4-a25f-5beb745b0b2d">
+    <name>ПодразделениеОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение организации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПодразделенияОрганизаций</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подразделение организации, для которого регистрируется допустимый объем сброса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0f8a66b8-350e-4a5b-8a07-77e8b136f0aa">
+    <name>ФункциональнаяЗона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функциональная зона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Функциональная зона</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c1c06a34-faa7-416e-8431-4dbd92ff7480">
+    <name>ПроизводственнаяПлощадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственная площадка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПроизводственныеПлощадки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Производственная площадка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="db584546-2dea-45af-8ce3-526a2326a28b">
+    <name>ВодныйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водный объект</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ИсточникиПриемникиВод</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Водный объект, для которого регистрируется концентрация загрязняющих веществ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="90adca77-0834-46de-9d13-7dc26e3baa0e">
+    <name>ВыпускВВоду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выпуск в воду</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВыпускиВВоду</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выпуск в воду для которого регистрируется концентрация загрязняющих веществ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d0fd5c81-7d15-47d0-b4d4-707ccf9e9427">
+    <name>ЗагрязняющееВещество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрязняющее вещество</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗВВода</types>
+      <types>CatalogRef.КонтролируемыеПоказателиВВоде</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Загрязняющее вещество, для которого регистрируется концентрация</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

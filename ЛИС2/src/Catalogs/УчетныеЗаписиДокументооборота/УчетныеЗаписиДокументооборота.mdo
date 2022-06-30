@@ -112,8 +112,6 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.УчетныеЗаписиДокументооборота.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.УчетныеЗаписиДокументооборота.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.УчетныеЗаписиДокументооборота.Form.ФормаСписка</defaultChoiceForm>
   <attributes uuid="a3806f4b-ceef-4638-a07d-3e6a2d06505b">
     <name>ИмяПользователяPOP3</name>
     <synonym>
@@ -922,15 +920,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="ed8ebf1b-e7a0-4c16-a4e0-06d73b47ffde">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="d5be7c76-f1e8-4054-bb7c-bae14e78a8ad">
     <name>ФормаЭлемента</name>
     <synonym>

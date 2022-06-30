@@ -1952,11 +1952,6 @@
         <height>3</height>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
-        <picture xsi:type="form:FormPicture">
-          <transparentPixel>
-            <y>30</y>
-          </transparentPixel>
-        </picture>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -2838,6 +2833,7 @@
     <use>
       <common>true</common>
     </use>
+    <shortcut>Ctrl+S</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПроверитьПараметрыДоступа</name>
@@ -2888,21 +2884,7 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
-    <navigationPanel>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <index>1</index>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-    </navigationPanel>
+    <navigationPanel/>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo"/>

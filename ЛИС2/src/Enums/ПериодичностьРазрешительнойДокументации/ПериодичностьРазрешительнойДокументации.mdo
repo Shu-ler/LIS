@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a1bc75a-1770-4ce0-84d0-cce2783bc56e">
+  <producedTypes>
+    <refType typeId="a42a7447-d033-48c8-8b69-949620b96376" valueTypeId="313c3a83-a1c0-4ecb-981e-3e6327e8e084"/>
+    <listType typeId="843d9204-9555-41ae-b20a-773257c2c65a" valueTypeId="a37a76cd-642c-4ee4-8f15-e2782213f9f4"/>
+    <managerType typeId="71b9e6ae-4d33-427e-bf31-ef4e0875c50c" valueTypeId="4f35914a-97e0-4eab-9cdc-d4e3cdc3a4fc"/>
+  </producedTypes>
+  <name>ПериодичностьРазрешительнойДокументации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность разрешительной документации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="86ac58ed-9e20-451b-925e-fece839353b4">
+    <name>ПоГодам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0f59518-ac30-40a9-b18f-1fb16e490b6f">
+    <name>Поквартально</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартал</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

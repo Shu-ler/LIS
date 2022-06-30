@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dab4c9c-362b-4662-a8a0-b27e2a6c17f2">
+  <producedTypes>
+    <containerType typeId="80cfc126-f218-46e0-97ba-2f29d19f61a1" valueTypeId="676b9d9a-edbf-4dae-a705-495a1c6ee6cc"/>
+  </producedTypes>
+  <name>МощностьВыброса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мощность выброса, г/с</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>20</precision>
+      <scale>13</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

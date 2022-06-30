@@ -1,0 +1,1886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8de12e9-dee3-4d87-9d0f-ec8e343722e1">
+  <producedTypes>
+    <objectType typeId="1dcb47da-858b-4cfb-ad01-b5018d7d7279" valueTypeId="278a5fa9-84e7-4f21-ba52-d73e54175d6e"/>
+    <refType typeId="37a6e650-aaa4-4b90-8ca7-b2aacd159a6b" valueTypeId="cef956dd-2f22-4147-ab0b-a464357e9979"/>
+    <selectionType typeId="949808eb-75b3-452f-9656-5ddde058a8c9" valueTypeId="7f3a9b16-5973-405f-9a76-80febdb6beea"/>
+    <listType typeId="8daea35e-affb-4e54-94bb-34bd8ca445ab" valueTypeId="61f26e2b-e10d-4427-9c4d-755bc46cb797"/>
+    <managerType typeId="80c90c05-2e51-4b0b-b075-ffd1e6371c3f" valueTypeId="404a1ff7-d894-425e-82ca-d043bd215644"/>
+  </producedTypes>
+  <name>РазрешениеНаСбросВВоду</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешение на сброс в водные объекты</value>
+  </synonym>
+  <comment>В документе содержатся сведения о выданных организации разрешениях на выброс загрязняющих веществ в воду.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РазрешениеНаСбросВВоду.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Разрешения на сброс в водные объекты</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РазрешениеНаСбросВВоду.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.РазрешениеНаСбросВВоду.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.РазрешениеНаСбросВВоду.Form.ФормаВыбора</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>InformationRegister.НормативныеОбъемыСбросовВВодныеОбъекты</registerRecords>
+  <registerRecords>InformationRegister.РазрешенныеКСбросуВВодныеОбъектыЗагрязняющиеВещества</registerRecords>
+  <attributes uuid="10e7f458-0f97-4dc2-9d71-a2f5f7a55462">
+    <name>РегистрационныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="839fdbae-6e9c-4684-bf56-362b48addb5c">
+    <name>НадзорныйОрган</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надзорный орган, выдавший документ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b7b4f2d-ff67-48dd-ba49-bbbbf62e45da">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, которой было выдано разрешение на сброс в воду</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80c23cb5-9f4b-4587-aa84-c136848a3b42">
+    <name>ПроизводственнаяПлощадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственная площадка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПроизводственныеПлощадки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Производственная площадка, по которой выдано разрешение на сброс в воду</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="56197ece-16b0-42c2-8da5-2fbadea43ff4">
+    <name>ДатаВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выдачи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="895496d3-3273-4e42-a8bf-51f0a9bcde87">
+    <name>ПериодичностьРазрешения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность разрешения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериодичностьРазрешительнойДокументации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выдано ли разрешение на выброс по годам или поквартально</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="22e5427c-5527-4923-82d1-53bb3bd7d8c2">
+    <name>ОтображатьВСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать ВСС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="16a097ef-b16c-49f0-b51b-d7c733885a51">
+    <name>НаименованиеРазрешительногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование разрешительного документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1ffca30c-5c5e-4415-b9d9-d9de9eb47bcb">
+    <name>ОписаниеРазрешительногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание разрешительного документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="70eba877-04b0-469b-9dae-6d086622b144">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий по текущему выбросу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bace58ea-c0bb-47ac-bc60-71138dcfe3b4">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Решение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПравоВодоотведения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ, на основании которого выдано разрешение на сброс.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Организация</name>
+      <field>Document.РазрешениеНаСбросВВоду.Attribute.Организация</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Отбор.ПроизводственнаяПлощадка</name>
+      <field>Document.РазрешениеНаСбросВВоду.Attribute.ПроизводственнаяПлощадка</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.Проведен</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ca2aa48d-0833-4c27-920c-deb20c80b0f1">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bff0216a-5002-4e67-8700-9e5a43ccd352">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2dba9c97-1693-4607-b2dc-b24d8cef140e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="522581be-9d56-46d4-9fa6-b57afb998831">
+    <producedTypes>
+      <objectType typeId="b1363670-ae8e-499f-b464-753358d8c1d0" valueTypeId="68e44dea-0243-4f49-9420-f5ff2a133785"/>
+      <rowType typeId="a6626684-6234-4c47-8f73-4112c24cfe13" valueTypeId="17db31e0-36a7-47a2-ae62-729e7aaa4391"/>
+    </producedTypes>
+    <name>ТаблицаВыпусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица выпусков</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="27e6a91d-2635-403d-9907-53f2f4e1fe0f">
+      <name>Выпуск</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выпуск</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВыпускиВВоду</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Выпуск, по которому выдано разрешение на сброс в воду</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="42ef0e5a-d8d8-43a1-b5ba-84eee5562f6e">
+      <name>УтвержденныйРасходСточныхВод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Утвержденный расход сточных и/или дренажных вод, м3/час</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>9</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Общий утвержденный расход сточных и/или дренажных вод по выпуску в соответствии с разрешением на сброс</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="96b77999-d357-4b36-949f-0e5931f72b36">
+      <name>ИдентификаторСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор строки</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Уникальный идентификатор для связи выпуска и загрязняющих веществ</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="2e0522ec-2f04-4da2-b031-82116b6b9979">
+      <name>НачалоДействияРазрешения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начало действия разрешения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата начала действия разрешения на сброс по выпуску</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="07702655-a1d8-4529-aa3f-e58e6797c171">
+      <name>КонецДействияРазрешения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Окончание действия разрешения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата окончания действия разрешения на сброс по выпуску</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2bdffc0d-fd16-4e3b-b65d-4dbdce27e31a">
+      <name>УтвержденныйРасходТысМГод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Утвержденный расход, тыс.м3/год</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>9</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="94e4217c-6f48-42cd-9502-f98ff9d49f6d">
+    <producedTypes>
+      <objectType typeId="533a2ef4-8572-4e89-ac1f-980690e6506b" valueTypeId="b2ed5b5b-9d59-4cd2-81e9-15736a2a6de1"/>
+      <rowType typeId="e7033f74-c1df-4f04-bb26-01df4de42cee" valueTypeId="82083ce0-6b9e-4254-af95-00115e051ffd"/>
+    </producedTypes>
+    <name>ТаблицаЗВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица загрязняющих веществ, на которые выдано разрешение </value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="56429951-37ca-4aa5-9755-fcf50987cd0b">
+      <name>ЗагрязняющееВещество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Загрязняющее вещество</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЗВВода</types>
+        <types>CatalogRef.КонтролируемыеПоказателиВВоде</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Загрязняющее вещество, на которое действует разрешение на сброс по выпуску</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="14d2fa07-f375-4931-b733-cedd5ae1a41f">
+      <name>РазрешенныйСбросНормативГод1Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 1 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fbfba531-c8d0-461f-8a26-a87047f4f446">
+      <name>РазрешенныйСбросНормативГод1Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 2 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9d056397-9e6d-480c-bb24-fa481f2b0fdd">
+      <name>РазрешенныйСбросНормативГод1Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 3 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="01460bbe-1470-433f-9e3b-1dfd344f71b1">
+      <name>РазрешенныйСбросНормативГод1Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 4 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="46e22442-d8fa-4399-b152-451472754baa">
+      <name>РазрешенныйСбросЛимитГод1Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 1 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b6190cca-9d4f-438a-9566-4e07f3ad8897">
+      <name>РазрешенныйСбросЛимитГод1Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 2 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f60bcb67-dd06-4117-84fb-ed7cfc2161af">
+      <name>РазрешенныйСбросЛимитГод1Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 3 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="14029727-5881-4eeb-ae29-049e91dee0ce">
+      <name>РазрешенныйСбросЛимитГод1Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 4 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="745a4c87-0851-4a42-ad0b-fdab8dd84bf2">
+      <name>РазрешенныйСбросНормативГод2Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 1 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7429e73b-32af-4fb6-adab-a7adeb3ef193">
+      <name>РазрешенныйСбросНормативГод2Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 2 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c1ec79c4-71ab-45b7-9d53-d946b4d09fcc">
+      <name>РазрешенныйСбросНормативГод2Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 3 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="431dec77-9507-4662-b108-8b8b26337855">
+      <name>РазрешенныйСбросНормативГод2Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 4 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f0a59903-6815-4abc-9010-137d8e4cdfc0">
+      <name>РазрешенныйСбросЛимитГод2Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 1 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="954c5aa5-cd62-4d7a-93db-119e0a5a7801">
+      <name>РазрешенныйСбросЛимитГод2Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 2 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3c9e9d0d-865c-4306-ad3f-21bb7f6ac264">
+      <name>РазрешенныйСбросЛимитГод2Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 3 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ccac6f22-344d-4de9-8031-eb8d5a19e466">
+      <name>РазрешенныйСбросЛимитГод2Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 4 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="64e7a070-6d1a-4904-ba67-83c7ef8a19d4">
+      <name>РазрешенныйСбросНормативГод3Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 1 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="822d4056-4f7c-4e6f-a2f3-e453df73525d">
+      <name>РазрешенныйСбросНормативГод3Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 2 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ddf96132-1943-4019-a25a-780980e010c1">
+      <name>РазрешенныйСбросНормативГод3Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 3 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="25233e01-230e-4d15-8d2c-2d285dd4ab7c">
+      <name>РазрешенныйСбросНормативГод3Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 4 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3c43f911-e811-43ff-9c1b-8d038ef3e066">
+      <name>РазрешенныйСбросЛимитГод3Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 1 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c351992e-dc21-4328-b196-02ba514c6074">
+      <name>РазрешенныйСбросЛимитГод3Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 2 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8b803923-a3a1-412b-b474-683500c3e22b">
+      <name>РазрешенныйСбросЛимитГод3Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 3 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="028c0162-e043-459b-8973-0d6e81c66126">
+      <name>РазрешенныйСбросЛимитГод3Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 4 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6fd0deac-ddc9-4e9c-ba0e-d7325987af0d">
+      <name>РазрешенныйСбросНормативГод4Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 1 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="de1b8aaf-bcee-4e65-a37e-52a6bf2c56f8">
+      <name>РазрешенныйСбросНормативГод4Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива 2 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="370ec6e8-c7f3-40a7-9276-045652d203c4">
+      <name>РазрешенныйСбросНормативГод4Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 3 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f748ea1e-2762-445d-86ef-a70edc9eb0c2">
+      <name>РазрешенныйСбросНормативГод4Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 4 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4a5207f-5bd1-4509-9475-3a8eef24c633">
+      <name>РазрешенныйСбросЛимитГод4Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 1 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d40d9d21-e8af-4210-a629-28d11f078a59">
+      <name>РазрешенныйСбросЛимитГод4Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 2 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a17f8192-af67-4a69-b950-4a2637e92673">
+      <name>РазрешенныйСбросЛимитГод4Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 3 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="817b22f1-a689-4778-a792-bf2ce10a6f05">
+      <name>РазрешенныйСбросЛимитГод4Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 4 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bd9b5498-ab5f-405b-8a97-66e3dc96c636">
+      <name>РазрешенныйСбросНормативГод5Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 1 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b9762d22-1fd4-4520-a61d-4155be376b92">
+      <name>РазрешенныйСбросНормативГод5Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 2 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4e41095b-3265-4551-9916-ca6553c0c1b5">
+      <name>РазрешенныйСбросНормативГод5Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 3 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bd5a7755-7b90-46ef-b6ac-247537ce7a3b">
+      <name>РазрешенныйСбросНормативГод5Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 4 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3b96c992-18c1-4867-8a2d-af8e2dbd4aad">
+      <name>РазрешенныйСбросЛимитГод5Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 1 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0c35be87-9b18-4dba-8498-f2e157d71e21">
+      <name>РазрешенныйСбросЛимитГод5Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 2 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c6aabf16-de46-4a64-875f-264d80e802e3">
+      <name>РазрешенныйСбросЛимитГод5Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 3 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f10e7714-8008-4007-8718-1b1da994085d">
+      <name>РазрешенныйСбросЛимитГод5Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 4 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c37b967e-203f-4771-9000-2a14bf77008a">
+      <name>РазрешенныйСбросНормативГод6Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 1 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2af53ae8-d324-48ab-b6dd-33eb521364e7">
+      <name>РазрешенныйСбросНормативГод6Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 2 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2cacc9a1-8e19-4e74-b45b-080fe8fc2479">
+      <name>РазрешенныйСбросНормативГод6Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 3 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9fd49273-fd15-4f31-8a34-406c5aebf35f">
+      <name>РазрешенныйСбросНормативГод6Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 4 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bf9b9702-67be-4f64-ad67-30d43c1e0daf">
+      <name>РазрешенныйСбросЛимитГод6Квартал1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 1 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0dd7598c-92c7-401c-b34d-eb56f525b099">
+      <name>РазрешенныйСбросЛимитГод6Квартал2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 2 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="083d2531-ff42-4b87-aef5-57b6af5d4cfa">
+      <name>РазрешенныйСбросЛимитГод6Квартал3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 3 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d61133f5-afb0-4fcb-ac0a-aca3a3a909b3">
+      <name>РазрешенныйСбросЛимитГод6Квартал4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 4 квартал, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c94e3358-cd21-4f5a-9e12-9e3eb9670f88">
+      <name>ИдентификаторВыпуска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор выпуска</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Уникальный идентификатор строки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="bfdca9d1-48ea-4ff8-82a4-092a38140ee5">
+      <name>СодержаниеЗВ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Нормативно-допустимая концентрация, мг/дм3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5aa3d89a-5fad-4288-a98a-846c31cd8bd2">
+      <name>РазрешенныйСбросНормативГод1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 1 год</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8067f8d1-e1cc-4f91-9904-f85e27c1e6b9">
+      <name>РазрешенныйСбросНормативГод2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 2 год</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1f847db7-3096-42d3-b85d-e7b397088763">
+      <name>РазрешенныйСбросНормативГод3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 3 год</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cb615c3a-7b86-4bd6-aa9c-c7ffb4a3f53c">
+      <name>РазрешенныйСбросНормативГод4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 4 год</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="40a867b3-7e26-4ad7-a15d-875773a706e1">
+      <name>РазрешенныйСбросНормативГод5</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 5 год</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="da4c4c92-8de3-49ef-b0b2-324c87c19647">
+      <name>РазрешенныйСбросНормативГод6</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах норматива за 6 год</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах норматива сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7afd2611-3513-42a7-a14c-6a53f8f166d8">
+      <name>РазрешенныйСбросЛимитГод1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 1 год, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fdec1274-f047-4a7c-a994-85efd87b60a2">
+      <name>РазрешенныйСбросЛимитГод2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 2 год, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="db51eabe-5024-4aea-b391-0b780c2f79ae">
+      <name>РазрешенныйСбросЛимитГод3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 3 год, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="37d71118-cb18-4011-b8b3-54f2ffc1a1b8">
+      <name>РазрешенныйСбросЛимитГод4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 4 год, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2efb2016-de08-45c2-ad79-fbc63eefe3a9">
+      <name>РазрешенныйСбросЛимитГод5</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 5 год, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9c5a760e-fdb5-4626-93af-5e2ac31629e6">
+      <name>РазрешенныйСбросЛимитГод6</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешенный сброс в пределах лимита за 6 год, т</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество разрешенного в пределах лимита сброса по загрязняющему веществу по выпуску за квартал</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fc223fd1-747e-4ad4-b759-1cc6b4559186">
+      <name>КонцентрацияЛимит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Установленная лимитом концентрация, мг/дм3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>23</precision>
+          <scale>11</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

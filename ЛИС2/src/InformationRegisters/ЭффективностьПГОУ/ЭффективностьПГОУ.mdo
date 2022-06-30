@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="695b60ee-17e7-4f51-8777-767f95688046">
+  <producedTypes>
+    <selectionType typeId="e3ea30f4-418c-41b0-a4f4-f92c5d333c4a" valueTypeId="3ea04044-678f-4839-aaab-7112ce6c90a7"/>
+    <listType typeId="9f81e3a8-c585-4acf-81fd-5fa0c3304b3c" valueTypeId="552596d5-2890-4ef8-8d52-39dd85a53b6c"/>
+    <managerType typeId="d09defb7-f3ca-411d-89ee-bb191bb01e0d" valueTypeId="4874c2d5-b056-4627-a892-987097b749e1"/>
+    <recordSetType typeId="ac428313-7d1d-4496-a697-25e6352ce861" valueTypeId="54425b7c-500b-47c5-b178-ac6de3f1c1d6"/>
+    <recordKeyType typeId="8ed1fb21-e9f9-4368-9d33-7005c1aea907" valueTypeId="2ec581c9-89eb-4ffd-968d-3e18cb227eaf"/>
+    <recordType typeId="8d847831-ed93-4767-9090-58221d74f5a3" valueTypeId="3304cfe4-d32a-403d-a06c-3e96fd8a90d4"/>
+    <recordManagerType typeId="9b90b1d7-810b-4863-8c27-846adb695835" valueTypeId="e43b7254-bfcc-4c53-9339-2a905aa0f95b"/>
+  </producedTypes>
+  <name>ЭффективностьПГОУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эффективность ПГОУ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c5081589-c282-4731-a484-86948e1a07f0">
+    <name>Эффективность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эффективность, %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="35ed2a6e-8b27-452b-85bd-ef149b99811c">
+    <name>ПылегазоочистнаяУстановка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пылегазоочистная установка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГазопылевыеУстановки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

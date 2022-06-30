@@ -1089,7 +1089,6 @@
     </synonym>
     <type>
       <types>CatalogRef.УчетныеЗаписиДокументооборота</types>
-      <types>CatalogRef.УдалитьУчетныеЗаписиДокументооборота</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
