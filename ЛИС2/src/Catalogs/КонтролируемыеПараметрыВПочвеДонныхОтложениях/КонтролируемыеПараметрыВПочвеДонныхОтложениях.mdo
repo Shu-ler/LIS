@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16c91828-c467-4a0f-bd91-df889ff17267">
+  <producedTypes>
+    <objectType typeId="ef8c4c11-9dc6-438d-8f6e-99e7e2e205dd" valueTypeId="4b6d3a75-db25-45a3-b6d0-e433657c2923"/>
+    <refType typeId="f0b29909-079d-4310-9845-27bab1706752" valueTypeId="21fd710e-4ad4-45a7-8755-3fea626c51bf"/>
+    <selectionType typeId="3730af34-f69e-429e-b54a-7d8bed12270b" valueTypeId="5a5b6673-6333-4900-b2be-bd0232fb0382"/>
+    <listType typeId="595c8eaa-f5f2-4665-8f80-e250501108c2" valueTypeId="ea108c61-a4c5-4966-a7f4-b920b8d7ccc4"/>
+    <managerType typeId="7c874f2e-7918-4381-8f2d-95d810d3e8f2" valueTypeId="d896fb31-8ad5-4a2c-ac7b-8257cccb253f"/>
+  </producedTypes>
+  <name>КонтролируемыеПараметрыВПочвеДонныхОтложениях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контролируемые параметры в почве/донных отложениях</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КонтролируемыеПараметрыВПочвеДонныхОтложениях.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КонтролируемыеПараметрыВПочвеДонныхОтложениях.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контролируемые параметры в почве/донных отложениях</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Контролируемые параметры в почве/донных отложениях</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Справочник предназначен для ведения данных о контролируемых веществах в почве и донных отложениях</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9dba6601-d5fb-4f41-9192-2525d671ee40">
+      <name>АПАВ</name>
+      <description>АПАВ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="117d8da2-1e51-470c-9986-9d0b2c0dacfa">
+      <name>Барий</name>
+      <description>Барий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="97dc0856-f3d6-48a8-9cd5-cea5a288ea31">
+      <name>БензаПирен</name>
+      <description>Бенз(а)-пирен</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="84d84870-3e34-4498-b1bd-167fe0368bc2">
+      <name>ЖелезоОбщееВаловая</name>
+      <description>Железо общее (валовая форма)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="d87eb1e7-f7ae-4883-be36-24342548a158">
+      <name>КадмийВаловая</name>
+      <description>Кадмий (валовая форма)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
+    <items id="3070e001-c9c3-4bd4-abc8-d0061788a348">
+      <name>МарганецВаловая</name>
+      <description>Марганец (валовая форма)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="888e33d6-4179-4dbe-94a5-b3eb55497054">
+      <name>МедьВаловая</name>
+      <description>Медь (валовая форма)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="f3dcc966-53a9-4b67-bd07-ffc02ab4effd">
+      <name>Мышьяк</name>
+      <description>Мышьяк</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="aa5d39d7-422b-4d14-af1b-29633d476ff4">
+      <name>Нефтепродукты</name>
+      <description>Нефтепродукты</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="b4155a3c-d5e7-461f-b418-7f9407aa49d7">
+      <name>НикельВаловая</name>
+      <description>Никель (валовая форма)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000021</value>
+      </code>
+    </items>
+    <items id="2e4ce161-a43c-48c6-aa98-6d833d47e216">
+      <name>НитратИон</name>
+      <description>Нитрат-ион</description>
+      <code xsi:type="core:StringValue">
+        <value>000000022</value>
+      </code>
+    </items>
+    <items id="758913cb-dd17-45ad-b810-40f0e05f91c0">
+      <name>ОбщееСодержаниеАзота</name>
+      <description>Общее содержание азота</description>
+      <code xsi:type="core:StringValue">
+        <value>000000023</value>
+      </code>
+    </items>
+    <items id="981906c8-17f8-4e29-840d-d1d9ead457e6">
+      <name>РтутьВаловая</name>
+      <description>Ртуть (валовая форма)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000024</value>
+      </code>
+    </items>
+    <items id="2bbbe7a1-df20-4275-9a1b-6484768523aa">
+      <name>СвинецВаловая</name>
+      <description>Свинец (валовая форма)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="49568766-62d9-4aec-adc5-9979f7fdecbe">
+      <name>СульфатИон</name>
+      <description>Сульфат-ион</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="3a09fba4-0ed5-4ea4-a816-c6e2d85430d6">
+      <name>УровеньКислотностиВоднойВытяжки</name>
+      <description>Уровень кислотности (pH) водной вытяжки</description>
+      <code xsi:type="core:StringValue">
+        <value>000000027</value>
+      </code>
+    </items>
+    <items id="3d7ec753-a023-44b2-9428-39f1ccd5188b">
+      <name>Фенолы</name>
+      <description>Фенолы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000028</value>
+      </code>
+    </items>
+    <items id="eace3464-79e6-4adb-8957-513c3a85930c">
+      <name>ФосфатИон</name>
+      <description>Фосфат-ион</description>
+      <code xsi:type="core:StringValue">
+        <value>000000029</value>
+      </code>
+    </items>
+    <items id="386aedcd-14b0-44c0-b37b-b3c16a0cbb93">
+      <name>ХлоридИон</name>
+      <description>Хлорид-ион</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="ad3d974f-175a-435c-88dd-7c81702267fc">
+      <name>Хром6Валовая</name>
+      <description>Хром VI (валовая форма)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000031</value>
+      </code>
+    </items>
+    <items id="aef0436f-30de-40fb-aec7-0cc386ddae46">
+      <name>ЦинкВаловая</name>
+      <description>Цинк (валовая форма)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КонтролируемыеПараметрыВПочвеДонныхОтложениях.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КонтролируемыеПараметрыВПочвеДонныхОтложениях.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.КонтролируемыеПараметрыВПочвеДонныхОтложениях.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="0edfa297-8b7a-4eba-85ea-90c72bd57161">
+    <name>Удалить_КомпонентыПрироднойСреды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компонент природной среды</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РазделыУчетаЭкоаналитическогоКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Ссылка</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.РазделыУчетаЭкоаналитическогоКонтроля.EnumValue.Почвы</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.РазделыУчетаЭкоаналитическогоКонтроля.EnumValue.ДонныеОтложения</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1f6f1cc4-6588-4d04-8030-1b96fdd3d121">
+    <name>Почва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почва</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a6eb1d1e-d00d-4141-833a-a3d80de8f9b8">
+    <name>ДонныеОтложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Донные отложения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d6d49692-c82e-4831-9d37-e4478fb3ebb3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="89d90d94-4ad7-45d8-be63-a40999d651d4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5fa9b4cb-2d6a-4623-99e3-9c0b171c1836">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

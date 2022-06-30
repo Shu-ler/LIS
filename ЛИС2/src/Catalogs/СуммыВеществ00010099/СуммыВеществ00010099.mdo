@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86bd4983-df66-4768-b17e-dd6b7504ad2b">
+  <producedTypes>
+    <objectType typeId="6b499525-f306-4f29-80ea-cc0f22986164" valueTypeId="5639a0ff-7da0-40a8-8968-99f3270b09dc"/>
+    <refType typeId="9f6896aa-8987-4523-9031-99af3247e219" valueTypeId="64263f2c-1fc4-494b-b99f-574c364b0a38"/>
+    <selectionType typeId="30ceb6b1-da9b-4fb0-a0f1-19d264966b78" valueTypeId="a3830bd3-ffda-4270-ba25-6d650833de70"/>
+    <listType typeId="1bed5529-ce6c-43b9-95de-2b5363182e0f" valueTypeId="7e6ca222-2f59-46b4-a3e3-16561c9c80e9"/>
+    <managerType typeId="38b60e76-e035-47d2-a74a-944555957573" valueTypeId="0ea386fe-ac09-4211-a6dd-b2e903124777"/>
+  </producedTypes>
+  <name>СуммыВеществ00010099</name>
+  <synonym>
+    <key>ru</key>
+    <value>Суммы веществ 0001-0099</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СуммыВеществ00010099.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СуммыВеществ00010099.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="0ab990bc-e1e8-4f08-b304-34ce2e9d6953">
+      <name>ГазообразныеИЖидкие</name>
+      <description>Газообразные и жидкие</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <content id="48e84854-d19f-4f9c-8c81-9c5d3f96f606">
+        <name>ЛОС</name>
+        <description>Летучие органические соединения (ЛОС)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000002</value>
+        </code>
+      </content>
+      <content id="3b4f1c7d-ba65-45bb-9be4-8aa9f32aacc0">
+        <name>ОксидыАзота</name>
+        <description>Оксиды азота (в перерасчете на NO2)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000012</value>
+        </code>
+      </content>
+      <content id="6c3c1376-4c66-49cb-aea8-d88b2e3790e8">
+        <name>ПрочиеГазообразныеИЖидкие</name>
+        <description>Прочие газообразные и жидкие</description>
+        <code xsi:type="core:StringValue">
+          <value>000000005</value>
+        </code>
+      </content>
+      <content id="d216e530-baa5-41e6-bc04-f42df4f3c769">
+        <name>Углеводороды</name>
+        <description>Углеводороды (без летучих органических соединений)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000004</value>
+        </code>
+      </content>
+      <content id="2c299fb9-7fc3-42f5-91ce-ec370fb49fc5">
+        <name>УглеводородыСЛОС</name>
+        <description>Углеводороды с ЛОС</description>
+        <code xsi:type="core:StringValue">
+          <value>000000003</value>
+        </code>
+      </content>
+    </items>
+    <items id="42fd589f-0a65-486d-a2d5-f9854cb5baaa">
+      <name>Твердые</name>
+      <description>Твердые</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+      <content id="07070f85-60d8-463d-a3a8-53d519718751">
+        <name>PM1</name>
+        <description>PM1 - Взвешенные частицы диаметром менее 1 мкм</description>
+        <code xsi:type="core:StringValue">
+          <value>000000007</value>
+        </code>
+      </content>
+      <content id="5d812e49-98b3-4409-a6d0-7089fe38b258">
+        <name>PM10</name>
+        <description>PM10 - Взвешенные частицы диаметром менее 10 мкм</description>
+        <code xsi:type="core:StringValue">
+          <value>000000008</value>
+        </code>
+      </content>
+      <content id="a6d5b25a-457d-4108-8747-7e442c53cb5d">
+        <name>PM25</name>
+        <description>PM2.5 - Взвешенные частицы диаметром менее 2.5 мкм</description>
+        <code xsi:type="core:StringValue">
+          <value>000000009</value>
+        </code>
+      </content>
+      <content id="bd23d948-03fd-444a-8fe0-1d31f6853d8d">
+        <name>PM5</name>
+        <description>PM5 - Взвешенные частицы диаметром менее 5 мкм</description>
+        <code xsi:type="core:StringValue">
+          <value>000000010</value>
+        </code>
+      </content>
+      <content id="c3248151-276b-4b38-8655-f51d2505d9da">
+        <name>TSP</name>
+        <description>TSP - Взвешенные частицы диаметром менее 100 мкм</description>
+        <code xsi:type="core:StringValue">
+          <value>000000011</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СуммыВеществ00010099.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СуммыВеществ00010099.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СуммыВеществ00010099.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="3d1b6679-b470-4833-9e35-ee1f43864ffa">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="703c8535-179e-4d28-a98f-08c8603135b9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3c961d0c-2e21-467f-a290-c34628fbf17b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="add5012e-3184-48ac-8f22-363c87971160">
+  <producedTypes>
+    <refType typeId="bd8363c7-2ab2-4f8f-8535-dd833ea7d643" valueTypeId="348ea48e-ef7d-4df5-b839-8d775b9fb444"/>
+    <listType typeId="5eb66336-8fa7-42cf-9431-0719b3a71f62" valueTypeId="b3ca563a-e4e7-4049-851d-9e161eec77b8"/>
+    <managerType typeId="48f4e1d1-85ff-4547-8777-948e87e21d70" valueTypeId="48ef125c-1945-437d-8853-2a02a021ecfd"/>
+  </producedTypes>
+  <name>ТипыТурбинГПА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы турбин ГПА</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4966d9be-795b-4dab-ad70-cc6d5ee0980b">
+    <name>Регулируемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регулируемая силовая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c0111fb-a108-4003-9875-57cd75bb658d">
+    <name>НеРегулируемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нерегулируемая силовая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

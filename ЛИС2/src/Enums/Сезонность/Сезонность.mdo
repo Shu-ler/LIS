@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84a7f8c4-e329-430f-adb7-9e3e9292a71a">
+  <producedTypes>
+    <refType typeId="bb52f708-03d8-4a97-a206-5199cbfe73a8" valueTypeId="c952a6a5-5ad8-4d3f-9704-7ef46ed475c6"/>
+    <listType typeId="cc42c2de-2281-466e-b425-4acba500333b" valueTypeId="83cdfea4-0045-4425-bd79-73df3bfc0ca6"/>
+    <managerType typeId="4f0c9d35-3592-4626-b33e-6fa5db43ecd2" valueTypeId="56c1b78c-ab63-4ca4-8a04-f8b59015ef4b"/>
+  </producedTypes>
+  <name>Сезонность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сезонность</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="05b64644-4cb5-41b8-a50c-0b5bcdcc1196">
+    <name>Зима</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зима</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="742081c6-9626-4da0-8685-60c3ac3dd514">
+    <name>Лето</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лето</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fab23824-9058-412f-bcba-6a78caff6153">
+    <name>ВесьГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Весь год</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6516873-7740-4688-a113-25dd5721794c">
+  <producedTypes>
+    <refType typeId="155e0936-c62b-4a01-ae69-c63f62f0d660" valueTypeId="2588a63c-dafa-4721-aab9-1f7579007c71"/>
+    <listType typeId="12499a00-c6e4-428f-a9fd-17e931e6e2d8" valueTypeId="097675f4-2220-42a2-ac9b-e21d2a7d8fe9"/>
+    <managerType typeId="992f6667-bf91-4ac4-9ce4-59827a470f78" valueTypeId="e257ca7e-14be-4748-a4e5-a798d8c8dec1"/>
+  </producedTypes>
+  <name>ТипыИсточниковВыбросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы источников выбросов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2e7a1efb-6fb7-420e-b3a3-22cfba2af771">
+    <name>Организованный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организованный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b24a57f-ad5d-4bd7-9bd7-43d9ef2235d0">
+    <name>Неорганизованный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неорганизованный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

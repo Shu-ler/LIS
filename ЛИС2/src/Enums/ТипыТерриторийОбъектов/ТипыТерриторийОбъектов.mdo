@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58eee9cc-6098-47ea-ae98-9464da9bf5be">
+  <producedTypes>
+    <refType typeId="09836329-c643-4241-bcfe-049021ae8cd5" valueTypeId="5294847c-c0ca-41f3-bfba-729b393707bc"/>
+    <listType typeId="8cee5286-f2cd-4176-8062-f72c38e08ac3" valueTypeId="13864dcf-c8cb-4563-9c12-0d3dcfa443b3"/>
+    <managerType typeId="20ed2aeb-937e-4643-a3cb-0913c2a9f56b" valueTypeId="3de1479d-b2ce-4664-99e3-af938dd44ebd"/>
+  </producedTypes>
+  <name>ТипыТерриторийОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы территорий объектов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="050aaf32-a848-47bc-aa4a-aa6196269df6">
+    <name>Точечный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точечный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a8c09d6-c652-4424-876c-f4541aee9498">
+    <name>Линейный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5f5db8c-4256-4bf9-a3a7-9a48fb427798">
+    <name>Площадной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадной</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="188e0ad5-3f3e-4eeb-b4d2-90314360a8f1">
+  <producedTypes>
+    <refType typeId="f8eda4bc-4ad4-4840-939a-79b6b9f2dd48" valueTypeId="95429d6b-9e9f-4d3d-9381-e643c61deec0"/>
+    <listType typeId="06e10c8d-0361-4670-b829-ffd98d0906cd" valueTypeId="350cb6d2-36fa-4e4c-a995-e66424392105"/>
+    <managerType typeId="92492f13-c2dd-4816-b9a1-023c81fc639b" valueTypeId="91eefbe8-7166-4f28-a740-7333518fa1cb"/>
+  </producedTypes>
+  <name>ОбластиДействияТребований</name>
+  <synonym>
+    <key>ru</key>
+    <value>Области действия требований</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b8d341fa-07ab-40c4-bd21-dcccca773df0">
+    <name>Федеральные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Федеральные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="edd07281-dbec-4c93-87c0-337b06953386">
+    <name>ВнутренниеГазпром</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренние (Газпром)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f7c26fa-fd51-4f41-aa41-9b303115b767">
+    <name>ЧелябинскаяОбласть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Челябинская область</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7172750b-8c07-4ba0-9391-9616c99ac061">
+    <name>КраснодарскийКрай</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краснодарский край</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="180a4114-5e9c-4d64-b8ae-ad93ba2fe925">
+    <name>ИркутскаяОбласть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иркутская область</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d645e91a-0ece-43c6-9dd2-8f0401577def">
+    <name>ЛенинградскаяОбласть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ленинградская область</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1de46de9-31bc-4df9-8267-ceecfd71f1ea">
+    <name>ХМАОЮгра</name>
+    <synonym>
+      <key>ru</key>
+      <value>ХМАО-Югра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb586b64-813b-42ce-a217-812561b5ea44">
+    <name>СамарскаяОбласть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Самарская область</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34533a3c-81e5-4763-9781-0a61cbfff3be">
+    <name>СаратовскаяОбласть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Саратовская область</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d65632a7-ed85-42e2-8e12-eafa414c792c">
+    <name>ТюменскаяОбласть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тюменская область</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="211353c4-a2f1-4a97-aa13-d9bb4aad0fc1">
+    <name>ОренбургскаяОбласть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оренбургская область</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5a87ea9-e155-4010-805e-49697837508f">
+    <name>ЯНАО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЯНАО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f814dd94-81b1-4892-b76b-fa3968b3a186">
+    <name>РеспубликаБашкортостан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Республика Башкортостан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="462373b1-5775-4bf8-978a-0df4e0ccdc88">
+    <name>НАО</name>
+    <synonym>
+      <key>ru</key>
+      <value>НАО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da5528c5-193c-4c8a-98e1-e1b369714fb6">
+    <name>СвердловскаяОбласть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свердловская область</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb1f9b98-5a5c-406a-a8f6-60ab41538614">
+    <name>ПермскийКрай</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пермский край</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebed8e8c-7250-442d-960a-909c589fd3f8">
+    <name>РеспубликаТатарстан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Республика Татарстан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="274e61b9-6060-482d-bc03-b471261814c9">
+    <name>РеспубликаБеларусь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Республика Беларусь</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

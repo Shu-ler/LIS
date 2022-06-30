@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b6346cc-9404-41fb-b4f2-76f0f7e4e4e4">
+  <producedTypes>
+    <objectType typeId="85dca099-67ed-45db-86b6-6bbb815a6ae2" valueTypeId="9a575c2a-5d07-47e4-920c-6d82fe9172d5"/>
+    <refType typeId="55d50c54-3c2e-4940-b3f5-c43b7c58227e" valueTypeId="b9e5bce0-cf22-4728-b4ae-cbedbcce2d7b"/>
+    <selectionType typeId="bdc47e2b-d56d-45d6-8c37-3702fdda6b12" valueTypeId="799fd084-5342-440c-9f42-c80c28d28264"/>
+    <listType typeId="464e5dd2-37b8-4060-895f-50c66c5eff96" valueTypeId="fc3a57b0-a84f-47ba-9acb-5e61fcdd8dfb"/>
+    <managerType typeId="79c43bb7-dfba-4348-8d9a-a142a1c360b6" valueTypeId="0b1cec7f-42be-40ca-9764-3f3710adf240"/>
+  </producedTypes>
+  <name>ЗаконодательныеИНормативныеТребования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Законодательные и нормативные требования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗаконодательныеИНормативныеТребования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗаконодательныеИНормативныеТребования.StandardAttribute.Code</inputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="19de3830-2c6b-4469-b059-73269f84ffbd">
+      <name>ИСО_П101_2017</name>
+      <description>П 10.1 Общие положения (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000044</value>
+      </code>
+    </items>
+    <items id="60abc092-5f97-47b3-8c77-217617367810">
+      <name>ИСО_П102_2017</name>
+      <description>П 10.2 Несоответствия и корректирующие действия (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000045</value>
+      </code>
+    </items>
+    <items id="da9de48a-2f27-4d04-9455-9097ce3d4c43">
+      <name>ИСО_П103_2017</name>
+      <description>П 10.3 Постоянное улучшение (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000046</value>
+      </code>
+    </items>
+    <items id="f4664d0b-1265-4a46-9a32-8d1909450200">
+      <name>ИСО_П41_2017</name>
+      <description>П 4.1 Понимание организации и ее среды (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000019</value>
+      </code>
+    </items>
+    <items id="bcbb0167-b7ec-450a-841b-8e2743b24381">
+      <name>ИСО_П42_2017</name>
+      <description>П 4.2 Понимание потребностей и ожиданий заинтересованных сторон (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000020</value>
+      </code>
+    </items>
+    <items id="0110450d-0c01-4640-8ae4-4ac2d5a398fc">
+      <name>ИСО_П43_2017</name>
+      <description>П 4.3 Определение области применения системы экологического менеджмента (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000021</value>
+      </code>
+    </items>
+    <items id="8a12e128-d4d2-4816-93f2-d25bb77a9abc">
+      <name>ИСО_П44_2017</name>
+      <description>П 4.4 Система экологического менеджмента (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000022</value>
+      </code>
+    </items>
+    <items id="faf49beb-64d8-417f-99ff-48b1c03e3925">
+      <name>ИСО_П51_2017</name>
+      <description>П 5.1 Лидерство и приверженность (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000023</value>
+      </code>
+    </items>
+    <items id="a53fb2f2-8cf2-452b-94b8-11b3bc3e4bdb">
+      <name>ИСО_П52_2017</name>
+      <description>П 5.2 Экологическая политика (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000024</value>
+      </code>
+    </items>
+    <items id="1e3f72fe-cc19-4415-8efb-ee064be0370e">
+      <name>ИСО_П53_2017</name>
+      <description>П 5.3 Функции, ответственность и полномочия (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000025</value>
+      </code>
+    </items>
+    <items id="550b0e05-9657-4297-874c-a0dbe2b14481">
+      <name>ИСО_П611_2017</name>
+      <description>П 6.1.1 Общие положения (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000027</value>
+      </code>
+    </items>
+    <items id="5c1169e8-c04d-4e26-a79c-d3b836220a04">
+      <name>ИСО_П612_2017</name>
+      <description>П 6.1.2 Экологические аспекты (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000028</value>
+      </code>
+    </items>
+    <items id="9ba5a68d-02ca-44e2-9011-c4056ead7296">
+      <name>ИСО_П613_2017</name>
+      <description>П 6.1.3 Принятые обязательства (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000029</value>
+      </code>
+    </items>
+    <items id="92067413-d7f1-4b2e-87a6-251e6b4995d4">
+      <name>ИСО_П614_2017</name>
+      <description>П 6.1.4 Планирование действий (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000030</value>
+      </code>
+    </items>
+    <items id="20e4d9ae-9307-4823-b4a9-f3c175b61d47">
+      <name>ИСО_П621_2017</name>
+      <description>П 6.2.1 Экологические цели (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000032</value>
+      </code>
+    </items>
+    <items id="47abd312-a4e8-4233-9c52-e86d8619a487">
+      <name>ИСО_П622_2017</name>
+      <description>П 6.2.2 Планирование действий по достижению целей (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000033</value>
+      </code>
+    </items>
+    <items id="ce64bb79-37a0-4120-8c7c-9ce3874ec1bd">
+      <name>ИСО_П71_2017</name>
+      <description>П 7.1 Ресурсы (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000034</value>
+      </code>
+    </items>
+    <items id="6da45ac5-de80-4892-8ffd-157d32732a62">
+      <name>ИСО_П72_2017</name>
+      <description>П 7.2 Компетентность (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000035</value>
+      </code>
+    </items>
+    <items id="f08f0ae8-2fd9-45f6-ae0f-0027ebc119ab">
+      <name>ИСО_П73_2017</name>
+      <description>П 7.3 Осведомленность (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000036</value>
+      </code>
+    </items>
+    <items id="e69d8834-9ad1-4416-941f-5a0ac535d6e5">
+      <name>ИСО_П74_2017</name>
+      <description>П 7.4 Обмен информацией (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000037</value>
+      </code>
+    </items>
+    <items id="628d2005-f59f-4393-b754-a776d5749a59">
+      <name>ИСО_П75_2017</name>
+      <description>П 7.5 Документированная информация (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000038</value>
+      </code>
+    </items>
+    <items id="70d16b7c-7e01-4915-ad62-a9b5dacd7a12">
+      <name>ИСО_П81_2017</name>
+      <description>П 8.1 Планирование и управление деятельностью (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000039</value>
+      </code>
+    </items>
+    <items id="189c4c84-5cce-48f3-9005-ca5c28c7fd22">
+      <name>ИСО_П82_2017</name>
+      <description>П 8.2 Готовность к аварийным и другим нештатным ситуациям и ответные действия (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000040</value>
+      </code>
+    </items>
+    <items id="a63a6835-084a-432f-aa9b-31c0fc483b85">
+      <name>ИСО_П91_2017</name>
+      <description>П 9.1 Мониторинг, измерения, анализ и оценка (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000041</value>
+      </code>
+    </items>
+    <items id="036e9633-6137-429d-997f-5dba0813495b">
+      <name>ИСО_П92_2017</name>
+      <description>П 9.2 Внутренний аудит (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000042</value>
+      </code>
+    </items>
+    <items id="bc6f6a09-d35a-4482-9a33-8c7608d7c9f5">
+      <name>ИСО_П93_2017</name>
+      <description>П 9.3 Анализ со стороны руководства (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000043</value>
+      </code>
+    </items>
+    <items id="80286c73-c47e-43e6-8ff9-d01d89ebd307">
+      <name>ИСО_П41</name>
+      <description>П. 4.1. Общие требования (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000001</value>
+      </code>
+    </items>
+    <items id="b6981f48-f05e-4be2-88fb-686aa0b5987e">
+      <name>ИСО_П42</name>
+      <description>П. 4.2 Экологическая политика (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000002</value>
+      </code>
+    </items>
+    <items id="c6af347e-190a-4a0c-9e48-33f33264b7e8">
+      <name>ИСО_П431</name>
+      <description>П. 4.3.1 Экологические аспекты (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000003</value>
+      </code>
+    </items>
+    <items id="323ee0a5-2c45-4515-adf2-8e01a49dc3ab">
+      <name>ИСО_П432</name>
+      <description>П. 4.3.2 Законодательные и другие требования (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000004</value>
+      </code>
+    </items>
+    <items id="04a35c16-c3c8-4f94-af7c-664f96a1ba23">
+      <name>ИСО_П433</name>
+      <description>П. 4.3.3 Цели, задачи и программа(ы) (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000005</value>
+      </code>
+    </items>
+    <items id="9ba66c37-636c-43cf-a4f6-9f0857b5c4c1">
+      <name>ИСО_П441</name>
+      <description>П. 4.4.1 Ресурсы, функциональные обязанности, ответственность и полномочия (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000006</value>
+      </code>
+    </items>
+    <items id="87dd7f12-4f6b-4a93-a33d-de66a889836e">
+      <name>ИСО_П442</name>
+      <description>П. 4.4.2 Компетентность, подготовка и осведомленность (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000007</value>
+      </code>
+    </items>
+    <items id="88802246-e429-4a20-92ff-79b0b2ceb5b4">
+      <name>ИСО_П443</name>
+      <description>П. 4.4.3 Обмен информацией (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000008</value>
+      </code>
+    </items>
+    <items id="7c563d16-c24a-4091-8e6f-b960006f1fed">
+      <name>ИСО_П444</name>
+      <description>П. 4.4.4 Документация (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000009</value>
+      </code>
+    </items>
+    <items id="c2c2561c-f3c2-4a54-b582-36c132e3d4ac">
+      <name>ИСО_П445</name>
+      <description>П. 4.4.5 Управление документацией (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000010</value>
+      </code>
+    </items>
+    <items id="a13b2b33-a952-4de5-af8a-33e331094cfb">
+      <name>ИСО_П446</name>
+      <description>П. 4.4.6 Управление операциями (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000011</value>
+      </code>
+    </items>
+    <items id="96476cae-592d-4205-b403-02ca6eb82b3a">
+      <name>ИСО_П447</name>
+      <description>П. 4.4.7 Готовность к нештатным ситуациям, авариям и ответные действия (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000012</value>
+      </code>
+    </items>
+    <items id="dad008e7-7548-4cba-a778-eee50ea02bae">
+      <name>ИСО_П451</name>
+      <description>П. 4.5.1 Мониторинг и измерение (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000013</value>
+      </code>
+    </items>
+    <items id="05580449-d012-4fc4-8877-84cd9c9e886d">
+      <name>ИСО_П452</name>
+      <description>П. 4.5.2 Оценка соответствия (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000014</value>
+      </code>
+    </items>
+    <items id="6bf3229b-dcad-41eb-8755-948d90b0b4d9">
+      <name>ИСО_П453</name>
+      <description>П. 4.5.3 Несоответствия, корректирующие и предупреждающие действия (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000015</value>
+      </code>
+    </items>
+    <items id="0dcff908-7dc5-48e7-8cfc-5d7c6df38402">
+      <name>ИСО_П454</name>
+      <description>П. 4.5.4 Управление записями (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000016</value>
+      </code>
+    </items>
+    <items id="9387ebfe-0a83-4349-8f5a-f0ae45cefecf">
+      <name>ИСО_П455</name>
+      <description>П. 4.5.5 Внутренний аудит (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000017</value>
+      </code>
+    </items>
+    <items id="9f7bac52-9839-4787-95b6-a39162267e99">
+      <name>ИСО_П46</name>
+      <description>П. 4.6 Анализ со стороны руководства (ИСО 14001)</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000018</value>
+      </code>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЗаконодательныеИНормативныеТребования.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЗаконодательныеИНормативныеТребования.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЗаконодательныеИНормативныеТребования.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="061edef5-cac9-47c4-8abb-2118bd6017ff">
+    <name>ВидНормативногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид нормативного документа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНормативныхДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b471e07-cee7-4779-96c2-e1e8b8530369">
+    <name>НомерНормативногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер нормативного документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c0592229-18b8-4ee2-9111-98f03c1276d0">
+    <name>НаименованиеНормативногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование нормативного документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное наименование нормативного документа, включая его вид и дату</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cee65fd7-c0af-48ae-b64c-cb13a84467e3">
+    <name>ОбластьДействияТребованийНормативныхДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область действия требований нормативных документов</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ОбластиДействияТребований</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2de8d380-dceb-4a71-b69d-ba3d97f3c5b5">
+    <name>КемУтверждено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кем утверждено</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид документа, которым был утвержден или отменен указанный нормативный документ, номер утверждающего документа, утвердивший орган, дата утверждения.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a15bfeef-e324-4b10-8a3b-cf4db58d92a8">
+    <name>ДатаУтверждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата утверждения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата утверждения нормативного документа или дата выпуска нормативного документа в текущей редакции.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0d1e2883-7752-4c8c-ab73-74b51b2c6df6">
+    <name>АдресТребования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес требования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="401d3d49-ccc5-443a-a438-be30b2757848">
+    <name>Ответственность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8ddbf386-5076-4c13-965b-ef5d0004df40">
+    <name>ДатаВступленияВСилу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата вступления в силу</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c4ad6b5d-45b4-475c-b029-d2d1aa6f79d4">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b51fe98a-85d7-440c-a9ca-f892f7a382d0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="77740f4f-3ca7-4a20-b755-7636451e0296">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dfddf389-48a9-493c-9d4e-6ee5879ec49f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

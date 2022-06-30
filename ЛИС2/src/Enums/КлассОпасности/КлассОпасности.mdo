@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6eacebd4-3f43-401b-b19d-a972a739d05d">
+  <producedTypes>
+    <refType typeId="b5ce4bc6-9dbc-4bb0-ad88-35439725baaa" valueTypeId="4676ee57-64b8-437a-8cd5-79cc5b4d5025"/>
+    <listType typeId="ca22bc55-254e-4aa5-9e04-61e6856fda44" valueTypeId="5b2f661e-9c41-440c-b64a-36a7a1231919"/>
+    <managerType typeId="84c8c81b-c9bf-4461-b40e-721f06859983" valueTypeId="e95d3d55-ec43-4e80-a15e-0f45ccc57331"/>
+  </producedTypes>
+  <name>КлассОпасности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Класс опасности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="90624440-eb38-4913-9ae4-39e8a5c22011">
+    <name>КлассНеЗадан</name>
+    <synonym>
+      <key>ru</key>
+      <value>-</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9693ba67-9e67-4121-8b7d-9afb8f6e16d5">
+    <name>Класс0</name>
+    <synonym>
+      <key>ru</key>
+      <value>0</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1195da9-ebee-4a1b-b94b-f18c0077e612">
+    <name>Класс1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc26d014-833f-42e5-9eef-667105bad577">
+    <name>Класс2</name>
+    <synonym>
+      <key>ru</key>
+      <value>2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78518523-153d-4e58-86d8-bcec84bd312d">
+    <name>Класс3</name>
+    <synonym>
+      <key>ru</key>
+      <value>3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1a074b9-df75-4ff8-b6ce-d24e953519df">
+    <name>Класс4</name>
+    <synonym>
+      <key>ru</key>
+      <value>4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="560f6598-f412-449f-b86c-70bb44ac236c">
+    <name>Класс4э</name>
+    <synonym>
+      <key>ru</key>
+      <value>4э</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6159bc3a-8c6c-4f78-8ff5-fd15a727b21c">
+    <name>Класс5</name>
+    <synonym>
+      <key>ru</key>
+      <value>5</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

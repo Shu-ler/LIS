@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9157ea12-078c-4fb4-b39c-6dddfd2bacff">
+  <producedTypes>
+    <refType typeId="3dfc9ce9-066d-4417-a36d-599724129af0" valueTypeId="f6c1ddc9-9cce-476e-b6fc-25a9e195d139"/>
+    <listType typeId="fdb7327b-aa19-4e4b-9f4d-94ec89295892" valueTypeId="dd73be5b-dead-4184-b27c-ec664cc0f0b9"/>
+    <managerType typeId="3560591d-6926-4c0c-bb6b-b38866b59b2f" valueTypeId="b743abf2-f95c-4bcb-96a6-e387b578bd7d"/>
+  </producedTypes>
+  <name>ВидыСточныхВод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды сточных вод</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b4e6ab07-d3e0-493b-936f-e23f620abbce">
+    <name>ДренажныеВоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дренажные воды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c05d063f-6f63-4c6c-8d1a-07fad091ce1b">
+    <name>ЛивневыеСточныеВоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ливневые сточные воды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16dea336-4e6b-4a28-aa6e-377fac2a0bb9">
+    <name>ПроизводственныеСточныеВоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственные сточные воды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11ea392d-579a-46bf-b0e6-0e0bddff1327">
+    <name>СточныеВодыПоселений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сточные воды поселений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="079eb405-96f5-4b04-9375-44fd70798bf4">
+    <name>ХозяйственноБытовыеСточныеВоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хозяйственно бытовые сточные воды</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

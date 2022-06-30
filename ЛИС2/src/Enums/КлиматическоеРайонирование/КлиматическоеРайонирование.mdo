@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="394ab687-55d6-4db5-a87f-2c8c785c78db">
+  <producedTypes>
+    <refType typeId="5d7714a9-c4e8-4b34-83eb-a633ec1bfa33" valueTypeId="2136d56f-b354-44f4-a756-a210fd22bbcb"/>
+    <listType typeId="1a0c6411-2706-40be-9ad8-3c9e98f0ba8a" valueTypeId="8b92db75-ec01-4212-b4e6-89b4ab7822f4"/>
+    <managerType typeId="8e93abde-e187-47ab-b1f4-446d2c94d164" valueTypeId="97c05f4a-7d89-47ee-bf77-8b1635297d02"/>
+  </producedTypes>
+  <name>КлиматическоеРайонирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Климатическое районирование</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8f6e2ae3-cbd1-4430-9241-4f56c17d1839">
+    <name>АрктическийРайон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Арктический район</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ff43f9f-faa6-4279-b98e-f91a9dbfb2ca">
+    <name>ОченьХолодныйХолодныйУмеренноХолодный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очень холодный, холодный, умеренно холодный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5266b0b6-140c-470a-8200-5f3a4a8d9f9e">
+    <name>ОченьХолодныйУмеренноХолодный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очень холодный, умеренно холодный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ae4d9fa-d5be-469e-9198-b9f5385fe67c">
+    <name>ХолодныйУмеренноХолодныйУмеренный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Холодный, умеренно холодный, умеренный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf3c3e87-39a5-4f0f-b973-241eb2169a72">
+    <name>УмеренноХолодныйУмеренный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Умеренно холодный, умеренный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f7507ad-1755-4cad-a2e5-f683a6abf72e">
+    <name>УмеренныйУмеренноТеплый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Умеренный, умеренно теплый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="046b1eee-be7a-449d-aeaf-b115bbefc6d9">
+    <name>УмеренноТеплый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Умеренно теплый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9a4a7bb-29c0-4bf7-8819-ba8fc939afcf">
+    <name>Умеренный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Умеренный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

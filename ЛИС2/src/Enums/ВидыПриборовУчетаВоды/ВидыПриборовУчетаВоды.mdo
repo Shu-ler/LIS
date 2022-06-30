@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="624646e1-a84b-4ed6-aeac-302f7f13d65e">
+  <producedTypes>
+    <refType typeId="da2d004d-4bf1-41fc-a7df-9767b019703f" valueTypeId="0eb48696-2737-4d7b-8577-dc89816f46eb"/>
+    <listType typeId="495a2690-3ee7-4eff-a2ca-38ed64ebf0db" valueTypeId="ed1e862a-72ef-4b50-8cb3-382254722d5b"/>
+    <managerType typeId="4e27afcf-b78c-467b-99f0-0c0abab55114" valueTypeId="fde0799d-adc3-4442-8430-1f50b3716eab"/>
+  </producedTypes>
+  <name>ВидыПриборовУчетаВоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды приборов учета воды</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eea16d7c-d4da-4a1a-b8df-fccdf6f07f67">
+    <name>СуммирующееУстройство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суммирующее устройство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86b79b71-2f08-40ec-a685-aaf2c1e7d141">
+    <name>ПоказывающееУстройство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывающее устройство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="856fc127-bf12-4462-bdc5-f0e2ed3d9e18">
+    <name>РегистрирующийВторичныйПрибор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрирующий вторичный прибор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

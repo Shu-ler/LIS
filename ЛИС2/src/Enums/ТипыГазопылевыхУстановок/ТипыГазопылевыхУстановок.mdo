@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adedeb56-bbc6-488e-8e54-0cfd04220869">
+  <producedTypes>
+    <refType typeId="79dc6385-c6cc-46e6-bd77-ffc6e608a683" valueTypeId="b7e8c95b-e194-49e8-a9bb-0fc13f70144a"/>
+    <listType typeId="3b6eb06c-7824-42d9-96e9-058b0cd6dd40" valueTypeId="47a3b3af-25aa-4515-8a8a-69f7a1ffb4af"/>
+    <managerType typeId="8ab85b95-8355-42ff-a992-e879a6eac083" valueTypeId="6897ca6f-2b15-49d6-9ea5-79d550cb0f79"/>
+  </producedTypes>
+  <name>ТипыГазопылевыхУстановок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы газопылевых установок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6aae103f-d017-4bdc-bd6c-0be6d66f52f8">
+    <name>БатарейныйЦиклон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Батарейный циклон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a86de925-4a0c-4eca-89e2-e923cdfea8be">
+    <name>МокрыйАппарат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мокрый аппарат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3af0bfa7-2284-44b7-a2b4-43a6f280cc63">
+    <name>Электрофильтр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электрофильтр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb798315-44a6-48eb-8abe-a97328dc7e2f">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

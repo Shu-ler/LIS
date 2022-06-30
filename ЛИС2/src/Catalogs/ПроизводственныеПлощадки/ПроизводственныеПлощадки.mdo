@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3621725d-28ac-471d-b348-d7fa08ce7002">
+  <producedTypes>
+    <objectType typeId="14655d91-e430-4a24-bcb8-5eaa89bf280d" valueTypeId="e9f9d20f-3231-4da7-91ab-4fb2d8df9270"/>
+    <refType typeId="d3f2ebe2-af59-4b72-9894-c4201feff592" valueTypeId="bb568c6b-a42d-475f-bf14-af034ed91be0"/>
+    <selectionType typeId="a4b04482-94c4-4bb4-b600-8e7e280cda6d" valueTypeId="b2ff2a8f-ce51-42d1-b567-c7fee6f9bca7"/>
+    <listType typeId="fe0d54f7-0d14-45bd-9bec-1172f700c26f" valueTypeId="8905c585-5b9e-4e40-97d4-13af4ad6d3be"/>
+    <managerType typeId="f6cf51ce-48af-45d0-9cd1-bb8cf402e5b8" valueTypeId="df4591bc-6e88-4238-bf5c-90cccd3617d1"/>
+  </producedTypes>
+  <name>ПроизводственныеПлощадки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственные площадки</value>
+  </synonym>
+  <comment>Справочник содержит список производственных площадок предприятия.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПроизводственныеПлощадки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПроизводственныеПлощадки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <comment>Родитель</comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект, в структуру которого входит производственная площадка</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ПроизводственныеПлощадки.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование производственной площадки</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Системный код производственной площадки</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Производственная площадка</value>
+  </objectPresentation>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>4</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПроизводственныеПлощадки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПроизводственныеПлощадки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ПроизводственныеПлощадки.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="001ffbe6-90eb-475c-ad2f-dcabf25131a2">
+    <name>КодОКТМО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОКТМО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОКТМО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код производственной площадки по ОКТМО</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dcab0bdb-c24f-424c-a78b-f948f0b8b909">
+    <name>ПризнакНегативногоВоздействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оказывает негативное воздействие на воздух городов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Оказывает ли производственная площадка негативное воздействие на воздух городской среды</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6260be6a-b3c2-4f40-aa89-15456e279a49">
+    <name>ПризнакОсобоОхраняемойТерритории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Особо охраняемая природная территория</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Является ли производственная площадка особо охраняемой природной территорией</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a90935d-eef3-4143-a9e7-a7389289d2c8">
+    <name>ПризнакЛечебноОздоровительнойМестности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лечебно-оздоровительная местность, курорт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Является ли производственная площадка лечебно-оздоровительной местностью, курортом</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="84ebeb58-6f68-44c8-bd52-2d430be8fc4c">
+    <name>ПризнакРайонаКрайнегоСевера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Район крайнего севера и приравненная местность</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Располагается ли производственная площадка в районе крайнего севера и приравненной к нему местности</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a05db518-7c38-4730-b737-1c4d21011fdf">
+    <name>ПризнакТерриторииБайкала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Байкальская природная территория</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Располагается ли производственная площадка на байкальской природной территории</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3ed4ec9f-93bc-454e-b325-9d7676e3fc83">
+    <name>ПризнакЗоныЭкологическогоБедствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зона экологического бедствия</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Располагается ли производственная площадка в зоне экологического бедствия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7e4f8826-ea56-480a-b748-617cbe6f58d1">
+    <name>ПризнакВЧертеНаселенныхМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водный объект, использующийся в черте населенных мест</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется ли водный объект производственной площадки в черте населенных мест</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="46cd5c4b-623c-4123-9fea-beb824e741cf">
+    <name>Удалить_ПризнакОбъектаВодоснабжения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водный объект питьевого и хозяйственно-бытового водоснабжения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Принадлежит ли водный объект производственной площадки к типу питьевого и хозяйственно-бытового водоснабжения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e7919c89-3f1d-4e00-8863-88a2e418105f">
+    <name>КатегорияРыбохозяйственногоЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория рыбохозяйственного значения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КатегорияРыбохозяйственногоЗначения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Присвоенная водному объекту производственной площадки категория рыбохозяйственного значения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="432327be-db2f-4ea9-ad70-8319c0121e65">
+    <name>ФоноваяКонцентрацияВзвешенныхВеществ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фоновая концентрация взвешенных веществ, мг/дм3</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>9</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Средняя фоновая концентрация взвешенных веществ в водном объекте производственной площадки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c103504-b105-4dcd-91c0-711de6d9ab7c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, к которой относится производственная площадка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e4cf833d-1fd3-42f9-9ea4-fa7560a2ca63">
+    <name>ПризнакВПределахПромышленнойЗоны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Находится в пределах промышленной зоны</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Находится ли производственная площадка в пределах промышленной зоны источника негативного воздействия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9216cef-c60d-4f9c-9ca1-f3983eccd401">
+    <name>ПризнакСпециализированногоПолигона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Является специализированным полигоном</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Является ли производственная площадка специализированным полигоном, оборудованным в соответствии с установленными требованиями</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="53c62392-219b-4a93-b549-486129ac64d3">
+    <name>Удалить_КодОчистныхСооружений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить код очистных сооружений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код очистных сооружений, установленных на водном объекте производственной площадки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c8caafa4-4ac8-4e0e-99ae-7728b3694d88">
+    <name>Удалить_МощностьОчистныхСооружений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мощность очистных сооружений, тыс.м3</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>5</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Средняя мощность очистных сооружений, установленных на водном объекте производственной площадки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="04ce2d8a-1428-4016-8706-86020ae542f9">
+    <name>Удалить_ВодохозяйственныйУчасток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить водохозяйственный участок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВодохозяйственныеУчастки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Водохозяйственный участок водного объекта по производственной площадке</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9fa28fce-a15e-4b96-ab81-cffe8bb90117">
+    <name>КодПоОКАТО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОКАТО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОКАТО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код производственной площадки по ОКАТО</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b6c8810e-5f6b-4471-8dc7-bbbd41d5fa93">
+    <name>НаходитсяРядомСВО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Находится рядом с водным объектом</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Находится ли производственная площадка рядом с водным объектом</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f86d3da4-6396-4642-b910-7693f4b82565">
+    <name>ГеометрическаяХарактеристикаИсточниковЗагрязнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Геометрическая характеристика источников загрязнения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГеометрическиеХарактеристикиИсточниковЗагрязнения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="10067d9c-0e5c-407c-800b-f38cb8d744f8">
+    <name>НормативнаяСЗЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нормативная санитарно-защитная зона</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РазмерыНормативныхСЗЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df2d9821-aa0f-4bd3-88ca-9b6345bad4a1">
+    <name>Удалить_ПроектнаяСЗЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проектная санитарно-защитная зона</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ccfb73f3-8377-402d-a097-cf3702ecb57c">
+    <name>БассейновыйОкруг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бассейновый округ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВодохозяйственныеУчастки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <choiceForm>Catalog.ВодохозяйственныеУчастки.Form.ФормаВыбораГруппы</choiceForm>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df3ac19b-5ff6-49f3-9043-dc99f4f2c79d">
+    <name>ВидЭксплуатации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид эксплуатации</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостояниеЭксплуатации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="89ed3256-1532-47fe-98c1-c4fd9426a658">
+    <name>КритерийТрансформацииАзота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Критерий трансформации азота</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КритерииРегиональныхКоэффициентовТрансформацииАзота</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3e8caf77-1943-4c02-a2de-414a978e37f2">
+    <name>ТочкаОтсчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка отсчета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТочкиОтсчета</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Нулевая точка отсчета для локальных координат</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8fc41a36-2c6b-4074-a811-ec17dedd934e">
+    <name>ЛицензионныйУчасток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицензионный участок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛицензионныеУчастки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="14461755-66d9-4bc9-a550-77fd3c4c681e">
+    <name>ПодразделениеОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение организации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПодразделенияОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a0bb3b94-b2ca-4fc6-bda4-28106f6cf562">
+    <name>КодМоря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Море РФ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МореРФ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fc442622-d34e-4cd9-befa-8c47186e6c62">
+    <name>УровеньГосударственногоЭкологическогоНадзора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень государственного экологического надзора</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УровеньГосударственногоЭкологическогоНадзора</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91f1d7a3-e318-4d2d-bb82-9495d52f2aee">
+    <name>МореИлиШельф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Континентальный шельф</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97272008-966d-4616-aa83-eb8420163522">
+    <name>ПризнакСудна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак судна</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="78dfab00-34f2-4471-bbc4-c4a531ae16e5">
+    <name>НомерИМО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер ИМО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификационный номер, который присваивается морскому судну на основе Регистра судоходства Ллойда в соответствии с требованиями Международной морской организации (International Maritime Organization, IMO)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b54898c3-cde9-4757-906f-c6d7f6664936">
+    <name>ПризнакВодныйОбъектПитьевогоИХозяйственноБытовогоВодоснабжения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак водный объект питьевого и хозяйственно-бытового водоснабжения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa93f27c-5d6a-486b-93e3-69a2bd77c942">
+    <name>ТипТерриторииОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип территории объекта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыТерриторийОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="293ebf05-06eb-4f6b-843b-ba54a729fddc">
+    <name>СанитарноЗащитнаяЗона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Санитарно-защитная зона</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СанитарноЗащитныеЗоны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.ПроизводственныеПлощадки.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="df3d4b3e-c5be-458d-bd47-61c7dc6f7aa5">
+    <producedTypes>
+      <objectType typeId="de513704-0808-488b-b87c-292b35b23da8" valueTypeId="d604dfd1-be87-443d-a40f-b73d277866a5"/>
+      <rowType typeId="d27787f1-e3b6-4d59-a28d-bef233468bfb" valueTypeId="90985f4e-9128-45fe-9b8a-8dcc0bb5c891"/>
+    </producedTypes>
+    <name>ПунктыНаблюденияТочкиЗамера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункты наблюдения/точки замера</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="042cfb9a-2db1-4a7e-bb1a-8d62b72ba75d">
+      <name>НомерСтвора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер створа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>5</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="27d6396c-dfe3-47d9-bb65-8b01dc1c154d">
+      <name>КоордСевШир</name>
+      <synonym>
+        <key>ru</key>
+        <value>Координаты северной широты</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <mask>99.99°99.99'99.99''</mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7b6d5205-ccf5-4bea-89a8-6dc5058cd6f0">
+      <name>КоордВостДолг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Координаты восточной долготы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <mask>999.99°99.99'99.99''</mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="138da81b-e7f6-430b-9e3a-157d935e6257">
+      <name>АдресПунктаЗамера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес пункта замера</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5f4a9196-1c3e-4f57-9cc1-ec4bcdab7920">
+    <producedTypes>
+      <objectType typeId="4c0e8c79-8728-4a38-8e33-e0a05327a7fb" valueTypeId="b93bc99a-ac48-4450-8588-6ecd9c161552"/>
+      <rowType typeId="7cc9ec73-00db-4810-a5ec-be9ca635f6df" valueTypeId="f0f7cdc3-b981-4acc-8966-8dcd17bef335"/>
+    </producedTypes>
+    <name>ОбъектыВременногоНакопленияОтходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты временного накопления отходов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="dd922e13-8203-482f-ad3d-eb773ff841f8">
+      <name>ОбъектВременногоНакопленияОтходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект временного накопления отходов</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ОбъектыВременногоХраненияОтходов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8036d713-77ea-4358-97c9-96f83cd1277d">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество, шт.</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="23468862-c200-4d35-8c62-880bb214305f">
+      <name>Размер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размер</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a53db7a3-3340-41d9-ad4c-4729cb6a24ba">
+      <name>ЕдИзм</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ед. изм.</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОКЕИ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1a41ee53-791a-422f-8d59-283bf51de3b8">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="125c0f69-17c6-41b3-9651-0e99bc092a4a">
+    <producedTypes>
+      <objectType typeId="631db840-7e5d-4d90-a6c7-239486c4c38c" valueTypeId="bda1d2e1-50bf-4065-9cc5-cbcbdf02a4b9"/>
+      <rowType typeId="840687b3-b0b0-489b-96f1-b0e2cc433ebc" valueTypeId="227744a1-c14d-4578-8fd8-c6c29f4d843a"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактная информация</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Хранение контактной информации (адреса, веб-страницы, номера телефонов и др.)</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1777f32d-9bf8-4c0f-b191-d7fb1438d432">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыКонтактнойИнформации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип контактной информации (телефон, адрес и т.п.)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0d3441c2-67ec-4421-9fb3-feed937c3bdc">
+      <name>Вид</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыКонтактнойИнформации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид контактной информации</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fdc99f2c-b6fb-4f91-a0ad-c7c1b8353fca">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Представление контактной информации для отображения в формах</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1049637d-1506-4dbc-8f9c-ff00eddc7292">
+      <name>ЗначенияПолей</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значения полей</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Служебное поле, для хранения контактной информации</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2ebeb0cf-9671-42bd-bc07-6123ce155c2e">
+      <name>Страна</name>
+      <synonym>
+        <key>ru</key>
+        <value>Страна</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Страна (заполняется для адреса)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="86ca7364-e29d-44ec-b20d-256c596bea3e">
+      <name>Регион</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регион</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Регион (заполняется для адреса)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="25926b43-e2c7-41cd-96fa-998c5146c7a0">
+      <name>Город</name>
+      <synonym>
+        <key>ru</key>
+        <value>Город</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Город (заполняется для адреса)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="73095f6c-9a3c-4a17-bbc7-ef0f0f01c4bd">
+      <name>АдресЭП</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес ЭП</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Адрес электронной почты</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="71c4e5e6-d586-4feb-afa6-724db8a0aa93">
+      <name>ДоменноеИмяСервера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доменное имя сервера</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Доменное имя сервера электронной почты или веб-страницы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3438c374-6fb7-4cd2-9222-689d14e71904">
+      <name>НомерТелефона</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер телефона</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полный номер телефона</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5fa2eea4-a43d-4e57-a520-e63b7b922cf2">
+      <name>НомерТелефонаБезКодов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер телефона без кодов</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер телефона без кодов и добавочного номера</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="20bb2687-9dc0-4f59-a6ed-1d2a87356bfc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a0527061-be93-4069-bb28-f9dcce418dde">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2493eda0-c2d8-4137-bd16-6560497c47c8">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

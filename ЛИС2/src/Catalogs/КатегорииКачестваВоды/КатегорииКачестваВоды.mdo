@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3840dd99-82ad-4508-a94d-dd35f857dd33">
+  <producedTypes>
+    <objectType typeId="54fc9bc7-8d4c-4f5c-a113-6eb3af4680a2" valueTypeId="5bc14b81-6a43-4e06-bc9d-8de6b95bf56b"/>
+    <refType typeId="d65fb9ff-c8c4-4d1d-91b9-a0d4a84c0b1d" valueTypeId="989f10ac-e690-4b64-83ee-cd2cf5f7739e"/>
+    <selectionType typeId="4b08362b-1fe1-4b77-bcc4-6ec91dffe8f9" valueTypeId="9c6d1d06-f5be-4667-8366-8346a6458a2c"/>
+    <listType typeId="6604d3b6-e100-4e88-a90c-aed14cddf2b6" valueTypeId="4b40542c-ec76-4340-897e-2cff96a5a061"/>
+    <managerType typeId="a6427047-b400-490c-b64a-e2c2fe36074c" valueTypeId="bb0ebfda-26b6-4b93-bae8-4cbbdf2b289b"/>
+  </producedTypes>
+  <name>КатегорииКачестваВоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории качества воды</value>
+  </synonym>
+  <comment>В справочнике содержится перечень кодов категорий качества воды согласно Приложению №2 приказа Росстата от 19.10.2009 N 230 (ред. от 28.11.2011, с изм. от 05.05.2016)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорииКачестваВоды.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КатегорииКачестваВоды.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="76aa22e6-a0d7-40ef-aaac-d51e5693576b">
+      <name>БалластнаяЛьяльная</name>
+      <description>Балластная, льяльная</description>
+      <code xsi:type="core:StringValue">
+        <value>БЛ</value>
+      </code>
+    </items>
+    <items id="17a1af08-7e20-49d8-baf3-177cefd7b375">
+      <name>ВПрочихСистемахВодоотведения</name>
+      <description>В прочих системах водоотведения</description>
+      <code xsi:type="core:StringValue">
+        <value>СД</value>
+      </code>
+    </items>
+    <items id="b950a3f8-18f2-4023-82e7-5b16d82d66c3">
+      <name>ВСистемахВодоотведенияКоммунальногоНазначения</name>
+      <description>В системах водоотведения коммунального назначения</description>
+      <code xsi:type="core:StringValue">
+        <value>СК</value>
+      </code>
+    </items>
+    <items id="b09231f1-bdb4-4751-b9ca-465664b020a5">
+      <name>ВодаСточнаяТранзитная</name>
+      <description>Вода сточная транзитная, переданная на очистные сооружения другим респондентам</description>
+      <code xsi:type="core:StringValue">
+        <value>СТ</value>
+      </code>
+    </items>
+    <items id="97d3a5a6-c7ec-4b1d-9ca0-a2505a282384">
+      <name>ЗабраннаяИзПриродныхВодныхОбъектовКромеМорей</name>
+      <description>Забранная из природных водных объектов (кроме морей)</description>
+      <code xsi:type="core:StringValue">
+        <value>ТН</value>
+      </code>
+    </items>
+    <items id="f614d620-beea-4b45-8ef4-1a8f8fd94ccb">
+      <name>ЗабраннаяИЗПриродныхВОКромеМорейВТомЧислеПослеВодоподготовки</name>
+      <description>Забранная из природных водных объектов (кроме морей), в том числе после водоподготовки</description>
+      <code xsi:type="core:StringValue">
+        <value>ПО</value>
+      </code>
+    </items>
+    <items id="800f8e54-0375-407e-ba0b-b806b1e52800">
+      <name>ИзМорей</name>
+      <description>Из морей</description>
+      <code xsi:type="core:StringValue">
+        <value>МР</value>
+      </code>
+    </items>
+    <items id="1b7aeb47-0ccc-4a7f-aa4c-fb1d045ef3a3">
+      <name>Карьерная</name>
+      <description>Карьерная</description>
+      <code xsi:type="core:StringValue">
+        <value>КР</value>
+      </code>
+    </items>
+    <items id="9c4685c5-2b8b-4594-8822-050bc8d41c22">
+      <name>КоллекторноДренажная</name>
+      <description>Коллекторно-дренажная</description>
+      <code xsi:type="core:StringValue">
+        <value>КД</value>
+      </code>
+    </items>
+    <items id="22d45692-3239-4f26-8c3a-7df789dfbe72">
+      <name>Ливневая</name>
+      <description>Ливневая</description>
+      <code xsi:type="core:StringValue">
+        <value>ЛВ</value>
+      </code>
+    </items>
+    <items id="7f636bd0-6105-4a41-98c6-bb846d7372af">
+      <name>Минеральная</name>
+      <description>Минеральная</description>
+      <code xsi:type="core:StringValue">
+        <value>МН</value>
+      </code>
+    </items>
+    <items id="5115b41f-5cc7-403f-90ad-bf9a951a5364">
+      <name>ПереданнаяДляПерераспределенияПереброскиСтока</name>
+      <description>Переданная для перераспределения (переброски) стока</description>
+      <code xsi:type="core:StringValue">
+        <value>ТР</value>
+      </code>
+    </items>
+    <items id="f546f48c-271b-45e8-96bd-b3d9a0620f2a">
+      <name>ПереданнаяДляПополненияЗапасовПодземныхВод</name>
+      <description>Переданная для пополнения запасов подземных вод</description>
+      <code xsi:type="core:StringValue">
+        <value>ТП</value>
+      </code>
+    </items>
+    <items id="152ef55a-5f4f-470f-81ad-e4ea47fbc7f9">
+      <name>ПолученнаяПереданнаяИзПрочихСистемВодоснабжения</name>
+      <description>Полученная и (или) переданная из прочих систем водоснабжения</description>
+      <code xsi:type="core:StringValue">
+        <value>ПД</value>
+      </code>
+    </items>
+    <items id="3cd0ce57-f949-4f5f-b0a9-549faae15102">
+      <name>ПолученнаяПереданнаяИзСистемВодоснабженияВодообеспеченияОбводнения</name>
+      <description>Полученная и (или) переданная из систем водоснабжения (водообеспечения, обводнения)</description>
+      <code xsi:type="core:StringValue">
+        <value>ТД</value>
+      </code>
+    </items>
+    <items id="16307886-3a29-4434-8b54-c66d4535a55a">
+      <name>ПолученнаяПереданнаяИзСистемВодоснабженияКоммунальногоНазначения</name>
+      <description>Полученная и (или) переданная из систем водоснабжения коммунального назначения</description>
+      <code xsi:type="core:StringValue">
+        <value>ПК</value>
+      </code>
+    </items>
+    <items id="04026352-276a-412c-be1f-ef2a5744fe42">
+      <name>СброснаяСРисовыхСистем</name>
+      <description>Сбросная с рисовых систем</description>
+      <code xsi:type="core:StringValue">
+        <value>РС</value>
+      </code>
+    </items>
+    <items id="84853a45-bebc-48c5-8136-b9c652a62e1d">
+      <name>СброснаяСРыбоводныхПрудов</name>
+      <description>Сбросная с рыбоводных прудов</description>
+      <code xsi:type="core:StringValue">
+        <value>РВ</value>
+      </code>
+    </items>
+    <items id="7fa9db9f-cb98-4f4c-9867-4010c2655a61">
+      <name>Термальная</name>
+      <description>Термальная</description>
+      <code xsi:type="core:StringValue">
+        <value>ТМ</value>
+      </code>
+    </items>
+    <items id="fe4c6429-97ce-4b32-a247-cdacd4dcbf76">
+      <name>ШахтноРудничная</name>
+      <description>Шахтно-рудничная</description>
+      <code xsi:type="core:StringValue">
+        <value>ШР</value>
+      </code>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

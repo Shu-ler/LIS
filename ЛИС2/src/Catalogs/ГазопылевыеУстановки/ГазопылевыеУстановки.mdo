@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="615a8f9c-a53f-4f8e-83e2-025a3e59a354">
+  <producedTypes>
+    <objectType typeId="69df4ba7-58fa-4f82-b7fa-053d60bd970a" valueTypeId="0d79d0c9-62f3-4349-8acc-f1e8a4303b66"/>
+    <refType typeId="873e2e94-958c-4804-a1e5-ec8ccfbd481c" valueTypeId="90bb6513-ccdd-4ad6-b669-1b8628880f74"/>
+    <selectionType typeId="a667087b-e21a-48cd-b010-a5132ffd8698" valueTypeId="eae57368-0ea8-4321-9db3-1e9afbfc0ab5"/>
+    <listType typeId="6f9e36bc-b2c3-4706-8952-f75c58af71ca" valueTypeId="dd574d1c-a62b-4add-ba62-cc6798d394c3"/>
+    <managerType typeId="e2726137-dd38-4e7d-a1c3-983565f07892" valueTypeId="0eec8c80-4911-449a-999d-91be4332c409"/>
+  </producedTypes>
+  <name>ГазопылевыеУстановки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пылегазоочистные установки</value>
+  </synonym>
+  <comment>Справочник предназначен для хранения информации о пылегазоочистных установках.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГазопылевыеУстановки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГазопылевыеУстановки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ИсточникиЗагрязнения.EmptyRef</value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ГазопылевыеУстановки.EmptyRef</value>
+    </fillValue>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.ГазопылевыеУстановки.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование ПГОУ</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Пылегазоочистные установки</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Пылегазоочистные установки</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ИсточникиЗагрязнения</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГазопылевыеУстановки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ГазопылевыеУстановки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ГазопылевыеУстановки.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="b25081dc-9212-43cc-842a-ac78c34aa739">
+    <name>ТипГПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыГазопылевыхУстановок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="87a2c9da-32e4-4cb7-997f-1ab759c0a569">
+    <name>Удалить_КоэффициентЭффективностиГазоулавливающегоРезервуара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эффективность ПГОУ резервуара, %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1df53fef-baf1-4e55-b80a-00a844363a82">
+    <name>ДоляТвердыхЧастицУлавливаемыхВЗолоуловителях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доля твердых частиц улавливаемых в золоуловителях</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показатель используется для расчета выброса углерода в документе &quot;Расчет выбросов ЗВ от котельной&quot; (η3)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="004ab376-2902-4e98-bb6b-d91e0f69c09a">
+    <name>Мощность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мощность, тыс.м3/час</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e7de88f-6d52-4292-9211-90206b504093">
+    <name>ОбщаяСтепеньУлавливанияТвердыхЧастицПриСжиганииМазута</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая степень улавливания твердых частиц при сжигании мазута (η зу.общ.) (%)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показатель используется при расчете выбросов мазутной золы в документе &quot;Расчет выбросов от котельной&quot; (η зу.общ)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="50957ec6-3f91-4aa2-b28b-e98b244e5231">
+    <name>ОбщаяСтепеньУлавливанияТвердыхЧастицПриСжиганииУгля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая степень улавливания твердых частиц при сжигании угля (η у) (%)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показатель используется при расчете выбросов мазутной золы в документе &quot;Расчет выбросов от котельной&quot; ()</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="82880389-2074-44a5-8afd-99c8a72b1483">
+    <name>ОбщаяСтепеньУлавливанияТвердыхЧастицПриСжиганииПрочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая степень улавливания твердых частиц при сжигании прочего твердого топлива (ηпр) (%)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показатель используется при расчете выбросов мазутной золы в документе &quot;Расчет выбросов от котельной&quot; (η)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7044aa4c-95a3-4681-8fc1-06b5248094af">
+    <name>ПриродоохраннаяТехнология</name>
+    <synonym>
+      <key>ru</key>
+      <value>Природоохранная технология</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПриродоохранныеТехнологии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3ace7926-20f9-4f06-a66c-e00d195bfb7a">
+    <name>ИнвентарныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентарный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f23c4fbe-dfb0-45c5-83a5-2adccbae6c66">
+    <producedTypes>
+      <objectType typeId="171bb751-ee0b-41ca-b93b-4540c5ceb8ab" valueTypeId="5a2e4640-4060-470c-b3ff-9928d2da791c"/>
+      <rowType typeId="87e5193f-ed50-4628-b61b-9bd56b61b7f9" valueTypeId="b9975fd0-a75f-4fd9-9832-a1acb796e7c4"/>
+    </producedTypes>
+    <name>ПроцентОчисткиЗВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент очистки ЗВ</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="53444741-2f5e-4f4b-b9a4-5b3903fd58ec">
+      <name>ЗагрязняющееВещество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Загрязняющее вещество</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЗВАтмосфера</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="339e13dc-870d-4d61-812a-f05d994573bf">
+      <name>ПроцентОчистки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент очистки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>1</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:StringValue">
+        <value>100</value>
+      </maxValue>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="73611763-1bdc-4d1c-8216-98f610dd956d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1ffac030-73d5-413f-addf-d4f96133178d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fd0ab531-22ec-4770-852f-79af1b24044e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

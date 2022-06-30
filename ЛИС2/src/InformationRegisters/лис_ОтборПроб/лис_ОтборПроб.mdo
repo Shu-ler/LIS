@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b19857f9-9136-4ec7-b896-4bc86273e1ad">
+  <producedTypes>
+    <selectionType typeId="16223182-2d76-4be7-88f8-c566796eefe5" valueTypeId="a6ef6870-4065-426c-ae33-ae45580747c3"/>
+    <listType typeId="1f7e36ab-7e12-4fb0-805e-c6f3308d0a04" valueTypeId="8c2c1da6-a01c-4a22-985e-a3f2ef21c483"/>
+    <managerType typeId="d51c3717-e649-4a2b-8a1e-19ec3d1d7125" valueTypeId="7f073052-4956-46cd-a3f3-885b735a0174"/>
+    <recordSetType typeId="3e401c8b-2223-4235-972b-b2ea56256e85" valueTypeId="741db91a-14a0-4941-895e-19484645c104"/>
+    <recordKeyType typeId="ebb8ca2e-1797-4558-84df-37c6bb7f44f8" valueTypeId="98792f8f-7569-4569-be4b-580bf868d703"/>
+    <recordType typeId="9f7f0dc1-9b21-4572-bff4-2ac0e99e2114" valueTypeId="e2774e18-9c05-4b02-a2ce-25aec4a6dd52"/>
+    <recordManagerType typeId="d09d0c1c-bd52-4b48-b482-390b29e1ba97" valueTypeId="b318ebdd-103e-438d-b8fa-5fa899501aaf"/>
+  </producedTypes>
+  <name>лис_ОтборПроб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал отбора проб</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.лис_ОтборПроб.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="487b8bfd-8192-45a2-bdf3-6cbfdef1cf8e">
+    <name>ОбъемПробы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем пробы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="75a5f174-fc91-4673-91eb-4f9ee4f248eb">
+    <name>ТочкаОтбораПробы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка отбора пробы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТочкиКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="393a5b41-e046-4e66-a0ae-b20f0461ad69">
+    <name>ОпределяемыйПоказатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Определяемый показатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВеществаИПараметрыВАтмосферныхОсадках</types>
+      <types>CatalogRef.КонтролируемыеПараметрыВПочвеДонныхОтложениях</types>
+      <types>CatalogRef.ЗВВода</types>
+      <types>CatalogRef.КонтролируемыеПоказателиВВоде</types>
+      <types>CatalogRef.ФакторыФизическогоВоздействия</types>
+      <types>CatalogRef.ЗВАтмосфера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1c25e636-6520-465c-922a-54a018f90ee4">
+    <name>ЕмкостиДляОтбораПроб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Емкости для отбора проб</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.лис_ЛабораторныеПринадлежности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8cc02427-c341-4a3f-a1d9-1d134e60702e">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОКЕИ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a1ce116c-cf25-4b6c-b541-50b779e4305e">
+    <name>КонсервантыДляАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Консерванты для анализа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.лис_ЛабораторныеРеактивы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5cebdd62-504e-4451-9db0-630d25d3bdf4">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="3a56fed7-f70a-435c-864d-2a9c88b12309">
+    <name>ШифрПробы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шифр пробы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5df4e1ce-4c34-45b2-b091-029a0087bb94">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

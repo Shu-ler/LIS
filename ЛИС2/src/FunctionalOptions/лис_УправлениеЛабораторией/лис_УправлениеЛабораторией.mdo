@@ -19,36 +19,15 @@
   <content>Catalog.лис_КомпонентыЗамеровЛаборатории</content>
   <content>Catalog.лис_ЛабораторныеПринадлежности</content>
   <content>Catalog.лис_ЛабораторныеРеактивы</content>
-  <content>Document.лис_ПриходЛабораторногоИмущества</content>
-  <content>Document.лис_РасходЛабораторногоИмущества</content>
-  <content>Document.лис_ИнвентаризацияЛабораторногоИмущества</content>
   <content>Document.лис_АктОтбораПроб</content>
-  <content>Document.лис_ЖурналОпределенияКомпонентовВВоде</content>
   <content>Document.лис_ПланОтбораПроб</content>
-  <content>Document.лис_ЛабораторныеЖурналы</content>
-  <content>Document.лис_ЖурналКонтрольныхПроцедур</content>
-  <content>Document.лис_ЖурналПостроенияГрадуировочныхХарактеристик</content>
-  <content>Document.лис_ЖурналПриготовленияРастворов</content>
-  <content>Document.лис_ЖурналРегистрацииПроб</content>
-  <content>Document.лис_ЖурналыИнженерныхРасчетов</content>
-  <content>Document.лис_ВнутрилабораторныеЖурналы</content>
-  <content>Document.лис_ПротоколыРезультатовАнализов</content>
   <content>Enum.лис_ВидыОперацийПриходаИмущества</content>
   <content>Enum.лис_ВидыОперацийРасходаИмущества</content>
-  <content>Report.лис_ЖурналРегистрацииОтбораПробИПротоколовРезультатовАнализовВоды</content>
-  <content>Report.лис_ЖурналРегистрацииИОтбораПробИПротоколовРезультатовАнализовПочвы</content>
-  <content>Report.лис_ЖурналОпределенияКомпонентовВВоде</content>
-  <content>Report.лис_ЖурналОпределенияКомпонентовВПочве</content>
-  <content>Report.лис_ЖурналРегистрацииРезультатовКонтроляКачестваВоды</content>
-  <content>Report.лис_ЖурналРегистрацииРезультатовКонтроляКачестваПочвы</content>
-  <content>Report.лис_ПротоколКоличественногоХимическогоАнализа</content>
   <content>InformationRegister.лис_ОтборПроб</content>
   <content>InformationRegister.лис_ЖурналОпределенияКомпонентовВВоде</content>
   <content>InformationRegister.лис_ПриложениеКАттестатуАккредитации</content>
   <content>AccumulationRegister.лис_ОтобранныеПробы</content>
   <content>AccumulationRegister.лис_ИмуществоЛабораторий</content>
-  <content>Document.лис_ЖурналОпределенияКомпонентовВАтмосферномВоздухе</content>
   <content>InformationRegister.лис_ЖурналОпределенияКомпонентовВАтмосферномВоздухе</content>
   <content>InformationRegister.лис_ЖурналОпределенияКомпонентовВПромышленныхВыбросах</content>
-  <content>Document.лис_ЖурналОпределенияКомпонентовВПромышленныхВыбросах</content>
 </mdclass:FunctionalOption>

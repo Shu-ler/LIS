@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f54304f6-16ef-483b-935b-4a3e190f3ac8">
+  <producedTypes>
+    <refType typeId="9df94ea8-024b-403c-bb40-1be6a022a71e" valueTypeId="ec31884d-484b-4b06-99c4-18e58bf8701f"/>
+    <listType typeId="12d09280-7511-49de-91cb-e31ef5fc7b36" valueTypeId="80676881-dc8e-439e-9953-01b762bb33e5"/>
+    <managerType typeId="8a589b14-31a6-4f25-b723-800b299ddc05" valueTypeId="81aa2154-8a30-4048-82a1-ce3c38e84bab"/>
+  </producedTypes>
+  <name>ГеометрическиеХарактеристикиИсточниковЗагрязнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Геометрические характеристики источников загрязнения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ebca225c-f07b-4377-8464-d71d4628ce55">
+    <name>Точечные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точечные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b756f022-3339-4ec5-bf6f-31b4038bd646">
+    <name>Распределенные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределенные</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

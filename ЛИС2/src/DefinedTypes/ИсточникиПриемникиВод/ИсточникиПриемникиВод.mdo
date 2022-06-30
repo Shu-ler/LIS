@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f76715f0-2893-420a-827a-0b9cb2f05bc6">
+  <producedTypes>
+    <containerType typeId="78f609eb-9e2f-4e9a-93f3-3a53f01b5f99" valueTypeId="d9e5afa2-9f4b-47ca-b10d-395f2b6b9900"/>
+  </producedTypes>
+  <name>ИсточникиПриемникиВод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники/приемники вод</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВодныеОбъекты</types>
+  </type>
+</mdclass:DefinedType>

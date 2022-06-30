@@ -94,6 +94,14 @@
   </standardAttributes>
   <createOnInput>Use</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Учетная запись</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Учетные записи документооборота</value>
+  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>5</codeLength>

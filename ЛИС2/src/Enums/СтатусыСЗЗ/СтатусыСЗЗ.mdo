@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d72dc3e4-bbec-48da-95a9-4d06b131258d">
+  <producedTypes>
+    <refType typeId="2453e256-d3e6-4812-9d0f-e90e5665e69f" valueTypeId="2648820f-1768-4846-aa07-33d26a24be64"/>
+    <listType typeId="26d125b9-fd0c-4235-9809-04aef47f2472" valueTypeId="811b0362-0561-4f7e-b6c9-b5e8295371a3"/>
+    <managerType typeId="894735a5-ebb5-4db6-93bc-8df2575e0d55" valueTypeId="75f5a689-dbdf-4397-b112-05ab2cbeca4d"/>
+  </producedTypes>
+  <name>СтатусыСЗЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы санитарно-защитных зон</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0fb5d2e8-dfee-40e6-8e06-b20fab4ee883">
+    <name>Ориентировочная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ориентировочная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e04003dd-d65b-406d-92d4-686e292d795e">
+    <name>Расчетная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33205f91-fd5e-4f85-86d8-2921104c06af">
+    <name>РасчетнаяСокращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетная (сокращение)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a7e94ba-f4e7-41fa-9b28-48eafbc42ba0">
+    <name>Установленная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установленная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0c4e6a8-9bcc-4ff1-8819-13e43764451b">
+    <name>УстановленнаяСокращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установленная (сокращение)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

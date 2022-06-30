@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5a6f94c-fbf9-47c2-b0e3-3f2fa2d68d96">
+  <producedTypes>
+    <refType typeId="caaca4a7-c537-4893-9ba5-67c66417f2b7" valueTypeId="75fcd0ab-52a7-4d17-97c3-d27765ca30dd"/>
+    <listType typeId="0645a35a-097b-44e3-a504-c92b7d0fc3b8" valueTypeId="df716557-c8cd-4f5b-99a1-de180cb27bcf"/>
+    <managerType typeId="5a625966-98ab-4389-b22b-6b385befed95" valueTypeId="a22e370f-1953-4c3b-a973-47609d47c488"/>
+  </producedTypes>
+  <name>ВидыОчисткиОтведенныхВод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды очистки отведенных вод</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="62f38f8d-d15e-4d20-8f04-d3ca933f407a">
+    <name>БезОчистки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без очистки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a0efb10-9a0f-4ef5-94a8-43299b05cd6d">
+    <name>БиологическаяОчистка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Биологическая очистка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39199462-8240-49e3-abec-1acd8b597ab5">
+    <name>ФизХимОчистка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физико-химическая очистка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6bf05b88-5bbb-4172-b98d-6b6178910755">
+    <name>МеханическаяОчистка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Механическая очистка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

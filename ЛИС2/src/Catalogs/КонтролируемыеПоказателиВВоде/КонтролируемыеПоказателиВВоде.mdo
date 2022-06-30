@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3837b7d-acf2-4924-94bc-4681f7cad011">
+  <producedTypes>
+    <objectType typeId="25cac6b4-bd33-47d7-9336-38c89685eae4" valueTypeId="16081389-09a5-46bc-a960-23f32a66d34c"/>
+    <refType typeId="da99a48e-459a-410d-823e-1180ac7e058b" valueTypeId="d723a3bf-ad7c-4cd9-878e-a88fd51d6e90"/>
+    <selectionType typeId="41883ab4-49cc-45e0-895f-d19401d636fd" valueTypeId="b14824a9-b928-4978-91f7-8319aea39e0d"/>
+    <listType typeId="67722b1a-8866-4b14-829d-065f52bc3c89" valueTypeId="45d1d2d2-4831-4acc-8ac0-7a098e674e31"/>
+    <managerType typeId="c0717359-8a7b-43d0-a2ad-db1150ad456c" valueTypeId="0c1738b9-3a36-4e7f-be45-47c564e2f00c"/>
+  </producedTypes>
+  <name>КонтролируемыеПоказателиВВоде</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контролируемые показатели в воде</value>
+  </synonym>
+  <comment>В справочнике содержится перечень свойств воды (за исключением химического состава), анализируемых в рамках производственно- экологического контроля.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КонтролируемыеПоказателиВВоде.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КонтролируемыеПоказателиВВоде.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4190fa63-ea2d-4a19-b287-3d205b8c7a06">
+      <name>МакрокомпонентныйСостав</name>
+      <description>Макрокомпонентный состав</description>
+      <code xsi:type="core:StringValue">
+        <value>000000039</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="10435433-75de-4d2b-b2ce-207e35b4cc9f">
+        <name>Анионы</name>
+        <description>Анионы</description>
+        <code xsi:type="core:StringValue">
+          <value>000000041</value>
+        </code>
+        <isFolder>true</isFolder>
+        <content id="1916ee3b-d449-44d2-9248-270325c44191">
+          <name>CO3</name>
+          <description>CO3</description>
+          <code xsi:type="core:StringValue">
+            <value>000000053</value>
+          </code>
+        </content>
+        <content id="162d9974-0f18-4cac-88b6-334e1332c44b">
+          <name>HCO3</name>
+          <description>HCO3</description>
+          <code xsi:type="core:StringValue">
+            <value>000000050</value>
+          </code>
+        </content>
+      </content>
+      <content id="807ad9f5-403e-4cd4-bbfd-1fbd4dadc051">
+        <name>Катионы</name>
+        <description>Катионы</description>
+        <code xsi:type="core:StringValue">
+          <value>000000040</value>
+        </code>
+        <isFolder>true</isFolder>
+      </content>
+      <content id="fb4220b7-a631-4179-8820-200f1c584404">
+        <name>УглекислотаСвободная</name>
+        <description>Углекислота свободная</description>
+        <code xsi:type="core:StringValue">
+          <value>000000070</value>
+        </code>
+      </content>
+    </items>
+    <items id="21a3f09f-6b5a-42bc-a534-5c964ad145f1">
+      <name>МикробиологическиеПоказатели</name>
+      <description>Микробиологические показатели</description>
+      <code xsi:type="core:StringValue">
+        <value>000000062</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="6581f237-700e-4bb6-b55c-e225fe668b17">
+        <name>ОбщееМикробноеЧисло</name>
+        <description>Общее микробное число (ОМЧ)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000063</value>
+        </code>
+      </content>
+      <content id="7b26da03-4ec4-4e96-9576-e7192d8f9e17">
+        <name>ОбщиеКолиформныеБактерии</name>
+        <description>Общие колиформные бактерии (ОКБ)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000064</value>
+        </code>
+      </content>
+      <content id="0c7d46e7-890a-4336-950d-049579ed3dbb">
+        <name>ТермотолерантныеКолиформныеБактерии</name>
+        <description>Термотолерантные колиформные бактерии (ТКБ)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000065</value>
+        </code>
+      </content>
+    </items>
+    <items id="2fcfba23-da4a-4e07-b63e-2d75f998ec06">
+      <name>НеорганическиеВещества</name>
+      <description>Неорганические вещества</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="df65dd1f-cf10-4294-9d00-13a8e2b5fe2c">
+        <name>Барий</name>
+        <description>Барий (Ва2+)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000020</value>
+        </code>
+      </content>
+      <content id="bf4c096c-98a3-4b31-a4a3-36dc6dcfe719">
+        <name>ДиоксидКремния</name>
+        <description>Диоксид кремния</description>
+        <code xsi:type="core:StringValue">
+          <value>000000071</value>
+        </code>
+      </content>
+      <content id="33b9b024-8635-4ea4-88e6-fd11910aeedb">
+        <name>Коперниций</name>
+        <description>Коперниций (CN)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000036</value>
+        </code>
+      </content>
+      <content id="fa51a62b-80e4-45ad-bb5c-d7e07e8adc27">
+        <name>Хлор</name>
+        <description>Хлор (Сl) </description>
+        <code xsi:type="core:StringValue">
+          <value>000000035</value>
+        </code>
+      </content>
+    </items>
+    <items id="9ff87fe3-8d81-4f31-8230-4aa77af7a663">
+      <name>ОбобщенныеПоказатели</name>
+      <description>Обобщенные показатели</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="8b053980-e76a-42e8-b5bc-2ac5e36b34f4">
+        <name>БПК5</name>
+        <description>Биохимическое потребление кислорода (БПК5)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000069</value>
+        </code>
+      </content>
+      <content id="e5ca93f0-9781-4a3a-a1f3-27b3112ef1f2">
+        <name>ВодородныйПоказатель</name>
+        <description>Водородный показатель (pH)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000014</value>
+        </code>
+      </content>
+      <content id="4fa866fe-0f21-481b-879c-9255129903d6">
+        <name>Жесткость</name>
+        <description>Жесткость общая</description>
+        <code xsi:type="core:StringValue">
+          <value>000000002</value>
+        </code>
+      </content>
+      <content id="a6ace797-4d29-4f32-a3f0-a8016b7e14ad">
+        <name>ОкисляемостьПерманганатная</name>
+        <description>Окисляемость перманганатная</description>
+        <code xsi:type="core:StringValue">
+          <value>000000016</value>
+        </code>
+      </content>
+      <content id="c9485d9e-8da7-4824-87c0-c3feb60beea6">
+        <name>РастворенныйКислород</name>
+        <description>Растворенный кислород</description>
+        <code xsi:type="core:StringValue">
+          <value>000000068</value>
+        </code>
+      </content>
+      <content id="90efb3a4-68ba-45b8-909b-e5e2c93eb9ca">
+        <name>Температура</name>
+        <description>Температура</description>
+        <code xsi:type="core:StringValue">
+          <value>000000067</value>
+        </code>
+      </content>
+      <content id="6448a1e3-91c1-445f-91f7-c38396f3c9de">
+        <name>УЭП</name>
+        <description>УЭП  (удельная электропроводность)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000066</value>
+        </code>
+      </content>
+      <content id="e55ab832-82b2-456e-9705-6ba4c3c5b90c">
+        <name>ФенольныйИндекс</name>
+        <description>Фенольный индекс</description>
+        <code xsi:type="core:StringValue">
+          <value>000000017</value>
+        </code>
+      </content>
+    </items>
+    <items id="e62e12eb-97e0-4504-b457-a63778db27df">
+      <name>ОрганическиеВещества</name>
+      <description>Органические вещества</description>
+      <code xsi:type="core:StringValue">
+        <value>000000054</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="4917b50e-fd37-46c8-b502-19995ac1daf4">
+        <name>ДихлорфеноксиуксуснаяКислота</name>
+        <description>2,4-Д</description>
+        <code xsi:type="core:StringValue">
+          <value>000000057</value>
+        </code>
+      </content>
+      <content id="1c8a00c2-9f4f-4a61-9e08-0fde37ea8330">
+        <name>Линдан</name>
+        <description>g-ГХЦГ(линдан)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000055</value>
+        </code>
+      </content>
+      <content id="755c2509-74ce-4936-9740-a2c0a4a4e2a5">
+        <name>ДДТ</name>
+        <description>ДДТ (сумма изомеров)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000056</value>
+        </code>
+      </content>
+    </items>
+    <items id="8466ebb1-55d4-4ded-b304-6b0724469788">
+      <name>ОрганолептическиеСвойства</name>
+      <description>Органолептические</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="dc019017-3fee-41eb-95db-230f411720b7">
+        <name>ЗапахБалл20С</name>
+        <description>Запах, балл, 20 С</description>
+        <code xsi:type="core:StringValue">
+          <value>000000009</value>
+        </code>
+      </content>
+      <content id="b37786b3-ad6a-46d2-8f16-89d4c3287ebc">
+        <name>ЗапахБалл60С</name>
+        <description>Запах, балл, 60 С</description>
+        <code xsi:type="core:StringValue">
+          <value>000000010</value>
+        </code>
+      </content>
+      <content id="626b8fc6-375a-40c0-8220-84e19c9e416b">
+        <name>Мутность</name>
+        <description>Мутность</description>
+        <code xsi:type="core:StringValue">
+          <value>000000013</value>
+        </code>
+      </content>
+      <content id="738388c8-c2c8-4d57-89bf-b092fc336845">
+        <name>ПоверхностноАктивныеВещества</name>
+        <description>Поверхностно-активные вещества (ПАВ), анионоактивн</description>
+        <code xsi:type="core:StringValue">
+          <value>000000018</value>
+        </code>
+      </content>
+      <content id="92cc4bcc-d65f-4730-8ed6-bb80c55dbf79">
+        <name>ПривкусБалл20С</name>
+        <description>Привкус, балл, 20 С</description>
+        <code xsi:type="core:StringValue">
+          <value>000000011</value>
+        </code>
+      </content>
+      <content id="39dc9811-ddc2-44a0-8333-74e0bb36346e">
+        <name>Цветность</name>
+        <description>Цветность</description>
+        <code xsi:type="core:StringValue">
+          <value>000000012</value>
+        </code>
+      </content>
+    </items>
+    <items id="ea692c74-5122-4fd7-8c68-f90dc2253502">
+      <name>РадиологическиеПоказатели</name>
+      <description>Радиологические показатели</description>
+      <code xsi:type="core:StringValue">
+        <value>000000058</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="aa67697b-9d3d-4cb1-a431-900b27326161">
+        <name>αРадиоактивность</name>
+        <description>Общяя α-радиоактивность</description>
+        <code xsi:type="core:StringValue">
+          <value>000000059</value>
+        </code>
+      </content>
+      <content id="a4127454-ebcf-419c-b068-8c82abc0d26f">
+        <name>βРадиоактивность</name>
+        <description>Общяя β-радиоактивность</description>
+        <code xsi:type="core:StringValue">
+          <value>000000060</value>
+        </code>
+      </content>
+      <content id="bcd457b3-67f2-40e1-b9c6-f6e54192654c">
+        <name>УдельнаяАктивностьРадона</name>
+        <description>Удельная активность радона</description>
+        <code xsi:type="core:StringValue">
+          <value>000000061</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КонтролируемыеПоказателиВВоде.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="3a9d2984-3841-4367-87b7-7f2bedd90a86">
+    <name>КлассОпасности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс опасности</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КлассОпасности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Законодательно установленный класс опасности  вещества</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>4</value>
+    </maxValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="382e2037-1225-4109-82d5-91c62648c7cc">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОКЕИ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Единица измерения, в которой ведется учет вещества</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="03c5d084-21d4-44bc-9090-fa1432c02a4a">
+    <name>Удалить_НормативПДК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить норматив ПДК</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>9</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9ca81bac-78df-4540-b36f-b6dbab7a9734">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

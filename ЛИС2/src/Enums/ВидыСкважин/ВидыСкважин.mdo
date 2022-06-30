@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42f2c60f-fe48-4619-a7cc-25d2d52aea75">
+  <producedTypes>
+    <refType typeId="a7a80e8a-5adf-4524-87f7-c5e530f3265b" valueTypeId="09c87bba-34a6-4146-a2f9-10d35fa1e2f6"/>
+    <listType typeId="18d6bb10-c0c3-4eb0-a973-a7e481f8128d" valueTypeId="44983bc6-4bac-4960-9a51-1a2d8a224327"/>
+    <managerType typeId="45233b6c-a843-4cb0-8871-e9d7a9669a62" valueTypeId="9c47ac2c-9995-4879-ab45-fff35b747898"/>
+  </producedTypes>
+  <name>ВидыСкважин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды скважин</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5299ee5f-ddb5-41c5-9b98-99cc76485045">
+    <name>Эксплуатационная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эксплуатационная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a88714e-b3ae-4b18-9041-49ed4daed28b">
+    <name>Резервная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="afd543e4-eca9-467e-8c8b-28c953e345f2">
+    <name>Наблюдательная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наблюдательная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c59b78b5-530d-4949-a2e2-6cc1cc29165b">
+    <name>Ликвидированная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ликвидированная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="994a2e9f-aa07-479d-aa12-365f56cde2ee">
+    <name>Разведочная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разведочная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

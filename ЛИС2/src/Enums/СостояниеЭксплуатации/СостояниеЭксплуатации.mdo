@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11b46de5-9737-4de4-b93e-86db488af408">
+  <producedTypes>
+    <refType typeId="123f684d-7d3c-4c50-b854-03c3f8a1f4e0" valueTypeId="1ed9c7b1-2f9f-480d-b770-d0c470107e37"/>
+    <listType typeId="38deeaa1-b868-4e8e-880e-8d74321e20f2" valueTypeId="f8a95398-e1b8-493e-8723-a0896e05d7cb"/>
+    <managerType typeId="6ec89aec-eec3-434b-8f25-29a87eef59be" valueTypeId="0c375104-4e8f-4251-ad86-ed4d9fc585d7"/>
+  </producedTypes>
+  <name>СостояниеЭксплуатации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние эксплуатации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="59378efe-62b1-4fd9-a5ea-fcf60ccc29f2">
+    <name>Действующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действующий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06211870-4b09-4734-8853-3cbbb96fd28f">
+    <name>Недействующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недействующий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="89db671b-7c80-4df9-a369-10cb32020c62">
+    <name>Строящийся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строящийся</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48f920ca-80a3-4ce9-8d8f-0a3e08db8862">
+    <name>Законсервированный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Законсервированный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

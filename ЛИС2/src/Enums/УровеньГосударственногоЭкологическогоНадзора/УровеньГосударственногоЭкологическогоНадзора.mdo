@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9fa3c76-9bf3-43bf-9ee0-de467290e198">
+  <producedTypes>
+    <refType typeId="1db01113-a361-4301-9899-c4b49876a785" valueTypeId="073fcb96-036b-48ee-bd4b-609e7c890b2b"/>
+    <listType typeId="56b9215e-5cd1-45f6-991b-c98636fbc44b" valueTypeId="92d7df7c-df71-4189-a7a7-399eb83e7e6e"/>
+    <managerType typeId="ff97ceda-d8ce-40a8-ae68-13196a26697f" valueTypeId="270e02bc-64d7-4d29-8ce0-7cd27b4cf045"/>
+  </producedTypes>
+  <name>УровеньГосударственногоЭкологическогоНадзора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровень государственного экологического надзора</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="da4cff59-6beb-460a-a9e6-acfa651f8efc">
+    <name>Федеральный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Федеральный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58f5bd68-56ae-4301-ba88-98e76d96c5d3">
+    <name>Региональный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Региональный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

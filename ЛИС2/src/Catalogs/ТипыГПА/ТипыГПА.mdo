@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1da3366-635b-4c7d-b6cb-9355df42f7fa">
+  <producedTypes>
+    <objectType typeId="6f32908c-a358-4f2d-9145-3ac27a27258b" valueTypeId="25fc652a-e2c6-47f7-961f-a601b9dff2cb"/>
+    <refType typeId="fef3c906-426e-4667-b2c9-8f7b8f1a3fa0" valueTypeId="9687908c-b788-42bd-baf4-e8700a893564"/>
+    <selectionType typeId="f42440c8-bb57-4ba5-97e1-c1905cde59b8" valueTypeId="744d4dd7-8f0d-4b6b-bf6d-f82e575a2381"/>
+    <listType typeId="5521c23e-6860-409c-8f57-d86859828632" valueTypeId="fc4378d2-9ca6-4568-b4d8-2d4c3d06082d"/>
+    <managerType typeId="017a47ea-0087-4725-9c0e-ecafc2582a1a" valueTypeId="af11ad74-9a43-4041-95d7-549342235692"/>
+  </producedTypes>
+  <name>ТипыГПА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы газоперекачивающих агрегатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыГПА.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыГПА.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТипыГПА.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ТипыГПА.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ТипыГПА.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="3c49dd50-adfb-4384-aeb5-021813a3a74e">
+    <name>ТипТурбины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип турбины</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыТурбинГПА</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип турбины используется для расчета выбросов загрязнияющих веществ в документе &quot;Расчет выбросов от выхлопной трубы (шахты) ГПА&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bbb5d8d6-3266-4af3-b850-299113d6405f">
+    <name>МощностьГПА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мощность в станционных условиях (МВт)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="72f138ca-cc35-4dcd-a36e-6bfa6306bf8f">
+    <name>ЭффективныйКПДВСтанционныхУсловиях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эффективный КПД в станционных условиях</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4c44af82-3318-45cb-8351-e89293e34b8f">
+    <name>КоммерческаяПроизводительностьНагнетателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коммерческая производительность нагнетателя (млн. м3/сут)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e650c58-529c-4b8b-9b4a-c954222cb15f">
+    <name>ЧастотаВращенияРотораНаНоминальномРежиме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частота вращения ротора на номинальном режиме</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a03a067f-0f6f-43cd-b736-0ecb06e52ba5">
+    <name>АбсолютноеДавлениеЗаОсевымКомпрессоромГТУНаНоминальномРежиме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абсолютное давление за осевым компрессором ГТУ на номинальном режиме (МПа)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Абсолютное давление за осевым компрессором ГТУ на номинальном режиме (МПа)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2454d3eb-7db6-4f4d-9445-6d7ed2d4f74c">
+    <name>НоминальныйРасходТопливногоГаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номинальный расход топливного газа (м3/ч)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d00d024-afe6-4028-9025-ab09317c9cf5">
+    <name>НоминальныйРасходЦикловогоВоздуха</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номинальный массовый расход циклового воздуха (кг/с)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d8025e59-0710-487b-bf29-b24ed38bcbe1">
+    <name>НоминальныйРасходПродуктовСгоранияНаСрезеВыхлопногоПатрубкаТурбины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номинальный расход продуктов сгорания на срезе выхлопного патрубка турбины (м3/с)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2ee4bb79-4d9e-4cb3-a97e-a1afd750b959">
+    <name>НоминальныйУдельныйВыбросНаЕдТопливногоГазаОксидовАзота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номинальный удельный выброс на единицу топливного газа оксидов азота (г/м3)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="08c14a90-1b6a-4a95-b1c4-8d9c0c599693">
+    <name>НоминальныйУдельныйВыбросНаЕдТопливногоГазаОксидаУглерода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номинальный удельный выброс на единицу топливного газа оксида углерода (г/м3)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ae05b956-a756-484e-b40f-54ac611c160b">
+    <name>ОбъемВыбросовГазаПриПускеГПА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный объем выбросов природного газа при пуске ГПА (м3)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c55157e1-431f-40bf-8b63-bf5f7bf3e6ef">
+    <name>ВремяЗапускаГПА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время запуска (без учета предпусковой подготовки) (мин)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="75c37efc-fadc-43cd-a7ce-a6390125e4e2">
+    <name>ОбъемВыбросовПриОстановке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Усредненный нормальный объем выбросов при остановке ГПА (м3)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3afa5cb-4219-41b4-bd35-765e18be0a38">
+    <name>БезвозвратныеПотериМасла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безвозвратные потери масла (кг/ч)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="68efcb45-3e4b-4e17-8349-0052aca290bf">
+    <name>ЕмкостьМаслосистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Емкость маслосистемы (л)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="340be579-7e1b-4603-b21a-b9098608a005">
+    <name>ПриведеннаяКонцентрацияОксидовАзота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приведенная концентрация оксидов азота в сухих продуктах сгорания (мг/м3)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f8419412-5cfc-4178-9b4b-9370157891a9">
+    <name>ПриведеннаяКонцентрацияОксидаУглерода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приведенная концентрация оксида углерода в сухих продуктах сгорания (мг/м3)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="cb97e255-deda-4829-8daf-99971eef2554">
+    <producedTypes>
+      <objectType typeId="7032bb32-6e6a-48ec-94b6-9087dab4b160" valueTypeId="706d8b48-57d5-4ed8-a82d-d7ee7c654038"/>
+      <rowType typeId="ec395662-a0d3-43dc-bdc5-2c4475aa64d2" valueTypeId="26543b1c-4a5c-4d04-b6e8-fd2563ce1a02"/>
+    </producedTypes>
+    <name>ПоказателиПоСезонности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатели по сезонности</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="28a7b7bf-b219-4f32-8e47-4b62bd216ea2">
+      <name>Сезонность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сезонность</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Сезонность</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="93cd50ba-4354-4f86-af3c-70931874ab4b">
+      <name>ТипТурбины</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип турбины</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыТурбинГПА</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип турбины используется для расчета выбросов загрязнияющих веществ в документе &quot;Расчет выбросов от выхлопной трубы (шахты) ГПА&quot;</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e48d74d2-57cc-4e62-a7f6-bba8acc8c433">
+      <name>МощностьГПА</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мощность в станционных условиях (МВт)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="583585ca-51d0-454d-8da3-2939a7bce3fa">
+      <name>ЭффективныйКПДВСтанционныхУсловиях</name>
+      <synonym>
+        <key>ru</key>
+        <value>Эффективный КПД в станционных условиях</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="78660e18-ebc2-439e-a6dd-884099129e2a">
+      <name>КоммерческаяПроизводительностьНагнетателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Коммерческая производительность нагнетателя (млн. м3/сут)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4405e546-0847-4f74-b105-9bed91d18b6a">
+      <name>ЧастотаВращенияРотораНаНоминальномРежиме</name>
+      <synonym>
+        <key>ru</key>
+        <value>Частота вращения ротора на номинальном режиме</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f148aecb-8195-47fb-88e9-391e45dc58a5">
+      <name>АбсолютноеДавлениеЗаОсевымКомпрессоромГТУНаНоминальномРежиме</name>
+      <synonym>
+        <key>ru</key>
+        <value>Абсолютное давление за осевым компрессором ГТУ на номинальном режиме (МПа)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Абсолютное давление за осевым компрессором ГТУ на номинальном режиме (МПа)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1bd92f35-540f-420c-93a6-db8e69879972">
+      <name>НоминальныйРасходТопливногоГаза</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номинальный расход топливного газа (м3/ч)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4e853682-56ba-468d-ac48-9411fd476270">
+      <name>НоминальныйРасходЦикловогоВоздуха</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номинальный массовый расход циклового воздуха (кг/с)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5ff39f18-9007-4e51-ac02-6a7ee4b2b917">
+      <name>НоминальныйРасходПродуктовСгоранияНаСрезеВыхлопногоПатрубкаТурбины</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номинальный расход продуктов сгорания на срезе выхлопного патрубка турбины</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b64dce72-8adb-4895-a6b1-4fbe04aa308d">
+      <name>НоминальныйУдельныйВыбросНаЕдТопливногоГазаОксидовАзота</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номинальный удельный выброс на единицу топливного газа оксидов азота (г/м3)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8fb8afca-7637-4bbe-ae05-0e74b1eb00a9">
+      <name>НоминальныйУдельныйВыбросНаЕдТопливногоГазаОксидаУглерода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номинальный удельный выброс на единицу топливного газа оксида углерода (г/м3)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ecd8aa4d-5055-45f0-b5b7-ae6e39d9f15b">
+      <name>ОбъемВыбросовГазаПриПускеГПА</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расчетный объем выбросов природного газа при пуске ГПА (м3)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="99a02b2a-760c-4a1a-8f38-a7a173ebd728">
+      <name>ВремяЗапускаГПА</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время запуска (без учета предпусковой подготовки) (мин)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6213b21c-834e-4127-b358-a98926356ef5">
+      <name>ОбъемВыбросовПриОстановке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Усредненный нормальный объем выбросов при остановке ГПА (м3)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e9c6bcad-5956-4dfc-9e44-5d272c6b8434">
+      <name>БезвозвратныеПотериМасла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Безвозвратные потери масла (кг/ч)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cf2e431e-5ce0-48eb-8f04-d6e3bdd20e29">
+      <name>ЕмкостьМаслосистемы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Емкость маслосистемы (л)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="81775e86-9e2e-4fd3-902b-00a8aa5eafff">
+      <name>ПриведеннаяКонцентрацияОксидовАзота</name>
+      <synonym>
+        <key>ru</key>
+        <value>Приведенная концентрация оксидов азота в сухих продуктах сгорания (мг/м3)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eb98a1e5-e2a4-4e52-865c-a360a955a2ef">
+      <name>ПриведеннаяКонцентрацияОксидаУглерода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Приведенная концентрация оксида углерода в сухих продуктах сгорания (мг/м3)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f1c91b59-ffc2-4198-955c-cb6db62db401">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="df04107f-5a25-4191-b43e-ba6ae412fba5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="36f5c2d8-3774-4059-8602-93d1c12e2255">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

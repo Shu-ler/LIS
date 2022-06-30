@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ca22861-fabf-4097-b731-ff273bf082dd">
+  <producedTypes>
+    <refType typeId="6f8d5b3c-a2e7-4d5c-a2a1-23dae237fd34" valueTypeId="8953380c-8e27-497e-8658-78514bbd2ce4"/>
+    <listType typeId="f3263cfc-872c-41d7-ae6e-58015b751293" valueTypeId="10d9f399-4934-417a-a334-9d2d7f959000"/>
+    <managerType typeId="d931794f-40e0-4103-8a22-7ccb9c987213" valueTypeId="62c0f65c-b9cf-4f9e-941c-c6c1c56dbfba"/>
+  </producedTypes>
+  <name>ОбъектыВременногоХраненияОтходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты временного хранения отходов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="436279e5-4d14-4a30-b837-cc8584175acd">
+    <name>ЗакрытаяПлощадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытая площадка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b01210bf-5b8f-4ab8-b25b-ef1629d18076">
+    <name>ОткрытаяПлощадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытая площадка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2332733b-587a-410f-a6aa-9100a05cfe94">
+    <name>ТехнологическаяЕмкость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологическая емкость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbf25a39-a2f8-4ab5-ac33-24ae7f768a1d">
+    <name>Резервуар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервуар</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="547970f8-0006-4d2a-ab31-e557dc3b52f7">
+    <name>НаземнаяЕмкость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наземная емкость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05b85a6b-1805-4c6d-affb-a653a57bfd78">
+    <name>ЗаглубленнаяЕмкость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заглубленная емкость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b93e36a-41e7-494f-8018-e417d44e040d">
+    <name>КонтейнерСАХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контейнер САХ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b85c5614-732e-4207-94fd-26b7af155305">
+    <name>ВспомогательноеПомещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вспомогательное помещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42eccd43-26df-4899-8276-4de5fb663901">
+    <name>ПроизводственноеПомещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственное помещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c851245-a661-496c-8934-4778c5d31aea">
+    <name>СкладскоеСооружение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Складское сооружение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

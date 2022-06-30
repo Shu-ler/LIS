@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdd16186-1a5c-46e6-b8e5-217719a2cc83">
+  <producedTypes>
+    <refType typeId="2e425230-a9a1-4e6b-b72f-07a6f3ee7c48" valueTypeId="a09fc26a-649e-4e7d-80f1-c72d6d6aad13"/>
+    <listType typeId="499f84cc-5762-44b8-a693-899a46b8d3fd" valueTypeId="ab938be1-553b-415c-9430-80ca52ae12bc"/>
+    <managerType typeId="3222f245-0465-4d8b-9865-7cd9638ca88b" valueTypeId="c2f2c344-d8d7-4f00-b743-0586e3f846da"/>
+  </producedTypes>
+  <name>ВидыВодногоОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды водного объекта</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5c8bf4f9-0eac-4d79-a3b9-a18738c1767c">
+    <name>Море10</name>
+    <synonym>
+      <key>ru</key>
+      <value>10 Море</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c460192-43d7-46da-81b9-70a33dfafb10">
+    <name>Река20</name>
+    <synonym>
+      <key>ru</key>
+      <value>20 Река</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3fec301a-3ff7-49e6-8f6c-3da1920a9630">
+    <name>РекаПересыхающая21</name>
+    <synonym>
+      <key>ru</key>
+      <value>21 Река пересыхающая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="207b8821-838d-4efc-b3a8-0086522ca56c">
+    <name>Озеро30</name>
+    <synonym>
+      <key>ru</key>
+      <value>30 Озеро</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7d7175a-3747-4549-914d-ba697facff1b">
+    <name>ВодохранилищеРусловое40</name>
+    <synonym>
+      <key>ru</key>
+      <value>40 Водохранилище русловое, пруд русловой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="386879df-5ad3-4797-8187-cb95aad25020">
+    <name>ВодохранилищеНаливное41</name>
+    <synonym>
+      <key>ru</key>
+      <value>41 Водохранилище наливное, пруд наливной</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea43de8f-6441-476c-acbd-96cb99c7f80a">
+    <name>Канал50</name>
+    <synonym>
+      <key>ru</key>
+      <value>50 Канал комплексного назначения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="183f98f6-0ca1-4c9c-882a-efb80af7c3ec">
+    <name>Подземный60</name>
+    <synonym>
+      <key>ru</key>
+      <value>60 Подземный водный объект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d1b0923-e9c5-4e63-8e4d-a550626705eb">
+    <name>Шахта61</name>
+    <synonym>
+      <key>ru</key>
+      <value>61 Шахта, рудник, нефтепромысел, карьер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3df72d1b-698a-42b7-9fce-79147b1cd5df">
+    <name>Скважина62</name>
+    <synonym>
+      <key>ru</key>
+      <value>62 Скважина вертикальная уровня грунтовых вод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e97c3903-b8fb-47b8-a1e7-47cdaa896191">
+    <name>Коллектор71</name>
+    <synonym>
+      <key>ru</key>
+      <value>71 Коллектор оросительной системы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2a57c46-0aa3-4de4-9116-ebc8083aab74">
+    <name>СетьКанализации91</name>
+    <synonym>
+      <key>ru</key>
+      <value>91 Сеть канализации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a793226-b6a4-4ad3-a28c-6edcdeef6a89">
+    <name>ЛивневойКоллектор99</name>
+    <synonym>
+      <key>ru</key>
+      <value>99 Ливневой коллектор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

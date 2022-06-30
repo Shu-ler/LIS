@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3300f496-de1c-4818-be74-efe5695cbfed">
+  <producedTypes>
+    <objectType typeId="d0833022-4693-40e3-872f-8c0b3bf7ae70" valueTypeId="be5af0f3-0803-4afa-b085-0516c30c28cb"/>
+    <refType typeId="f2346fc6-f61a-40e7-b69b-4e6ef938bd3c" valueTypeId="78d4400f-80e4-4177-bab9-b87de1e55a0a"/>
+    <selectionType typeId="43726c2c-e37e-482c-ad11-93fad9b5c685" valueTypeId="8a191def-1b9e-4c67-843c-2d420fca5608"/>
+    <listType typeId="0ae30e5f-58a6-4fc9-8cdd-3e0f073218ef" valueTypeId="fdfb0e12-1eca-4dee-a16c-9c3c36088417"/>
+    <managerType typeId="f680bcc3-bdf4-4b89-9851-8274558c58ba" valueTypeId="4994f27b-d339-40a2-8a50-cca6715bd709"/>
+  </producedTypes>
+  <name>ВеществаИПараметрыВАтмосферныхОсадках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вещества и параметры в атмосферных осадках</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВеществаИПараметрыВАтмосферныхОсадках.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВеществаИПараметрыВАтмосферныхОсадках.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вещества и параметры в атмосферных осадках</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Вещества и параметры в атмосферных осадках</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Справочник предназначен для ведения данных о перечне наименований загрязняющих веществ и кодах веществ, накапливаемых в атмосферных осадках (дождь, снег и др.) и их параметрах</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4a5cd529-bb80-4adc-b836-7ba00da1d64c">
+      <name>ЖелезоОбщее</name>
+      <description>Железо общее</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="5809093d-c23b-411e-b79a-b07e6b3b297a">
+      <name>ИоныАммония</name>
+      <description>Ионы аммония</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="21cb6002-ffe0-48a0-8f70-41a0124c5d25">
+      <name>Марганец</name>
+      <description>Марганец</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="0b504098-1a42-4349-89ca-eca4f0e1a1f6">
+      <name>Медь</name>
+      <description>Медь</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="127c9d7a-7e23-4c98-a983-456833ae55b0">
+      <name>Нефтепродукты</name>
+      <description>Нефтепродукты</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="175749c7-7b68-4aa9-9dcd-4860cd76b15f">
+      <name>Никель</name>
+      <description>Никель</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="db0d728d-1a80-4c83-9c0b-5b79b6275255">
+      <name>НитратИон</name>
+      <description>Нитрат-ион</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="253a5509-bdb6-4d68-b68f-4fa297514ce7">
+      <name>Свинец</name>
+      <description>Свинец</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="f2477ac9-aad5-43c0-84d9-de4c2f6c8b9a">
+      <name>СульфатИон</name>
+      <description>Сульфат-ион</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="ef3d503e-1ea3-4974-80b5-ec0f220e1f2d">
+      <name>Фенолы</name>
+      <description>Фенолы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="0cb10e83-c33e-4ad2-b8f1-c19a270670c7">
+      <name>ХлоридИон</name>
+      <description>Хлорид-ион</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="4ca0436a-fe11-479d-8e4e-95d18471896f">
+      <name>Хром6</name>
+      <description>Хром VI</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="4ecb5a3b-ad01-47c9-a097-9b9b675155ff">
+      <name>Цинк</name>
+      <description>Цинк</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВеществаИПараметрыВАтмосферныхОсадках.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВеществаИПараметрыВАтмосферныхОсадках.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВеществаИПараметрыВАтмосферныхОсадках.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="7e3f150f-7d41-4e60-8c59-ab0b3e22e0b1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="83064e18-3cda-42d3-a109-85a5091635fd">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="052e71e0-307a-4246-a3de-d6e0349091c7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

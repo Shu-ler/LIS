@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1327ccc4-9f69-436f-927c-58c8eb1e14b7">
+  <producedTypes>
+    <refType typeId="17316c31-a824-4317-bff8-f67f9b69341e" valueTypeId="ccab7091-9259-4e0f-8d07-0a8bedb9b197"/>
+    <listType typeId="deae859a-7d71-4932-8ae5-9d967913bd65" valueTypeId="64780eb8-81ff-4b6c-89e4-960e860c34c0"/>
+    <managerType typeId="9d927e8a-ab49-4107-9cd2-b2eeae73dc71" valueTypeId="5aae0e04-dc53-46a3-b717-bbd396d794fe"/>
+  </producedTypes>
+  <name>ВидыТрубыИЗА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды трубы ИЗА</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="114d0793-1ae4-49b2-b16a-165f228d850f">
+    <name>Круглая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Круглая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2a42fb6-7959-4822-a8b2-eaa5691990ec">
+    <name>Прямоугольная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прямоугольная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

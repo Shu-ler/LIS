@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7388938-2231-4f29-bbec-ba9eb8ced9ac">
+  <producedTypes>
+    <refType typeId="a3b24ce0-2431-4ab2-a852-a0458afc788b" valueTypeId="e4a853c6-8952-4e13-b77b-01139b8c779a"/>
+    <listType typeId="86cbf939-224e-40a4-8ca6-22195e38d1c7" valueTypeId="08587e53-1d32-4cca-b6b0-7190a00e5e86"/>
+    <managerType typeId="cd2c19d0-fc79-41ee-9648-7a475a11cf07" valueTypeId="d5c837a7-25c6-40ff-937d-82486ed1a165"/>
+  </producedTypes>
+  <name>ВидыПротоколаПромышленныхВыбросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды протокола промышленных выбросов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="aa3db09b-d661-4c11-9b8d-220f4f2f2e89">
+    <name>ДляРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для регистрации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35013923-527c-4880-9cd3-0037eeed07e8">
+    <name>ДляРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для расчета</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

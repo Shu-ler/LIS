@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be661796-2b36-43e6-9b49-b9fdfc83524c">
+  <producedTypes>
+    <refType typeId="9603383d-d612-4491-bc14-d09a1956faa8" valueTypeId="98fe684b-8e97-4e6e-b31c-4fc7c03229a1"/>
+    <listType typeId="ffa1a302-f4cc-4e53-a1ab-433d185314a8" valueTypeId="0bed0c68-320c-4123-8c51-4d694ebafae4"/>
+    <managerType typeId="18eaa19e-d3be-451a-b3f0-9afb357cbedc" valueTypeId="e6cac342-c4e8-4588-8a8d-a4aa9de1c18b"/>
+  </producedTypes>
+  <name>МореРФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Море РФ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1b5d9c21-4e76-484b-b764-6c4ab551222e">
+    <name>АзовскоеМоре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Азовское море</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="059f145b-be46-4692-ac54-4ad566331e10">
+    <name>БалтийскоеМоре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Балтийское море</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac7f7a39-ae7e-4d25-8016-833537a29201">
+    <name>БаренцевоМоре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Баренцево море</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24f5a748-b3c8-42c1-9b4e-181a4a1cc81b">
+    <name>БелоеМоре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Белое море</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7c26ca48-022d-479c-91cf-ebe4428b338f">
+    <name>БеринговоМоре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Берингово море</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc4f81f3-69c4-4818-a4c1-27df60d7581b">
+    <name>ВосточноСибирскоеМоре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восточно-Сибирское море</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bed63d2d-6d7f-4c46-9619-efd86b3caf91">
+    <name>КарскоеМоре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карское море</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0493898c-6dc4-44ca-99e5-91cb55857e52">
+    <name>КаспийскоеМоре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каспийское море</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8efc681b-1799-4159-abdd-dff97f39c051">
+    <name>МореЛаптевых</name>
+    <synonym>
+      <key>ru</key>
+      <value>Море лаптевых</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d931e7f3-9f39-41ac-b79d-3d360505e015">
+    <name>ОхотскоеМоре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Охотское море</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f92175e-80e5-4669-b037-ac45a303e526">
+    <name>ЧерноеМоре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черное море</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c782dac4-02fb-4395-9536-48579e822b05">
+    <name>ЧукотскоеМоре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чукотское море</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab642533-9164-4b1a-9373-e3861d471513">
+    <name>ЯпонскоеМоре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Японское море</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

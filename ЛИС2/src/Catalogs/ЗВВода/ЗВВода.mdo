@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4a2a21f-f9ee-4602-b41f-cbe15f09623a">
+  <producedTypes>
+    <objectType typeId="c438026f-a5c7-4f8f-8a11-7ec29b223ae8" valueTypeId="3846b144-a5df-4476-8fcd-af8357904f2d"/>
+    <refType typeId="d0c86a6a-365c-41a3-a3da-9a213c575a05" valueTypeId="d756458c-e395-430e-8e32-34c91c850094"/>
+    <selectionType typeId="d4692ee4-300d-403d-b362-d2e53d9a7672" valueTypeId="e27a4caa-00ec-48f1-b5c6-54a71a89d8b4"/>
+    <listType typeId="8b076b26-3f3e-4270-988a-bf1adfcd9386" valueTypeId="fca75e3d-a113-4686-92ac-6eedb5c70377"/>
+    <managerType typeId="c22725d7-7ed1-4be1-a0d4-151ad3e3aac2" valueTypeId="db8b166e-eb02-4f9e-a759-639d34198883"/>
+  </producedTypes>
+  <name>ЗВВода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вещества, загрязняющие воду</value>
+  </synonym>
+  <comment>В справочнике содержатся сведения о веществах, загрязняющих водные объекты.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗВВода.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗВВода.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа ЗВ</value>
+    </synonym>
+    <comment>Группа загрязняющих веществ</comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа сортировки загрязняющего вещества</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ЗВВода.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование загрязняющего вещества в соответствии с классификатором</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Код загрязняющего вещества в соответствии с классификатором</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>    </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Вещества, загрязняющие воду</value>
+  </listPresentation>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="7ed0d5f9-1cf8-4b90-9421-667092476be4">
+      <name>Азот</name>
+      <description>Азот</description>
+      <code xsi:type="core:StringValue">
+        <value>0002</value>
+      </code>
+    </items>
+    <items id="555ff9be-a05a-4b9f-8aa9-2bbe1b51cf33">
+      <name>Алюминий</name>
+      <description>Алюминий</description>
+      <code xsi:type="core:StringValue">
+        <value>0001</value>
+      </code>
+    </items>
+    <items id="d9724849-fc56-4f58-9fb5-bedc60462097">
+      <name>АПАВ</name>
+      <description>АПАВ</description>
+      <code xsi:type="core:StringValue">
+        <value>0278</value>
+      </code>
+    </items>
+    <items id="5da940d7-e828-46fd-b7ba-9d8c2e6f62ac">
+      <name>Бериллий</name>
+      <description>Бериллий</description>
+      <code xsi:type="core:StringValue">
+        <value>0057</value>
+      </code>
+    </items>
+    <items id="15afbccd-78ca-4073-b96b-ce1f935eee43">
+      <name>БПКполн</name>
+      <description>БПК полн</description>
+      <code xsi:type="core:StringValue">
+        <value>0132</value>
+      </code>
+    </items>
+    <items id="ef65ebb5-bf49-4bdc-ae67-a4650344f3d6">
+      <name>ВзвешенныеВещества</name>
+      <description>Взвешенные вещества</description>
+      <code xsi:type="core:StringValue">
+        <value>0113</value>
+      </code>
+    </items>
+    <items id="228f3680-ab8c-4989-a887-60a1c16b3601">
+      <name>Железо</name>
+      <description>Железо</description>
+      <code xsi:type="core:StringValue">
+        <value>0019</value>
+      </code>
+    </items>
+    <items id="12ca2543-fe07-4abb-ad49-fa7879dc5d2d">
+      <name>ИонАммония</name>
+      <description>Ион аммония</description>
+      <code xsi:type="core:StringValue">
+        <value>0003</value>
+      </code>
+    </items>
+    <items id="89fa1aac-f0ad-4bc2-a110-4a19b7bf3527">
+      <name>Калий</name>
+      <description>Калий</description>
+      <code xsi:type="core:StringValue">
+        <value>0058</value>
+      </code>
+    </items>
+    <items id="bb508310-264f-4ec8-b722-764e6590cccd">
+      <name>Кальций</name>
+      <description>Кальций</description>
+      <code xsi:type="core:StringValue">
+        <value>0059</value>
+      </code>
+    </items>
+    <items id="75e5189d-9397-43af-81b3-e5fde0b66914">
+      <name>Магний</name>
+      <description>Магний (все растворимые в воде формы)</description>
+      <code xsi:type="core:StringValue">
+        <value>0020</value>
+      </code>
+    </items>
+    <items id="9cf928fa-2929-403e-b954-8e98cca89458">
+      <name>Марганец</name>
+      <description>Марганец</description>
+      <code xsi:type="core:StringValue">
+        <value>0021</value>
+      </code>
+    </items>
+    <items id="9132a783-0ad7-4a8b-8ee5-b856d6a45318">
+      <name>Медь</name>
+      <description>Медь</description>
+      <code xsi:type="core:StringValue">
+        <value>0022</value>
+      </code>
+    </items>
+    <items id="5d9712c3-97e1-49b2-97f0-10b83e51aead">
+      <name>Молибден</name>
+      <description>Молибден</description>
+      <code xsi:type="core:StringValue">
+        <value>0024</value>
+      </code>
+    </items>
+    <items id="14596604-f24f-49ed-b1d2-9a34d8a0895e">
+      <name>Мышьяк</name>
+      <description>Мышьяк</description>
+      <code xsi:type="core:StringValue">
+        <value>0025</value>
+      </code>
+    </items>
+    <items id="6dd7eb77-d642-480d-b15c-1562864b0e17">
+      <name>Натрий</name>
+      <description>Натрий</description>
+      <code xsi:type="core:StringValue">
+        <value>0065</value>
+      </code>
+    </items>
+    <items id="2d2f23ae-7a23-4bd7-a6df-6259462271bd">
+      <name>НефтьИНефтепродукты</name>
+      <description>Нефть и нефтепродукты</description>
+      <code xsi:type="core:StringValue">
+        <value>0080</value>
+      </code>
+    </items>
+    <items id="8cfd8143-b386-463f-9d60-ed79b9b7ca5f">
+      <name>Никель</name>
+      <description>Никель</description>
+      <code xsi:type="core:StringValue">
+        <value>0027</value>
+      </code>
+    </items>
+    <items id="eeb34c3c-4e14-4ad9-9047-29c8dd9082fb">
+      <name>НитратАнион</name>
+      <description>Нитрат-анион</description>
+      <code xsi:type="core:StringValue">
+        <value>0028</value>
+      </code>
+    </items>
+    <items id="da885bba-298f-41e8-9caf-510262798f64">
+      <name>НитритАнион</name>
+      <description>Нитрит-анион</description>
+      <code xsi:type="core:StringValue">
+        <value>0029</value>
+      </code>
+    </items>
+    <items id="fa6a36c6-ef02-409f-8232-163a35e73a7b">
+      <name>Ртуть</name>
+      <description>Ртуть</description>
+      <code xsi:type="core:StringValue">
+        <value>0034</value>
+      </code>
+    </items>
+    <items id="14fe9f20-966a-4926-b5b2-c7657bfceaea">
+      <name>Свинец</name>
+      <description>Свинец (все растворимые в воде формы)</description>
+      <code xsi:type="core:StringValue">
+        <value>0035</value>
+      </code>
+    </items>
+    <items id="89db8d0d-2ba8-40d4-9dc3-0a6ac852501d">
+      <name>СульфатАнион</name>
+      <description>Сульфат-анион (сульфаты)</description>
+      <code xsi:type="core:StringValue">
+        <value>0040</value>
+      </code>
+    </items>
+    <items id="4f57c0fc-f846-4cb6-b257-6b1104a9d542">
+      <name>СухойОстаток</name>
+      <description>Сухой остаток</description>
+      <code xsi:type="core:StringValue">
+        <value>0083</value>
+      </code>
+    </items>
+    <items id="895bc01a-f407-4226-beab-f537f25fe5e9">
+      <name>Фосфаты</name>
+      <description>Фосфаты</description>
+      <code xsi:type="core:StringValue">
+        <value>0090</value>
+      </code>
+    </items>
+    <items id="fac26fd2-f0b5-4c71-b475-74290ccca833">
+      <name>Фтор</name>
+      <description>Фтор</description>
+      <code xsi:type="core:StringValue">
+        <value>0047</value>
+      </code>
+    </items>
+    <items id="9eff82f7-e403-404c-9546-26fde7d73765">
+      <name>ХлорСвободный</name>
+      <description>Хлор свободный (хлор активный)</description>
+      <code xsi:type="core:StringValue">
+        <value>0269</value>
+      </code>
+    </items>
+    <items id="e251f812-f3c1-442a-9b79-c50be1d9c8c0">
+      <name>Хлориды</name>
+      <description>Хлориды</description>
+      <code xsi:type="core:StringValue">
+        <value>0052</value>
+      </code>
+    </items>
+    <items id="93840d1a-d85d-40f9-91ae-a3a00b35c3af">
+      <name>ХромТрехвалентный</name>
+      <description>Хром (трехвалентный)</description>
+      <code xsi:type="core:StringValue">
+        <value>0093</value>
+      </code>
+    </items>
+    <items id="1a430df4-638a-40a2-911c-d2c2b1b4522b">
+      <name>ХромШестивалентный</name>
+      <description>Хром (шестивалентный)</description>
+      <code xsi:type="core:StringValue">
+        <value>0073</value>
+      </code>
+    </items>
+    <items id="b4b0b96b-b7d7-4717-bd2a-772d8c6c093e">
+      <name>Цианиды</name>
+      <description>Цианиды (CN-) </description>
+      <code xsi:type="core:StringValue">
+        <value>0054</value>
+      </code>
+    </items>
+    <items id="6301620f-8e53-4eac-bbc1-722506be60d6">
+      <name>Цинк</name>
+      <description>Цинк</description>
+      <code xsi:type="core:StringValue">
+        <value>0055</value>
+      </code>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЗВВода.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЗВВода.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЗВВода.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="4b8ffee8-823f-4352-8d33-4efad06610a4">
+    <name>КлассОпасности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс опасности</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КлассОпасности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Законодательно установленный класс опасности загрязняющего вещества</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>4</value>
+    </maxValue>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fadb07e1-b677-49e1-9864-79c66df0292a">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОКЕИ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Единица измерения, в которой ведется учет загрязняющего вещества</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f632cf83-3c22-42d7-bd8b-b8510861af61">
+    <name>КодПоПриказуФедеральногоАгенстваПоРыболовству</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код по приказу федерального агенства по рыболовству</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Приказ Федерального агентства по рыболовству от 18 января 2010 г. № 20 «Об утверждении нормативов качества воды водных объектов рыбохозяйственного значения, в том числе нормативов предельно допустимых концентраций вредных веществ в водах водных объектов рыбохозяйственного значения».</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec73403d-c93c-4cf2-8939-81dcbeb66aa0">
+    <name>НаименованиеПоПриказуФедеральногоАгенстваПоРыболовству</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование по приказу федерального агенства по рыболовству</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Приказ Федерального агентства по рыболовству от 18 января 2010 г. № 20 «Об утверждении нормативов качества воды водных объектов рыбохозяйственного значения, в том числе нормативов предельно допустимых концентраций вредных веществ в водах водных объектов рыбохозяйственного значения».</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="811c271b-e0e8-493d-abf6-bb01ded07fab">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1b68292a-80d6-48b9-9316-e2c3916b8200">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="83c87a2b-1b81-46ab-9157-3cb01c8d7ebf">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

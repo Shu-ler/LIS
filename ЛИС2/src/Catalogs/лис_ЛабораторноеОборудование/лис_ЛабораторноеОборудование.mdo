@@ -106,7 +106,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.лис_ЛабораторноеОборудование.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.лис_ЛабораторноеОборудование.Form.ФормаСписка</defaultListForm>
   <attributes uuid="6edc8b8a-f4fc-473b-9d4b-c93c78ec05ba">
     <name>Тип</name>
@@ -584,15 +583,6 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <forms uuid="79742ca1-c46e-41c1-ba17-d76a047a2080">
-    <name>ФормаЭлемента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="973fcbca-7f8a-41ec-b9cd-b41493493b90">
     <name>ФормаСписка</name>
     <synonym>

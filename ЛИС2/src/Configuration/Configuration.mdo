@@ -1861,6 +1861,7 @@
   <definedTypes>DefinedType.УточнениеКонтекстаПроверокВеденияУчета</definedTypes>
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
   <definedTypes>DefinedType.УчетныеСистемыИнтеграцииОбластейДанных</definedTypes>
+  <definedTypes>DefinedType.ИсточникиПриемникиВод</definedTypes>
   <commonCommands>CommonCommand.ИнформацияИПоддержка</commonCommands>
   <commonCommands>CommonCommand.АвтономнаяРаботаВМоделиСервиса</commonCommands>
   <commonCommands>CommonCommand.ВремяТекущегоСеанса</commonCommands>
@@ -2242,30 +2243,44 @@
   <commonForms>CommonForm.ОтключениеПодтвержденияКриптоопераций</commonForms>
   <commonForms>CommonForm.ПодтверждениеСменыТелефона</commonForms>
   <catalogs>Catalog.АгрегатныеСостоянияВеществ</catalogs>
+  <catalogs>Catalog.Банки</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыОтветовАнкет</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ВерсииПоставляемыхРасширений</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
+  <catalogs>Catalog.ВеществаИПараметрыВАтмосферныхОсадках</catalogs>
   <catalogs>Catalog.ВидыДеятельностиИЛ</catalogs>
+  <catalogs>Catalog.ВидыДеятельностиОрганизации</catalogs>
+  <catalogs>Catalog.ВидыДоговоров</catalogs>
+  <catalogs>Catalog.ВидыИВ</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <catalogs>Catalog.ВидыНалоговыхОрганов</catalogs>
   <catalogs>Catalog.ВидыПроверок</catalogs>
+  <catalogs>Catalog.ВидыРеактивов</catalogs>
   <catalogs>Catalog.ВнешниеКомпоненты</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.ВодныеОбъекты</catalogs>
+  <catalogs>Catalog.Водогоризонты</catalogs>
+  <catalogs>Catalog.Водозаборы</catalogs>
   <catalogs>Catalog.ВодохозяйственныеУчастки</catalogs>
   <catalogs>Catalog.ВопросыШаблонаАнкеты</catalogs>
   <catalogs>Catalog.ВстречаПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ВыпускиВВоду</catalogs>
+  <catalogs>Catalog.ГазопылевыеУстановки</catalogs>
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
   <catalogs>Catalog.ГруппыДоступа</catalogs>
   <catalogs>Catalog.ГруппыИсполнителейЗадач</catalogs>
   <catalogs>Catalog.ГруппыПользователей</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.ДолжностиОрганизаций</catalogs>
   <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
   <catalogs>Catalog.ЗакладкиВзаимодействий</catalogs>
   <catalogs>Catalog.Заметки</catalogs>
   <catalogs>Catalog.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ЗВАтмосфера</catalogs>
+  <catalogs>Catalog.ЗВВода</catalogs>
   <catalogs>Catalog.ЗначенияСвойствОбъектов</catalogs>
   <catalogs>Catalog.ЗначенияСвойствОбъектовИерархия</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
@@ -2273,27 +2288,59 @@
   <catalogs>Catalog.ИнформационныеСсылкиДляФорм</catalogs>
   <catalogs>Catalog.ИсторияПроверкиИКорректировкиДанных</catalogs>
   <catalogs>Catalog.ИсторияПроверкиИКорректировкиДанныхПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ИсточникиЗагрязнения</catalogs>
   <catalogs>Catalog.Календари</catalogs>
+  <catalogs>Catalog.КатегорииКачестваВоды</catalogs>
   <catalogs>Catalog.КлассификаторБанков</catalogs>
   <catalogs>Catalog.КлючевыеОперации</catalogs>
   <catalogs>Catalog.КлючиДоступа</catalogs>
   <catalogs>Catalog.КодыТипыИсточниковПриемников</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.КонтролируемыеПараметрыВПочвеДонныхОтложениях</catalogs>
+  <catalogs>Catalog.КонтролируемыеПоказателиВВоде</catalogs>
   <catalogs>Catalog.Коэффициенты</catalogs>
+  <catalogs>Catalog.КритерииРегиональныхКоэффициентовТрансформацииАзота</catalogs>
+  <catalogs>Catalog.КритерииРегиональныхКоэффициентовТрансформацииАзота1</catalogs>
+  <catalogs>Catalog.ЛинейныеОбъекты</catalogs>
+  <catalogs>Catalog.лис_АлгоритмыВнутрилабораторногоКонтроля</catalogs>
+  <catalogs>Catalog.лис_АнализируемыеПоказатели</catalogs>
+  <catalogs>Catalog.лис_КомпетентностьЛаборатории</catalogs>
+  <catalogs>Catalog.лис_КомпонентыЗамеровЛаборатории</catalogs>
+  <catalogs>Catalog.лис_Лаборатории</catalogs>
+  <catalogs>Catalog.лис_ЛабораторноеОборудование</catalogs>
+  <catalogs>Catalog.лис_ЛабораторныеПринадлежности</catalogs>
+  <catalogs>Catalog.лис_ЛабораторныеРеактивы</catalogs>
+  <catalogs>Catalog.лис_МетодыАнализа</catalogs>
+  <catalogs>Catalog.лис_ОбъектыИспытаний</catalogs>
+  <catalogs>Catalog.лис_ПодразделенияЛабораторий</catalogs>
+  <catalogs>Catalog.лис_ПрочийИсточникПриемникВод</catalogs>
+  <catalogs>Catalog.ЛицензионныеУчастки</catalogs>
   <catalogs>Catalog.МакетыПечатныхФорм</catalogs>
+  <catalogs>Catalog.МаркиВентиляторов</catalogs>
+  <catalogs>Catalog.МаркиПриборовУчетаИспользованияВоды</catalogs>
+  <catalogs>Catalog.МатериалыЕмкости</catalogs>
+  <catalogs>Catalog.МетодикиОпределенияИзмеренияАнализа</catalogs>
+  <catalogs>Catalog.МетрологическиеХарактеристики</catalogs>
   <catalogs>Catalog.НаборыГруппДоступа</catalogs>
   <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
+  <catalogs>Catalog.НалоговыеОрганы</catalogs>
   <catalogs>Catalog.НастройкиАвторизацииИнтернетСервисов</catalogs>
   <catalogs>Catalog.ОбработчикиОчередиЗаданий</catalogs>
   <catalogs>Catalog.ОбщиеВнешниеКомпоненты</catalogs>
   <catalogs>Catalog.ОбщиеДанныеИнформационногоЦентра</catalogs>
   <catalogs>Catalog.ОКАТО</catalogs>
+  <catalogs>Catalog.ОКЕИ</catalogs>
   <catalogs>Catalog.ОКОПФ</catalogs>
   <catalogs>Catalog.ОКТМО</catalogs>
   <catalogs>Catalog.ОповещенияПользователей</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ОчередьЗаданий</catalogs>
+  <catalogs>Catalog.ОчистныеСооружения</catalogs>
   <catalogs>Catalog.ПапкиФайлов</catalogs>
   <catalogs>Catalog.ПапкиЭлектронныхПисем</catalogs>
+  <catalogs>Catalog.ПериодичностиПоверок</catalogs>
   <catalogs>Catalog.ПодразделенияОрганизаций</catalogs>
+  <catalogs>Catalog.ПодразделенияОрганизаций1</catalogs>
   <catalogs>Catalog.ПолныеПутиКФормам</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПользовательскиеНастройкиОтчетов</catalogs>
@@ -2305,32 +2352,50 @@
   <catalogs>Catalog.ПравилаПроверкиУчета</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
+  <catalogs>Catalog.Прекурсоры</catalogs>
+  <catalogs>Catalog.ПриборыУчетаИспользованияВоды</catalogs>
+  <catalogs>Catalog.ПриродоохранныеТехнологии</catalogs>
   <catalogs>Catalog.ПрограммыЭлектроннойПодписиИШифрования</catalogs>
   <catalogs>Catalog.ПроизводственныеКалендари</catalogs>
+  <catalogs>Catalog.ПроизводственныеПлощадки</catalogs>
   <catalogs>Catalog.ПрофилиГруппДоступа</catalogs>
   <catalogs>Catalog.ПрофилиКлючевыхОпераций</catalogs>
   <catalogs>Catalog.РассылкиОтчетов</catalogs>
   <catalogs>Catalog.РегионыРоссийскойФедерации</catalogs>
   <catalogs>Catalog.РолиИсполнителей</catalogs>
+  <catalogs>Catalog.СанитарноЗащитныеЗоны</catalogs>
+  <catalogs>Catalog.СанитарноЗащитныеЗоны1</catalogs>
+  <catalogs>Catalog.СелитебныеЗоны</catalogs>
+  <catalogs>Catalog.СерверыДокументооборота</catalogs>
   <catalogs>Catalog.СертификатыКлючейЭлектроннойПодписиИШифрования</catalogs>
+  <catalogs>Catalog.Скважины</catalogs>
   <catalogs>Catalog.СообщениеSMSПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.СообщенияОбластейДанных</catalogs>
   <catalogs>Catalog.СообщенияСистемы</catalogs>
   <catalogs>Catalog.СостоянияОригиналовПервичныхДокументов</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СпособыКонсервации</catalogs>
+  <catalogs>Catalog.СрокиХраненияПробы</catalogs>
+  <catalogs>Catalog.СтатусыДоговоров</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.СтроковыеКонтактыВзаимодействий</catalogs>
+  <catalogs>Catalog.СуммыВеществ00010099</catalogs>
   <catalogs>Catalog.СценарииОбменовДанными</catalogs>
   <catalogs>Catalog.ТелефонныйЗвонокПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ТипыГПА</catalogs>
   <catalogs>Catalog.ТипыИнформацииИнформационногоЦентра</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
+  <catalogs>Catalog.ТочкиОтсчета</catalogs>
   <catalogs>Catalog.УдалитьОчередьЗаданий</catalogs>
   <catalogs>Catalog.УслугиСервиса</catalogs>
   <catalogs>Catalog.УчетныеЗаписиDSS</catalogs>
+  <catalogs>Catalog.УчетныеЗаписиДокументооборота</catalogs>
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
+  <catalogs>Catalog.ФакторыФизическогоВоздействия</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ЦехаУчастки</catalogs>
   <catalogs>Catalog.ШаблоныАнкет</catalogs>
   <catalogs>Catalog.ШаблоныЗаданийОчереди</catalogs>
   <catalogs>Catalog.ШаблоныСообщений</catalogs>
@@ -2339,39 +2404,11 @@
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЯзыкиПечатныхФорм</catalogs>
-  <catalogs>Catalog.Банки</catalogs>
-  <catalogs>Catalog.ВидыНалоговыхОрганов</catalogs>
-  <catalogs>Catalog.НалоговыеОрганы</catalogs>
-  <catalogs>Catalog.СерверыДокументооборота</catalogs>
-  <catalogs>Catalog.УчетныеЗаписиДокументооборота</catalogs>
-  <catalogs>Catalog.ВидыДеятельностиОрганизации</catalogs>
-  <catalogs>Catalog.Организации</catalogs>
-  <catalogs>Catalog.лис_МетодыАнализа</catalogs>
-  <catalogs>Catalog.МатериалыЕмкости</catalogs>
-  <catalogs>Catalog.СрокиХраненияПробы</catalogs>
-  <catalogs>Catalog.СпособыКонсервации</catalogs>
-  <catalogs>Catalog.МетрологическиеХарактеристики</catalogs>
-  <catalogs>Catalog.ОКЕИ</catalogs>
-  <catalogs>Catalog.МетодикиОпределенияИзмеренияАнализа</catalogs>
-  <catalogs>Catalog.лис_Лаборатории</catalogs>
-  <catalogs>Catalog.Контрагенты</catalogs>
-  <catalogs>Catalog.ВидыДоговоров</catalogs>
-  <catalogs>Catalog.СтатусыДоговоров</catalogs>
-  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
-  <catalogs>Catalog.Прекурсоры</catalogs>
-  <catalogs>Catalog.лис_КомпетентностьЛаборатории</catalogs>
-  <catalogs>Catalog.лис_ПодразделенияЛабораторий</catalogs>
-  <catalogs>Catalog.ПодразделенияОрганизаций1</catalogs>
-  <catalogs>Catalog.лис_ОбъектыИспытаний</catalogs>
-  <catalogs>Catalog.лис_АлгоритмыВнутрилабораторногоКонтроля</catalogs>
-  <catalogs>Catalog.лис_АнализируемыеПоказатели</catalogs>
-  <catalogs>Catalog.лис_ПрочийИсточникПриемникВод</catalogs>
-  <catalogs>Catalog.ПериодичностиПоверок</catalogs>
-  <catalogs>Catalog.лис_ЛабораторноеОборудование</catalogs>
-  <catalogs>Catalog.лис_КомпонентыЗамеровЛаборатории</catalogs>
-  <catalogs>Catalog.лис_ЛабораторныеПринадлежности</catalogs>
-  <catalogs>Catalog.ВидыРеактивов</catalogs>
-  <catalogs>Catalog.лис_ЛабораторныеРеактивы</catalogs>
+  <catalogs>Catalog.ТочкиКонтроля</catalogs>
+  <catalogs>Catalog.ДизельныеУстановкиЭСН</catalogs>
+  <catalogs>Catalog.ВидыНормативныхДокументов</catalogs>
+  <catalogs>Catalog.ЗаконодательныеИНормативныеТребования</catalogs>
+  <catalogs>Catalog.ЗаконодательныеИНормативныеТребования1</catalogs>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
@@ -2382,6 +2419,8 @@
   <documents>Document.ТелефонныйЗвонок</documents>
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
+  <documents>Document.лис_АктОтбораПроб</documents>
+  <documents>Document.лис_ПланОтбораПроб</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <enums>Enum.ВажностьПроблемыУчета</enums>
@@ -2390,7 +2429,6 @@
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
   <enums>Enum.ВариантыИспользованияВнешнихКомпонент</enums>
   <enums>Enum.ВариантыОкругленияИзмерений</enums>
-  <enums>Enum.УдалитьВидыОбменаСКонтролирующимиОрганами</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыПериода</enums>
   <enums>Enum.ВариантыПредставленияПериода</enums>
@@ -2398,21 +2436,39 @@
   <enums>Enum.ВариантыСжатияTIFF</enums>
   <enums>Enum.ВидДеятельности</enums>
   <enums>Enum.ВидПроверяющейОрганизации</enums>
+  <enums>Enum.ВидыВодногоОбъекта</enums>
   <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыНазначенияДатЗапрета</enums>
   <enums>Enum.ВидыОбменаСКонтролирующимиОрганами</enums>
+  <enums>Enum.ВидыОчисткиОтведенныхВод</enums>
   <enums>Enum.ВидыПереключателяВАнкетах</enums>
   <enums>Enum.ВидыПравилДляОбменаДанными</enums>
+  <enums>Enum.ВидыПриборовУчетаВоды</enums>
+  <enums>Enum.ВидыСкважин</enums>
+  <enums>Enum.ВидыСточныхВод</enums>
   <enums>Enum.ВидыТранспортаСообщенийОбмена</enums>
+  <enums>Enum.ВидыТрубыИЗА</enums>
   <enums>Enum.ВидыТрудоустройства</enums>
   <enums>Enum.ВидыФлажкаВАнкетах</enums>
+  <enums>Enum.ГеометрическиеХарактеристикиИсточниковЗагрязнения</enums>
+  <enums>Enum.ГруппыДизельныхУстановокЭСН</enums>
   <enums>Enum.ДействияПриОбмене</enums>
   <enums>Enum.ДействияСФайламиПоДвойномуЩелчку</enums>
   <enums>Enum.ДополнительныеЗначенияДоступа</enums>
   <enums>Enum.ДоступныеПериодыОтчета</enums>
   <enums>Enum.ИсточникиПравилДляОбменаДанными</enums>
+  <enums>Enum.КатегорииПунктаНаблюдения</enums>
+  <enums>Enum.КатегорияРыбохозяйственногоЗначения</enums>
   <enums>Enum.КлассификацияВодныхОбъектов</enums>
+  <enums>Enum.КлассОпасности</enums>
+  <enums>Enum.КлиматическоеРайонирование</enums>
+  <enums>Enum.лис_ВидыОперацийПриходаИмущества</enums>
+  <enums>Enum.лис_ВидыОперацийРасходаИмущества</enums>
+  <enums>Enum.лис_СостоянияЛабораторногоОборудования</enums>
+  <enums>Enum.лис_ТипыЛабораторногоОборудования</enums>
+  <enums>Enum.МореРФ</enums>
+  <enums>Enum.ОбъектыВременногоХраненияОтходов</enums>
   <enums>Enum.ОперацииАдминистрированияПрофилейБезопасности</enums>
   <enums>Enum.ПериодичностиРасписанийРассылокОтчетов</enums>
   <enums>Enum.ПериодичностьПериодовДействия</enums>
@@ -2425,8 +2481,10 @@
   <enums>Enum.ПричиныОтключенияДополнительныхОтчетовИОбработокВМоделиСервиса</enums>
   <enums>Enum.ПричиныОтключенияРасширенийВМоделиСервиса</enums>
   <enums>Enum.ПровайдерыSMS</enums>
+  <enums>Enum.РазделыУчетаЭкоаналитическогоКонтроля</enums>
   <enums>Enum.РазмерИЧисленностьОрганизации</enums>
   <enums>Enum.РазмерыБумаги</enums>
+  <enums>Enum.РазмерыНормативныхСЗЗ</enums>
   <enums>Enum.РазрешенияСканированногоИзображения</enums>
   <enums>Enum.РежимыАвтонастройкиУчетнойЗаписиНалогоплательщика</enums>
   <enums>Enum.РежимыАнкетирования</enums>
@@ -2439,7 +2497,10 @@
   <enums>Enum.РезультатыВыполненияОбмена</enums>
   <enums>Enum.РезультатыОбработкиЗапросовНаИспользованиеВнешнихРесурсовВМоделиСервиса</enums>
   <enums>Enum.РолиПользователейАбонентов</enums>
+  <enums>Enum.Сезонность</enums>
   <enums>Enum.СервисыПереводаТекста</enums>
+  <enums>Enum.СостояниеЭксплуатации</enums>
+  <enums>Enum.СостояниеЭксплуатации1</enums>
   <enums>Enum.СостоянияБизнесПроцессов</enums>
   <enums>Enum.СостоянияДокументаСообщениеSMS</enums>
   <enums>Enum.СостоянияЗаданий</enums>
@@ -2473,12 +2534,15 @@
   <enums>Enum.СтатусыИсходящегоЭлектронногоПисьма</enums>
   <enums>Enum.СтатусыОбластейДанных</enums>
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
+  <enums>Enum.СтатусыСЗЗ</enums>
   <enums>Enum.ТипХранилищаСертификатов</enums>
   <enums>Enum.ТипыВерсийОбъекта</enums>
   <enums>Enum.ТипыВоднойКлассификации</enums>
   <enums>Enum.ТипыВодныхОбъектовПоДаннымГВР</enums>
   <enums>Enum.ТипыВопросовШаблонаАнкеты</enums>
+  <enums>Enum.ТипыГазопылевыхУстановок</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
+  <enums>Enum.ТипыИсточниковВыбросов</enums>
   <enums>Enum.ТипыКонтактнойИнформации</enums>
   <enums>Enum.ТипыКонтрагента</enums>
   <enums>Enum.ТипыОтветовНаВопрос</enums>
@@ -2489,10 +2553,15 @@
   <enums>Enum.ТипыПроблемОбменаДанными</enums>
   <enums>Enum.ТипыТабличныхВопросов</enums>
   <enums>Enum.ТипыТекстовЭлектронныхПисем</enums>
+  <enums>Enum.ТипыТерриторийОбъектов</enums>
+  <enums>Enum.ТипыТурбинГПА</enums>
   <enums>Enum.ТипыУслуг</enums>
   <enums>Enum.ТипыФайловДляВстроенногоРедактора</enums>
   <enums>Enum.ТипыХраненияФайлов</enums>
+  <enums>Enum.Удалить_ВидВодВодозабораВыпуска</enums>
+  <enums>Enum.УдалитьВидыОбменаСКонтролирующимиОрганами</enums>
   <enums>Enum.УдалитьВидыОповещенийПользователей</enums>
+  <enums>Enum.УровеньГосударственногоЭкологическогоНадзора</enums>
   <enums>Enum.УровниПроизводительности</enums>
   <enums>Enum.ФорматыСканированногоИзображения</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
@@ -2502,11 +2571,8 @@
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.ЮридическоеФизическоеЛицо</enums>
   <enums>Enum.ЮрФизЛицо</enums>
-  <enums>Enum.РазделыУчетаЭкоаналитическогоКонтроля</enums>
-  <enums>Enum.лис_СостоянияЛабораторногоОборудования</enums>
-  <enums>Enum.лис_ТипыЛабораторногоОборудования</enums>
-  <enums>Enum.лис_ВидыОперацийПриходаИмущества</enums>
-  <enums>Enum.лис_ВидыОперацийРасходаИмущества</enums>
+  <enums>Enum.ВидыПротоколаПромышленныхВыбросов</enums>
+  <enums>Enum.ОбластиДействияТребований</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>
@@ -2834,6 +2900,8 @@
   <informationRegisters>InformationRegister.ФайлыОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ХранилищеСертификатов</informationRegisters>
   <informationRegisters>InformationRegister.ЭлектронныеПодписи</informationRegisters>
+  <informationRegisters>InformationRegister.лис_ОтборПроб</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.лис_ОтобранныеПробы</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>

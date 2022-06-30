@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="978c10a6-9b92-41fa-bdcd-be1744fdec03">
+  <producedTypes>
+    <refType typeId="24fe9116-0146-4668-97a8-c9bee875ef8f" valueTypeId="e12c69f5-0f36-4fc9-8d3f-263f763c7a28"/>
+    <listType typeId="141c423c-e204-497a-bc93-1c2d3351be3f" valueTypeId="2c5702ea-f24d-4647-be32-f3f49cf9daee"/>
+    <managerType typeId="c53c83f4-c50e-4d07-91c9-8774bf6e4198" valueTypeId="ab6e61e3-e64b-4aa7-bc5a-d95776be65a2"/>
+  </producedTypes>
+  <name>РазмерыНормативныхСЗЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размеры нормативных санитарно-защитных зон</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Размеры нормативных санитарно-защитных зон</value>
+  </listPresentation>
+  <enumValues uuid="4b4809e4-d2a0-440c-b8b0-c16ab8b69148">
+    <name>ДляПредприятийПервогоКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для предприятий первого класса - 1000 м</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c8d5a8ec-0b11-4351-b3ce-b16fe8d1ddd9">
+    <name>ДляПредприятийВторогоКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для предприятий второго класса - 500 м</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a224e8dc-3514-42f9-9192-fbf966a7edd4">
+    <name>ДляПредприятийТретьегоКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для предприятий третьего класса - 300 м</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bbe0d6f8-f168-4708-a797-1b4c7a41fd90">
+    <name>ДляПредприятийЧетвертогоКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для предприятий четвертого класса - 100 м</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13317fc6-73f3-44e7-bbce-633ce2a2fe0e">
+    <name>ДляПредприятийПятогоКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для предприятий пятого класса - 50 м</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

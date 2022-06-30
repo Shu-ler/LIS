@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29cd561d-ca2a-4c9c-83a3-106a646fce9d">
+  <producedTypes>
+    <refType typeId="5360e516-d663-42f5-9642-c156612fe3e9" valueTypeId="58ed4f12-987d-4a77-b18b-89a6973b36bc"/>
+    <listType typeId="89c6fd43-36b4-4a00-a55c-7c13f4f9355c" valueTypeId="4bc1c989-eaef-468d-a1f3-8de1d9237bf3"/>
+    <managerType typeId="d3f7c2e1-e190-4b55-a277-a187f30da11b" valueTypeId="68bf4669-fe9c-4ebc-bce2-76f2fa92e172"/>
+  </producedTypes>
+  <name>ГруппыДизельныхУстановокЭСН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа дизельной установки / электростанции</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c2e153b0-a05e-4b75-906b-63cf211bdffc">
+    <name>ГруппаА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа А</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1afb9d26-a9d4-4c9f-9d77-d5efb51d6dc0">
+    <name>ГруппаБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа Б</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="752871ce-aef0-4ccc-aaa9-1923ffff09a4">
+    <name>ГруппаВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа В</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8805231c-ffbb-4db5-b2d3-98d19b48f2d8">
+    <name>ГруппаГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа Г</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

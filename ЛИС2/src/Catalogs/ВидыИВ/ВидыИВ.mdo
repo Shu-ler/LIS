@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6a1bc7c-d013-440c-9ca6-84d10aa77fc1">
+  <producedTypes>
+    <objectType typeId="e707c2f1-a030-43ef-a357-b0e16a0378fa" valueTypeId="b200d7e5-2891-4d8f-a75d-00db2e6a191b"/>
+    <refType typeId="07389888-ad49-43a1-88c9-930b51b2d588" valueTypeId="da8e60e7-421f-49c1-be49-c494c108fa78"/>
+    <selectionType typeId="e10a4ab8-29de-4fc0-b2a0-dd7ddf1622c9" valueTypeId="4f386715-e07e-4290-945a-f39732b9280e"/>
+    <listType typeId="98af1269-5ee5-4746-8acb-9e09781fe6f2" valueTypeId="3fad8c24-68f8-4b91-ad30-fc142158938c"/>
+    <managerType typeId="7eac4d01-ae66-44ac-b024-c5500d21f1a5" valueTypeId="d8cc8bbb-deae-464b-985c-4c668f3e1612"/>
+  </producedTypes>
+  <name>ВидыИВ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды источников выделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыИВ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыИВ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="546bf20e-ffa9-423d-8ff0-abe5821df018">
+      <name>Автостоянка</name>
+      <description>Автостоянка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000023</value>
+      </code>
+    </items>
+    <items id="809dae51-2846-4e51-9f6d-7ba806f96496">
+      <name>АвтотранспортныеРаботыВКарьере</name>
+      <description>Автотранспортные работы в карьере</description>
+      <code xsi:type="core:StringValue">
+        <value>000000037</value>
+      </code>
+    </items>
+    <items id="4ec36fac-e1d4-4d65-89ca-8827b44e1cc9">
+      <name>Автоэстакада</name>
+      <description>Автоэстакада</description>
+      <code xsi:type="core:StringValue">
+        <value>000000062</value>
+      </code>
+    </items>
+    <items id="dad2230f-11cf-4eba-9493-5b61e7746a2f">
+      <name>АЗС</name>
+      <description>АЗС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000056</value>
+      </code>
+    </items>
+    <items id="8ccb6667-948a-4e1c-a20f-c3c4879fc588">
+      <name>Аккумуляторная</name>
+      <description>Аккумуляторная</description>
+      <code xsi:type="core:StringValue">
+        <value>000000024</value>
+      </code>
+    </items>
+    <items id="5e609bb8-612c-4f56-a0d2-d307d44bb55c">
+      <name>БазаДорожнойТехники</name>
+      <description>База дорожной техники</description>
+      <code xsi:type="core:StringValue">
+        <value>000000025</value>
+      </code>
+    </items>
+    <items id="ef1f2455-6680-48aa-bb2d-1185bcbacefc">
+      <name>БуровыеРаботыВКарьере</name>
+      <description>Буровые работы в карьере</description>
+      <code xsi:type="core:StringValue">
+        <value>000000038</value>
+      </code>
+    </items>
+    <items id="de89b927-53af-42c6-a333-320b5c48cdd7">
+      <name>ВзрывныеРаботыВКарьере</name>
+      <description>Взрывные работы в карьере</description>
+      <code xsi:type="core:StringValue">
+        <value>000000040</value>
+      </code>
+    </items>
+    <items id="ff081f2e-eb23-4f5d-bb9c-b6c5724801f7">
+      <name>ГазоваяРезкаМеталлов</name>
+      <description>Газовая резка металлов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000039</value>
+      </code>
+    </items>
+    <items id="14a4fe29-36fa-4c1b-b79b-718cb62150a2">
+      <name>ГазоперекачивающийАгрегат</name>
+      <description>Газоперекачивающий агрегат</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="6105bd86-f5fe-499d-afe6-f68378d7faf3">
+      <name>ГазопоршневаяЭлектростанцияЭСН</name>
+      <description>Газопоршневая электростанция (ЭСН) </description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
+    <items id="01f775f3-6ccb-4d10-8a09-3e71a8ecb9bc">
+      <name>ГазотурбиннаяЭлектростанцияЭСН</name>
+      <description>Газотурбинная электростанция (ЭСН) </description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+    </items>
+    <items id="e3679db4-55ce-4550-9db9-c52631e3c2e8">
+      <name>ДегазаторГПА</name>
+      <description>Дегазатор ГПА</description>
+      <code xsi:type="core:StringValue">
+        <value>000000032</value>
+      </code>
+    </items>
+    <items id="d78ee618-cccc-43c1-aaab-b7301a901529">
+      <name>Дезбарьер</name>
+      <description>Дезбарьер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000044</value>
+      </code>
+    </items>
+    <items id="585b1f38-ffd7-44fd-a4cf-8fb68d1f352d">
+      <name>Деревообработка</name>
+      <description>Деревообработка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000048</value>
+      </code>
+    </items>
+    <items id="45c65802-d309-4ccd-b48f-47aecda7c548">
+      <name>ДизельнаяУстановка</name>
+      <description>Дизельная установка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="4abd826e-1104-46da-be2f-0c8e9307c585">
+      <name>ЖелезнодорожноеДепо</name>
+      <description>Железнодорожное депо</description>
+      <code xsi:type="core:StringValue">
+        <value>000000053</value>
+      </code>
+    </items>
+    <items id="233d4782-562f-4292-9b10-d431f5e4027a">
+      <name>ЗРАГРС</name>
+      <description>Запорно-регулирующая арматура ГРС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="9ddb9a61-5554-4d00-9023-3fd4e207c4ff">
+      <name>КомпрессорнаяСтанция</name>
+      <description>Компрессорная станция</description>
+      <code xsi:type="core:StringValue">
+        <value>000000042</value>
+      </code>
+    </items>
+    <items id="5a1bc21a-1767-43e3-8400-eef007ebc5c1">
+      <name>КонтрольГазовАвтомобилей</name>
+      <description>Контроль газов автомобилей</description>
+      <code xsi:type="core:StringValue">
+        <value>000000031</value>
+      </code>
+    </items>
+    <items id="38e25049-33be-4148-b840-043ea4cf988d">
+      <name>КонтурНагнетателя</name>
+      <description>Контур нагнетателя</description>
+      <code xsi:type="core:StringValue">
+        <value>000000034</value>
+      </code>
+    </items>
+    <items id="b2dd0f2b-1957-4a91-a851-432c385ee293">
+      <name>Котельная</name>
+      <description>Котельная</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="9a05ebd7-a411-4582-94bd-bcaa7b879a7d">
+      <name>КузнечныеГорныНагревательныеПечи</name>
+      <description>Кузнечные горны/нагревательные печи</description>
+      <code xsi:type="core:StringValue">
+        <value>000000066</value>
+      </code>
+    </items>
+    <items id="e1fab33d-bc1a-4e97-b35e-15826488346f">
+      <name>Лакокраска</name>
+      <description>Лакокраска</description>
+      <code xsi:type="core:StringValue">
+        <value>000000051</value>
+      </code>
+    </items>
+    <items id="8875fae8-4aa0-4e71-a13e-249d38b54ae0">
+      <name>ЛинииРедуцированияИЗамеровГРС</name>
+      <description>Линии редуцирования и замеров ГРС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="7615ee39-5232-4151-8496-a5f7e2586b7f">
+      <name>МедницкиеРаботы</name>
+      <description>Медницкие работы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000036</value>
+      </code>
+    </items>
+    <items id="f4b0e9a7-b183-47fc-a32d-42eeb07b3441">
+      <name>Металлообработка</name>
+      <description>Металлообработка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000052</value>
+      </code>
+    </items>
+    <items id="f7950c73-5d33-4651-bec4-08f2dcaafa0c">
+      <name>МойкаАвтомобилей</name>
+      <description>Мойка автомобилей</description>
+      <code xsi:type="core:StringValue">
+        <value>000000030</value>
+      </code>
+    </items>
+    <items id="e403680b-27d0-4d35-9dbf-e2687e8f7d2e">
+      <name>МойкаДеталей</name>
+      <description>Мойка деталей</description>
+      <code xsi:type="core:StringValue">
+        <value>000000026</value>
+      </code>
+    </items>
+    <items id="0f6f0360-6010-4b85-a7d8-1aae8d2b32df">
+      <name>Молоты</name>
+      <description>Молоты</description>
+      <code xsi:type="core:StringValue">
+        <value>000000067</value>
+      </code>
+    </items>
+    <items id="ac4992cf-70f2-4707-a734-ef0d605984fc">
+      <name>НефтегазовоеОборудование</name>
+      <description>Нефтегазовое оборудование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="cb3106f5-d56b-4738-acec-254a20a08e83">
+      <name>ОбвязкаГРС</name>
+      <description>ОбвязкаГРС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="159f4ecb-be06-4282-a969-5dd569400134">
+      <name>ОбкаткаДвигателей</name>
+      <description>Обкатка двигателей</description>
+      <code xsi:type="core:StringValue">
+        <value>000000027</value>
+      </code>
+    </items>
+    <items id="026f4be6-ba52-4ad3-acb3-dffccb8917db">
+      <name>ОбщезаводскаяЛаборатория</name>
+      <description>Общезаводская лаборатория</description>
+      <code xsi:type="core:StringValue">
+        <value>000000047</value>
+      </code>
+    </items>
+    <items id="dd6ae487-8258-49f2-baae-401a9523adef">
+      <name>ОбщеобменнаяВентиляция</name>
+      <description>Общеобменная вентиляция</description>
+      <code xsi:type="core:StringValue">
+        <value>000000045</value>
+      </code>
+    </items>
+    <items id="e477d69c-ca36-45f4-9537-59e313715069">
+      <name>ОсвидетельствованиеПылеуловителейГРС</name>
+      <description>Освидетельствование пылеуловителей ГРС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="1d892eb7-37c9-4020-b29d-5f640e2f6bf3">
+      <name>ПереливОрганическихРастворителей</name>
+      <description>Перелив органических растворителей</description>
+      <code xsi:type="core:StringValue">
+        <value>000000043</value>
+      </code>
+    </items>
+    <items id="0286db3d-7970-4af4-a51e-4ffdad2a4b07">
+      <name>ПогрузочноРазгрузочныеРаботыАБЗ</name>
+      <description>Погрузочно-разгрузочные работы АБЗ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000074</value>
+      </code>
+    </items>
+    <items id="f03c7061-4075-4887-ac00-e39927ff314a">
+      <name>ПогрузочноРазгрузочныеРаботыВКарьере</name>
+      <description>Погрузочно-разгрузочные работы в карьере</description>
+      <code xsi:type="core:StringValue">
+        <value>000000072</value>
+      </code>
+    </items>
+    <items id="176e592a-4141-4f59-b5cb-c4ab417a4655">
+      <name>ПолигонТБО</name>
+      <description>Полигон ТБО</description>
+      <code xsi:type="core:StringValue">
+        <value>000000029</value>
+      </code>
+    </items>
+    <items id="25b3ff82-5be3-424b-bcc4-8d4b7f1cce11">
+      <name>ПредохранительныеКлапаныАГНКС</name>
+      <description>Предохранительные клапаны АГНКС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000058</value>
+      </code>
+    </items>
+    <items id="7b89dc87-8458-40b0-ae4e-be63e3df37e5">
+      <name>ПредохранительныеКлапаныГРС</name>
+      <description>Предохранительные клапаны ГРС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="c76608db-ed08-4fb6-9146-70b7b240caba">
+      <name>ПродувкаПылеуловителейГРС</name>
+      <description>Продувка пылеуловителей ГРС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="baf8698c-5d00-40e7-86a2-dff4f55e6081">
+      <name>ПроизводствоМеталлопокрытийГальваническимСпособом</name>
+      <description>Производство металлопокрытий гальваническим способом</description>
+      <code xsi:type="core:StringValue">
+        <value>000000071</value>
+      </code>
+    </items>
+    <items id="1de8edfe-a4e6-4eca-b28a-c4cdb624f615">
+      <name>Прочее</name>
+      <description>Прочее</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="61fd929a-477d-436a-a66b-45fdca385764">
+      <name>РазгрузкаГазозаправочныхКолонок</name>
+      <description>Разгрузка газозаправочных колонок</description>
+      <code xsi:type="core:StringValue">
+        <value>000000050</value>
+      </code>
+    </items>
+    <items id="52f8ebc9-3ad2-464d-907c-99daa021b68a">
+      <name>РезервуарыСМетанолом</name>
+      <description>Резервуары с метанолом</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="ac4aa1ef-0eb7-4b88-a944-3723120c4e68">
+      <name>РезервуарыСНефтепродуктами</name>
+      <description>Резервуары с нефтепродуктами</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="37a3139d-b35e-4eaf-b372-435b5c4e8c2f">
+      <name>ШиноремонтныеРаботы</name>
+      <description>Ремонт резинотехнических изделий и шиномонтажные работы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000035</value>
+      </code>
+    </items>
+    <items id="1f4c06fe-1015-480d-8701-74b918071ecb">
+      <name>Сварка</name>
+      <description>Сварка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000022</value>
+      </code>
+    </items>
+    <items id="55cdf8bb-c854-4fb6-ae2e-aafa9b8ebfb3">
+      <name>СвечаМаслобака</name>
+      <description>Свеча маслобака</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="1361fcef-fc66-4373-af96-99e1a759fa4c">
+      <name>СвечаРазгрузкиГазозаправочныхКолонок</name>
+      <description>Свеча разгрузки газозаправочных колонок</description>
+      <code xsi:type="core:StringValue">
+        <value>000000054</value>
+      </code>
+    </items>
+    <items id="99aff3f1-93ed-4795-aa1b-51d626be595d">
+      <name>СепараторНефтегазовый</name>
+      <description>Сепаратор нефтегазовый</description>
+      <code xsi:type="core:StringValue">
+        <value>000000069</value>
+      </code>
+    </items>
+    <items id="da2439a1-056c-4867-852a-ddbadcb726af">
+      <name>Скважина</name>
+      <description>Скважина</description>
+      <code xsi:type="core:StringValue">
+        <value>000000018</value>
+      </code>
+    </items>
+    <items id="9738d214-e351-46b0-bb2f-fed716a84618">
+      <name>СкладированиеСтроительныхМатериалов</name>
+      <description>Складирование строительных материалов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000060</value>
+      </code>
+    </items>
+    <items id="412d84ec-ce87-49ee-963d-761da64364b4">
+      <name>СтанцияАэрацииСточныхВод</name>
+      <description>Станция аэрации сточных вод</description>
+      <code xsi:type="core:StringValue">
+        <value>000000049</value>
+      </code>
+    </items>
+    <items id="d50623b8-d217-40d8-b161-f6a6d69a2d0c">
+      <name>Теплообменник</name>
+      <description>Теплообменник</description>
+      <code xsi:type="core:StringValue">
+        <value>000000065</value>
+      </code>
+    </items>
+    <items id="9eb43567-f2cd-492c-a405-642c2765a470">
+      <name>ТермическаяОбработкаМеталлоизделий</name>
+      <description>Термическая обработка металлоизделий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000068</value>
+      </code>
+    </items>
+    <items id="cf3d9db0-37c2-4a36-8822-e6c567e0c6a3">
+      <name>ТехнологическоеОборудование</name>
+      <description>Технологическое оборудование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000020</value>
+      </code>
+    </items>
+    <items id="94894a6f-3ac5-4e55-80b2-ce3efd42ff10">
+      <name>ТехобслуживаниеИРемонтАвтомобилей</name>
+      <description>Техобслуживание и ремонт автомобилей</description>
+      <code xsi:type="core:StringValue">
+        <value>000000063</value>
+      </code>
+    </items>
+    <items id="3124bd95-c721-40fd-8af1-3c82f638091a">
+      <name>ТопливнаяАппаратура</name>
+      <description>Топливная аппаратура</description>
+      <code xsi:type="core:StringValue">
+        <value>000000028</value>
+      </code>
+    </items>
+    <items id="72f6e91e-206b-431c-969b-17b9ce099835">
+      <name>ТранспортныеРаботыВКарьере</name>
+      <description>Транспортные работы в карьере</description>
+      <code xsi:type="core:StringValue">
+        <value>000000073</value>
+      </code>
+    </items>
+    <items id="cd45e44e-81ec-438f-8c83-d7a72b21a6b3">
+      <name>ТранспортныеЦистерны</name>
+      <description>Транспортные цистерны</description>
+      <code xsi:type="core:StringValue">
+        <value>000000061</value>
+      </code>
+    </items>
+    <items id="92f77dd1-175d-463b-b534-dc7f3acd5bba">
+      <name>Трубопровод</name>
+      <description>Трубопровод</description>
+      <code xsi:type="core:StringValue">
+        <value>000000019</value>
+      </code>
+    </items>
+    <items id="45afb623-2abb-44a8-9b8b-db9426e21db7">
+      <name>ТрубчатаяПечь</name>
+      <description>Трубчатая печь</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="f3fd82ba-e08b-44d5-974e-36845bdb15aa">
+      <name>Турбодетандер</name>
+      <description>Турбодетандер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000033</value>
+      </code>
+    </items>
+    <items id="0ac7806a-7663-42f4-8a61-471dde247c05">
+      <name>УстановкаАсфальтобетонногоЗавода</name>
+      <description>Установка асфальтобетонного завода</description>
+      <code xsi:type="core:StringValue">
+        <value>000000057</value>
+      </code>
+    </items>
+    <items id="b28475e2-1180-4369-b87b-5b730253ba24">
+      <name>УстановкаТермическойПереработкиТБО</name>
+      <description>Установка термической переработки ТБО</description>
+      <code xsi:type="core:StringValue">
+        <value>000000041</value>
+      </code>
+    </items>
+    <items id="4c0d5e24-2db3-43d6-8cdd-88988c128496">
+      <name>ФакельнаяУстановка</name>
+      <description>Факельная установка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000021</value>
+      </code>
+    </items>
+    <items id="ac41f6a7-ffbb-434e-9995-dc782430332d">
+      <name>ФакельнаяУстановкаПоСжиганиюПНГ</name>
+      <description>Факельная установка по сжиганию ПНГ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000059</value>
+      </code>
+    </items>
+    <items id="9ea15eb4-d27c-4873-a197-356e6221b6bd">
+      <name>Химлаборатория</name>
+      <description>Химлаборатория</description>
+      <code xsi:type="core:StringValue">
+        <value>000000055</value>
+      </code>
+    </items>
+    <items id="47629d89-6008-4fc1-be5a-5b8d349902eb">
+      <name>Хлебопекарня</name>
+      <description>Хлебопекарня</description>
+      <code xsi:type="core:StringValue">
+        <value>000000046</value>
+      </code>
+    </items>
+    <items id="833cbc6d-3a12-4a5e-aa28-857ea2045fc1">
+      <name>Шлейф</name>
+      <description>Шлейф</description>
+      <code xsi:type="core:StringValue">
+        <value>000000064</value>
+      </code>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыИВ.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыИВ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидыИВ.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="0c99b24f-4ea0-44ac-9864-1237828a836e">
+    <name>МетодикаРасчетаВыбросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Методика расчета выбросов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="1846cf38-4bdb-4796-8e58-cdc30159f0ed">
+    <producedTypes>
+      <objectType typeId="58e7642e-5c2c-4737-ad99-58b1e368f528" valueTypeId="a4f9e4ef-f719-487a-858a-6794c3fa9eb1"/>
+      <rowType typeId="e1f9d7ca-4085-482a-b852-30e26383cfcb" valueTypeId="7b504bb1-81ef-45b4-9a47-f4eb6b7bbcb3"/>
+    </producedTypes>
+    <name>ЗагрязняющиеВещества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрязняющие вещества</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a41b0b04-c56b-47f0-8a00-50465cc5027c">
+      <name>ЗагрязняющееВещество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Загрязняющее вещество</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЗВАтмосфера</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a90d50fa-b38a-4140-b496-c5c80af5651b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ab293b06-46f8-4a81-9875-a6a1ef3e42a7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a39e6405-1767-4c8d-aba8-eb5f286c0dad">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

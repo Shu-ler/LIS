@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3efffb2f-2f8f-42ec-8278-088e3e2f9ce0">
+  <producedTypes>
+    <objectType typeId="e2f09937-9d85-4bf7-a283-7eda6a256b0d" valueTypeId="5afead64-7537-4707-9d0d-7ef10e80110a"/>
+    <refType typeId="9ae5a495-5640-416f-a65f-7763974c4e95" valueTypeId="98fe3c73-6aee-4e80-9f4f-f2679ba4aa3e"/>
+    <selectionType typeId="6d597102-1f8f-4808-8702-6dc66ff8c1ee" valueTypeId="c79e2689-4f33-405e-9e5a-5e57ff49e64f"/>
+    <listType typeId="e83f9e90-f8a0-4400-a117-16811520c8b2" valueTypeId="757f64cc-b6b3-42fb-bfd5-1aad165bd666"/>
+    <managerType typeId="89a5dcb1-aafe-4f8d-b0d1-53df013b7260" valueTypeId="ea4b5888-4241-4d8b-a7e4-5d0e39d5f8f0"/>
+  </producedTypes>
+  <name>лис_ПланОтбораПроб</name>
+  <synonym>
+    <key>ru</key>
+    <value>План отбора проб</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.лис_ПланОтбораПроб.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.лис_ПланОтбораПроб.Form.ФормаДокумента</defaultObjectForm>
+  <defaultChoiceForm>Document.лис_ПланОтбораПроб.Form.ФормаВыбора</defaultChoiceForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5781a6db-fa1f-40a3-b4b2-1edb4e98b3b7">
+    <name>Лаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лаборатория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.лис_Лаборатории</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07e92377-edbd-4373-9109-7c59789bbc2a">
+    <name>ПодразделениеЛаборатории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение лаборатории</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.лис_ПодразделенияЛабораторий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="18a3c1de-a708-406b-aae1-47d30ef98317">
+    <name>ПериодС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период С</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9583e2a4-db26-4979-a49b-974230295d6b">
+    <name>ПериодПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="121a0570-447d-4ff3-a1d7-bbbb8b678de1">
+    <name>ВидГрафика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид графика</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РазделыУчетаЭкоаналитическогоКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c369e1e-c482-47c3-bd60-3a21d95003c5">
+    <name>ОтветственныйСотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2117ab5b-f516-408d-9647-9c7a81975b95">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c3abfc4d-bfd7-40b0-b1d0-7031f4eb2d08">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c71b46b9-e75d-49ff-9028-ef5be30e7712">
+    <name>ФормаПланированияСобытий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планирование событий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="6568c9ac-ad7e-40e0-89ef-0d00ed038434">
+    <producedTypes>
+      <objectType typeId="f042b71d-63e2-4e61-8ff7-68de7d60c910" valueTypeId="24cb65f0-af86-410c-8ba7-3f3ee190946d"/>
+      <rowType typeId="3cba5ab6-dcfe-4067-bf88-bcd941d55381" valueTypeId="6aaf2c4f-dfcc-4d2b-8f3b-8e3c65805d6d"/>
+    </producedTypes>
+    <name>Основное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3082c4ef-6217-4a25-8221-b838bd9da252">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="370e14d7-10b1-4853-bf8e-37163538e21d">
+      <name>ОбъектЗагрязнения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект загрязнения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВодныеОбъекты</types>
+        <types>CatalogRef.ИсточникиЗагрязнения</types>
+        <types>CatalogRef.ПроизводственныеПлощадки</types>
+        <types>CatalogRef.Водозаборы</types>
+        <types>CatalogRef.СелитебныеЗоны</types>
+        <types>CatalogRef.Скважины</types>
+        <types>CatalogRef.СанитарноЗащитныеЗоны</types>
+        <types>CatalogRef.ВыпускиВВоду</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="17ae9d66-d48c-4123-9519-3cb47857d3b5">
+      <name>ТочкаКонтроля</name>
+      <synonym>
+        <key>ru</key>
+        <value>Точка контроля</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТочкиКонтроля</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b2c147a3-a677-491f-bbc9-78cabbd6db0c">
+      <name>КоличествоЗамеров</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество замеров</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a05965e8-be23-4448-a3cb-8a520d5c6b13">
+      <name>ПериодичностьЗамеров</name>
+      <synonym>
+        <key>ru</key>
+        <value>Периодичность замеров</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПериодыПроверкиЭкоаналитическогоКонтроля</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5665f255-3c89-46a3-b86c-e7fbe6cfaa04">
+      <name>КемОсуществляетсяКонтроль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кем осуществляется контроль</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1c3a5075-4583-49fd-a90b-64e21a34020f">
+      <name>ПлановаяДатаОт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Плановая дата от</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4663d1d9-d5a4-4241-909d-1c7ff928c632">
+      <name>ПлановаяДатаДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Плановая дата до</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="60c245e9-c56e-437f-b685-9f90f1a54c29">
+      <name>СотрудникПроводящийЗамер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник проводящий замер</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5a562149-d301-46ea-908a-9b0725cc01d1">
+      <name>КлючСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ строки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c4ed2779-e142-4d61-91ea-eff81a9a7930">
+    <producedTypes>
+      <objectType typeId="3d5c974a-cb6a-4e02-9dcc-d9b68e1976e5" valueTypeId="ca9b8478-7b30-4b0c-903c-427e8faab5fa"/>
+      <rowType typeId="f2c5799a-98f4-408e-8e49-268125a6d227" valueTypeId="5d62ce43-184c-4360-9529-601d461956f6"/>
+    </producedTypes>
+    <name>ЗагрязняющиеВещества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрязняющие вещества</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="33d1222e-bef7-4f37-84fd-6fb38fbcfab8">
+      <name>ЗагрязняющееВещество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Загрязняющее вещество</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВеществаИПараметрыВАтмосферныхОсадках</types>
+        <types>CatalogRef.КонтролируемыеПараметрыВПочвеДонныхОтложениях</types>
+        <types>CatalogRef.ЗВВода</types>
+        <types>CatalogRef.КонтролируемыеПоказателиВВоде</types>
+        <types>CatalogRef.ФакторыФизическогоВоздействия</types>
+        <types>CatalogRef.ЗВАтмосфера</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="908b19bb-cd97-4e8c-a39f-ff1b086b50e2">
+      <name>МетодикаАнализа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Методика определения измерения/анализа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.МетодикиОпределенияИзмеренияАнализа</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d8f4dba7-3886-4329-9025-9a6d6fa6df05">
+      <name>КлючСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ строки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

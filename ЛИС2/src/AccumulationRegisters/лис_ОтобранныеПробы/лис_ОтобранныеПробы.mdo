@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dae0f5bb-f9b6-4d4d-a680-525051502f64">
+  <producedTypes>
+    <selectionType typeId="7a5b25ba-a47f-4b4b-a9fa-1496ff71a286" valueTypeId="b1fb1375-8ecc-458d-b0fd-cb82969d3c09"/>
+    <listType typeId="2794c240-6cc4-4b02-9e95-1f3381b051cf" valueTypeId="e61cac00-4e7d-4f6f-9819-1cf9430e9cb6"/>
+    <managerType typeId="03018d2f-1ac6-4222-b10b-d8b440f78233" valueTypeId="f1fad0a7-9bf5-4c82-a9f0-5c282048fd95"/>
+    <recordSetType typeId="0b56f437-0d32-48a7-bd4a-520fb940abba" valueTypeId="8e094ce3-f529-41bd-b3d3-c2c5200657eb"/>
+    <recordKeyType typeId="b82c0aab-2857-420f-b5b3-7108d7a27ae4" valueTypeId="cecfe918-cf81-4266-ad97-514d71ab7645"/>
+    <recordType typeId="90ca2995-81cb-42c6-8025-e505e3741039" valueTypeId="f7e1cf2a-b811-4185-b35e-700bcb024dfb"/>
+  </producedTypes>
+  <name>лис_ОтобранныеПробы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отобранные пробы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e22e82d2-3d38-47a6-9010-0c652b2bf9e9">
+    <name>ОбъемПробы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем пробы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="fd9b2639-900d-4d71-a6cd-4d1064038ef3">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОКЕИ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="c43f9912-e88a-45a3-b511-7c7f8aaf0789">
+    <name>ДатаОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отбора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="66e230c2-d689-43d7-84f0-3b771df826e2">
+    <name>РегистрационныйНомерПробы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационный номер пробы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a9007f10-4a97-4f8c-a8d9-2de7ee4ec44c">
+    <name>ШифрПробы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шифр пробы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
