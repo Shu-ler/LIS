@@ -56,11 +56,7 @@
       <titleLocation>None</titleLocation>
       <excludedCommands>CancelSearch</excludedCommands>
       <excludedCommands>Change</excludedCommands>
-      <excludedCommands>Choose</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
       <excludedCommands>CopyToClipboard</excludedCommands>
-      <excludedCommands>Create</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
       <excludedCommands>DynamicListStandardSettings</excludedCommands>
       <excludedCommands>Find</excludedCommands>
       <excludedCommands>FindByCurrentValue</excludedCommands>
@@ -70,12 +66,10 @@
       <excludedCommands>List</excludedCommands>
       <excludedCommands>ListSettings</excludedCommands>
       <excludedCommands>LoadDynamicListSettings</excludedCommands>
-      <excludedCommands>MoveItem</excludedCommands>
       <excludedCommands>OutputList</excludedCommands>
       <excludedCommands>Refresh</excludedCommands>
       <excludedCommands>SaveDynamicListSettings</excludedCommands>
       <excludedCommands>SearchHistory</excludedCommands>
-      <excludedCommands>SetDeletionMark</excludedCommands>
       <excludedCommands>Tree</excludedCommands>
       <items xsi:type="form:FormField">
         <name>ИерархияОрганизацииНаименование</name>

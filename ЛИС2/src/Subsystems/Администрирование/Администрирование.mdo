@@ -109,5 +109,4 @@
   <content>CommonForm.ВосстановлениеПаролей</content>
   <content>Report.ПраваРолей</content>
   <content>Report.ПродлениеСрокаДействияЭлектронныхПодписей</content>
-  <subsystems>ТехнологическиеСправочники</subsystems>
 </mdclass:Subsystem>

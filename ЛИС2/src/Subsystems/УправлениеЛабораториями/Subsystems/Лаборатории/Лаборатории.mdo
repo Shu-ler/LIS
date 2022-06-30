@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2825fe0-8af4-40a2-a246-6b89ef5e87d5">
+  <name>Лаборатории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лаборатории</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.лис_Лаборатории</content>
+  <content>Catalog.лис_ПодразделенияЛабораторий</content>
+  <content>Catalog.лис_КомпетентностьЛаборатории</content>
+  <parentSubsystem>Subsystem.УправлениеЛабораториями</parentSubsystem>
+</mdclass:Subsystem>

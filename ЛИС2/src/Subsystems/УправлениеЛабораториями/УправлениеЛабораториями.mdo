@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd01c531-700e-49a8-b13d-3b86086bf564">
+  <name>УправлениеЛабораториями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление лабораториями</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УправлениеЛабораториями</picture>
+  </picture>
+  <subsystems>Предприятие</subsystems>
+  <subsystems>Лаборатории</subsystems>
+</mdclass:Subsystem>

@@ -48,6 +48,7 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.АдминистрированиеСервиса</subsystems>
   <subsystems>Subsystem.ТехнологияСервиса</subsystems>
+  <subsystems>Subsystem.УправлениеЛабораториями</subsystems>
   <styleItems>StyleItem.АктуальнаяПодпискаЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряНеУказанЦвет</styleItems>
