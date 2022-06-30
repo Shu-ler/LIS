@@ -1562,15 +1562,6 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="56f53ffd-9fe4-4cd8-8e2e-0b3a480c6974">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="a4371381-658b-40da-acef-16a2018a4b37">
     <name>ФормаВыбора</name>
     <synonym>
@@ -1598,6 +1589,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="7d825758-bf17-4ea3-80b6-5df9510b27ad">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="66b4ce18-4c9a-4600-b41b-845612fe4e6d">
     <name>ОКВЭД</name>
     <synonym>
@@ -1605,26 +1605,6 @@
       <value>ОКВЭД</value>
     </synonym>
   </templates>
-  <commands uuid="355ecbf1-e631-40b5-8f30-14a9c7a2651e">
-    <name>РеквизитыОрганизации</name>
-    <synonym>
-      <key>ru</key>
-      <value>Реквизиты организации</value>
-    </synonym>
-    <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
-    <representation>Auto</representation>
-  </commands>
-  <commands uuid="26a90f7a-1fa8-4146-946b-bc95d871de15">
-    <name>ДобавитьОрганизацию</name>
-    <synonym>
-      <key>ru</key>
-      <value>Добавить организацию</value>
-    </synonym>
-    <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
-    <representation>Auto</representation>
-  </commands>
   <commands uuid="b991112c-36eb-4a49-8468-0dc999325e77">
     <name>Организации</name>
     <synonym>

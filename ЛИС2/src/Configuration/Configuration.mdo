@@ -20,6 +20,10 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <version>1.0.1.1</version>
+  <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
+  <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
+  <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
+  <defaultReportSettingsForm>CommonForm.ФормаНастроекОтчета</defaultReportSettingsForm>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -1932,6 +1936,8 @@
   <commonCommands>CommonCommand.СвязатьсяСоСпециалистомОнлайнПоддержки</commonCommands>
   <commonCommands>CommonCommand.СоздатьРезервнуюКопию</commonCommands>
   <commonCommands>CommonCommand.ТестированиеИИсправлениеОбластиДанных</commonCommands>
+  <commonCommands>CommonCommand.ПанельОтчетовУправлениеЛабораториями</commonCommands>
+  <commonCommands>CommonCommand.ПанельОтчетовНачальнаяСтраница</commonCommands>
   <commandGroups>CommandGroup.Взаимодействия</commandGroups>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>

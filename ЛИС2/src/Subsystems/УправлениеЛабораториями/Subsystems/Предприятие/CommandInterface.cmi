@@ -2,7 +2,7 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>Catalog.Организации.Command.ДобавитьОрганизацию</command>
+      <command>Catalog.Организации.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
   </commandsVisibility>
